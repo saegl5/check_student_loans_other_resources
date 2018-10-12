@@ -1,0 +1,62 @@
+iOS app
+  |__"'how to use app' video"/introduction.mov
+
+introduction.mov is exported from OpenShot 1.4.3 on Ubuntu Budgie 17.10
+Target: MOV (h.264)
+Video Profile: iOS_profile
+
+
+Export NEW introduction.mov
+---------------------------
+
+(1) install OpenShot
+
+Ubuntu: (terminal) $ sudo apt install openshot
+macOS: https://github.com/OpenShot/openshot-qt/releases/download/v2.4.1/OpenShot-v2.4.1-x86_64.dmg
+
+
+(2) install iOS_profile
+
+...open a terminal
+
+Ubuntu: $ cp iOS_profile ~/.openshot/user_profiles/
+macOS: $ cp iOS_profile ~/.openshot_qt/profiles/
+
+
+(3) extract introduction.tar.gz, and set permissions
+
+$ sudo mkdir /usr/local/introduction
+$ sudo tar -xzf introduction.tar.gz -C /usr/local/introduction
+$ sudo chmod -R o+w /usr/local/introduction
+
+
+(4) open the project
+
+$ cd /usr/local/introduction
+
+Ubuntu: $ openshot Default\ Project.osp
+macOS: open .. > drag "introduction" folder onto sidebar
+macOS: (back to terminal) $ open -a "OpenShot Video Editor" > Open Project > "introduction" folder from sidebar > Default\ Project.osp
+
+
+(5) export NEW introduction.mov
+
+File > Export Video...
+
+File Name: introduction.mov
+Target: MOV (h.264)
+Video Profile: iOS_profile
+
+Export Video
+
+
+(6) OPTIONAL: Replace original archive, and clean up
+
+(back to terminal) $ sudo tar -czf /path/to/introduction.tar.gz *
+$ sudo rm -r /usr/local/introduction
+
+
+Notes
+-----
+(1) video clips and images may render differently between Ubuntu and macOS, due to differences between GTK+ and Qt
+(2) researcher recorded videos in Open Broadcaster Software (OBS), hence the "obs" folder in /usr/local/introduction
