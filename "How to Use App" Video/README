@@ -1,5 +1,5 @@
 iOS app
-  |__"'how to use app' video"/introduction.mov
+  |__"'How to Use App' Video"/introduction.mov
 
 introduction.mov is exported from OpenShot 1.4.3 on Ubuntu Budgie 17.10
 Target: MOV (h.264)
@@ -35,8 +35,8 @@ $ sudo chmod -R o+w /usr/local/introduction
 $ cd /usr/local/introduction
 
 Ubuntu: $ openshot Default\ Project.osp
-macOS: open .. > drag "introduction" folder onto sidebar
-macOS: (back to terminal) $ open -a "OpenShot Video Editor" > Open Project > "introduction" folder from sidebar > Default\ Project.osp
+macOS: open .. > drag "introduction" directory onto sidebar
+macOS: (back to terminal) $ open -a "OpenShot Video Editor" > Open Project > "introduction" directory from sidebar > Default\ Project.osp
 
 
 (5) export NEW introduction.mov
@@ -59,4 +59,4 @@ $ sudo rm -r /usr/local/introduction
 Notes
 -----
 (1) video clips and images may render differently between Ubuntu and macOS, due to differences between GTK+ and Qt
-(2) researcher recorded videos in Open Broadcaster Software (OBS), hence the "obs" folder in /usr/local/introduction
+(2) researcher recorded videos in Open Broadcaster Software (OBS), hence the "obs" directory in /usr/local/introduction
