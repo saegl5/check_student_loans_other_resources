@@ -1,0 +1,1214 @@
+%
+% Insight - extra.tex
+% Student Loans
+%
+% Created by Ed Silkworth on 6/7/19.
+% Copyright © 2019 Ed Silkworth. All rights reserved.
+%
+% All problems detected in this document have been resolved.
+% 
+
+\documentclass[12pt,letterpaper,oneside]{article}
+
+% preamble
+\usepackage{amsthm, amsmath, mathtools, fancyhdr, cases, cleveref, amssymb, setspace, xcolor, chngcntr, alphalph, graphicx, float}
+\graphicspath{ {./images/} }
+\usepackage{mathptmx} % times new roman font for text and mathematics
+\usepackage[normalem]{ulem} % ``normalem'' to prevent underline in algorithm
+\usepackage[vlined]{algorithm2e} % no ``end''
+\usepackage[left=1.5in, top=1in, right=1in, bottom=1in]{geometry} % left margin of dissertation is 1.5in
+\pagestyle{fancy} % enables custom header/footer
+\renewcommand{\thispagestyle}[1]{} % prevent changing style
+\rhead{} % do not display page number on first page
+\lhead{}
+% \setcounter{page}{236} % match page number in dissertation
+\renewcommand{\headrulewidth}{0pt} % no header underline
+\setlength{\topmargin}{-0.2in} % places header page number about 0.75in from top of page; ``\topmargin'' is specifically for header
+\setlength{\headheight}{14.5pt} % addresses warning about \headheight being too small
+\setlength{\headsep}{0.07in} % places document text about 1in from top of page; essentially a bottom margin for header
+\cfoot{} % no footer
+\newtheorem{theorem}{Theorem}[section] % [section] provides #.# for theorems
+\newtheorem{definition}[theorem]{Definition} % embedding [theorem] provides 1.1, 1.2, 1.3, ... for definitions
+\newtheorem{example}{Example}[section]
+\def\theexample{\arabic{section}.\arabic{subsection}\alphalph{\value{example}}} % provides #.#[letter] for select examples, e.g. 1.1a, 1.1b, and 1.1c
+\theoremstyle{remark} % permits non-bold italics for remark
+\newtheorem{remark}[theorem]{Remark}
+\DeclareMathSymbol{,}{\mathord}{letters}{"3B} % for spacing commas properly for inline and display math
+\counterwithin{equation}{section} % provides #.# for equations
+\allowdisplaybreaks
+\newcommand\yesnumberequation{\addtocounter{equation}{1}\tag{\theequation}} % provides #.#[letter] for select equations, e.g. 1.1a, 1.1b, and 1.1c, acts as do subequations
+\newlength{\emphasislength}
+\newcommand{\emphasis}[3][black]{
+	\settowidth{\emphasislength}{#3} % using length of ``#3,'' which refers to the emphasis text (e.g., `interest paid')
+	\stackrel{ % stacking above a math expression
+		\begin{minipage}{\emphasislength}
+		\color{#1}\centering #3\\ % ``#1'' refers to the `black' color
+		\rule{0.25pt}{10pt} % {line thickness}{line height}
+		\end{minipage}
+	}
+	{\colorbox[rgb]{0.95,0.95,0.95} % boxing the math expression, each rgb color is 95% of 255
+		{\color{#1}$#2$ % ``#2'' refers to the math expression
+		}
+	}
+}
+
+\begin{document}
+
+% opening
+\title{Extra Insight into the iOS App}
+\author{Edward A. Silkworth\\
+Teachers College, Columbia University\\
+eas2156@tc.columbia.edu}
+\date{}
+
+\maketitle
+
+\begin{abstract}
+This document consists of examples. It also includes derivations for the monthly compound interest rate and ten-year minimum payment.
+\end{abstract}
+
+\section{Examples}
+% to strike a balance between consistency, clarity and conciseness, opting to indent and line-space after each section, but not otherwise
+
+	\subsection{Increment size}
+	If $p_{\rm{max}}=\$5,000$, $p_{\rm{min}}=\$3,000$ and $N=20$,
+	\begin{align*}
+	\Delta N &=\frac{\mathtt{5,000}-\mathtt{3,000}}{20}\\
+	&=\frac{\mathtt{2,000}}{20}\\
+	&=\mathtt{\$100/increment}
+	\end{align*}
+	If $p_{\rm{max}}=\$6,500$, $p_{\rm{min}}=\$4,500$ and $N=40$,
+	\begin{align*}
+	\Delta N &=\frac{\mathtt{6,500}-\mathtt{4,500}}{40}\\
+	&=\frac{\mathtt{2,000}}{40}\\
+	&=\mathtt{\$50/increment}
+	\end{align*}
+	If $p_{\rm{max}}=\$10,000$, $p_{\rm{min}}=\$0$ and $N=50$,
+	\begin{align*}
+	\Delta N &=\frac{\mathtt{10,000}-\mathtt{0}}{50}\\
+	&=\frac{\mathtt{10,000}}{50}\\
+	&=\mathtt{\$200/increment}
+	\end{align*}
+
+	\newpage
+
+	\rhead{\thepage} % display page number on second page onward
+	\subsection{Annual interest rate}
+	If $\mbox{APR}=7\%$,
+	\begin{align*}
+	r&=\mathtt{7}\div 100\\
+	&=\mathtt{0.07/year}
+	\end{align*}
+	If $\mbox{APR}=6.8\%$,
+	\begin{align*}
+	r&=\mathtt{6.8}\div 100\\
+	&=\mathtt{0.068/year}
+	\end{align*}
+	If $\mbox{APR}=1.75\%$,
+	\begin{align*}
+	r&=\mathtt{1.75}\div 100\\
+	&=\mathtt{0.0175/year}
+	\end{align*}
+
+	\subsection{Monthly interest rate}
+	If $\mbox{APR}=7\%$,
+	\begin{align*}
+	i&=\frac{\mathtt{0.07}}{12}\\
+	&=\mathtt{0.00583.../month}
+	\end{align*}
+	If $\mbox{APR}=6.8\%$,
+	\begin{align*}
+	i&=\frac{\mathtt{0.068}}{12}\\
+	&=\mathtt{0.00566.../month}
+	\end{align*}
+	If $\mbox{APR}=3.45\%$,
+	\begin{align*}
+	i&=\frac{\mathtt{0.0345}}{12}\\
+	&=\mathtt{0.00287\underline{5}/month}
+	\end{align*}
+	\newpage
+	\setlength\parindent{0pt} If $\mbox{APR}=7\%$ and interest is compounded,
+	\begin{align*}
+	i&\approx\left(1+\frac{\mathtt{0.07}}{365.25}\right)^{\frac{365.25}{12}}-1\\
+	&=\left(\mathtt{1.000191...}\right)^{\frac{365.25}{12}}-1\\
+	&=\mathtt{1.00584...}-1\\
+	&=\mathtt{0.00584.../month}
+	\end{align*}
+	If $\mbox{APR}=6.8\%$ and interest is compounded,
+	\begin{align*}
+	i&\approx\left(1+\frac{\mathtt{0.068}}{365.25}\right)^{\frac{365.25}{12}}-1\\
+	&=\left(\mathtt{1.000186...}\right)^{\frac{365.25}{12}}-1\\
+	&=\mathtt{1.00568...}-1\\
+	&=\mathtt{0.00568.../month}
+	\end{align*}
+	If $\mbox{APR}=3.45\%$ and interest is compounded,
+	\begin{align*}
+	i&\approx\left(1+\frac{\mathtt{0.0345}}{365.25}\right)^{\frac{365.25}{12}}-1\\
+	&=\left(\mathtt{1.0000944...}\right)^{\frac{365.25}{12}}-1\\
+	&=\mathtt{1.00287...}-1\\
+	&=\mathtt{0.00287\underline{9}.../month}
+	\end{align*}
+
+	\subsection{Absolute minimum monthly payment}
+	If $\mbox{APR}=6.8\%$, $\alpha=0.25$ and $p=\$2,000$,
+	\begin{align*}
+	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.25}\left(\mathtt{2,000}\cdot\mathtt{0.00566...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{0.25}\left(\mathtt{11.333...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{283.3...}}\big\rceil\div 100+0.01\\
+	&=\mathtt{283}\div 100+0.01\\
+	&=\mathtt{2.83}+0.01\\
+	&=\mathtt{\$2.84}\\
+	\end{align*}
+	\newpage
+	If $\mbox{APR}=2.61\%$, $\alpha=0.2$ and $p=\$2,700$,
+	\begin{align*}
+	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.2}\left(\mathtt{2,700}\cdot\mathtt{0.00217\underline{5}}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{0.2}\left(\mathtt{5.872...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{117.4...}}\big\rceil\div 100+0.01\\
+	&=\mathtt{117}\div 100+0.01\\
+	&=\mathtt{1.17}+0.01\\
+	&=\mathtt{\$1.18}\\
+	\end{align*}
+	If $\mbox{APR}=2.61\%$ and interest is compounded, $\alpha=0.2$ and $p=\$2,700$,
+	\begin{align*}
+	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.2}\left(\mathtt{2,700}\cdot\mathtt{0.00217\underline{7}...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{0.2}\left(\mathtt{5.878...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{117.5...}}\big\rceil\div 100+0.01\\
+	&=\mathtt{118}\div 100+0.01\\
+	&=\mathtt{1.18}+0.01\\
+	&=\mathtt{\$1.19}\\
+	\end{align*}
+	If $\mbox{APR}=7\%$, $\alpha=0$ and $p=\$35,221$,
+	\begin{align*}
+	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0}\left(\mathtt{35,221}\cdot\mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{0}\left(\mathtt{15.75}\right)\times 100}\big\rceil\div 100+0.01\\
+	&=\big\lfloor{\mathtt{0}}\big\rceil\div 100+0.01\\
+	&=\mathtt{0}\div 100+0.01\\
+	&=\mathtt{0}+0.01\\
+	&=\mathtt{\$0.01}\\
+	\end{align*}	
+
+	\newpage
+
+	\subsection{Ten-year minimum monthly payment}
+	If $\mbox{APR}=7\%$, $\alpha=0$ and $p=\$35,221$,
+	\begin{align*}
+	i&=\mathtt{0.00583...}>0\\
+	\alpha&=\mathtt{0}\ \textit{(given)}\\
+	&\quad\;\mathtt{First\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{35,221}}{120}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{29,350.8...}}\right\rceil\div 100\\
+	&=\mathtt{29,351}\div 100\\
+	&=\mathtt{\$293.51}
+	\end{align*}
+	If $\mbox{APR}=3.45\%$ and interest is compounded, $\alpha=0$ and $p=\$26,970$,
+	\begin{align*}
+	i&\approx\mathtt{0.002879...}>0\\
+	\alpha&=\mathtt{0}\ \textit{(given)}\\
+	&\quad\;\mathtt{First\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{26,970}}{120}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{22,475}}\right\rceil\div 100\\
+	&=\mathtt{22,475}\div 100\\
+	&=\mathtt{\$224.75}
+	\end{align*}
+	If $\mbox{APR}=0\%$, $\alpha=0.5$ and $p=\$24,190$,
+	\begin{align*}
+	i&=\mathtt{0}\\
+	\alpha&=\mathtt{0.5}\ \textit{(given)}\\
+	&\quad\;\mathtt{Second\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{24,190}}{120}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{20,158.3...}}\right\rceil\div 100\\
+	&=\mathtt{20,159}\div 100\\
+	&=\mathtt{\$201.59}
+	\end{align*}
+	\newpage
+	\newcommand{\base}{\left(1+\mathtt{0.5}\cdot\mathtt{0.00566...}\right)}
+	If $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $p=\$13,500$,
+	\begin{align*}
+	i&=\mathtt{0.00566...}>0\\
+	\alpha&=\mathtt{0.5}\ \textit{(given)}\\
+	&\quad\;\mathtt{Third\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{0.5}\left(\mathtt{13,500}\cdot\mathtt{0.00566...}\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.5}\left(\mathtt{76.50}\right)\left(\mathtt{1.00283...}\right)^{120}}{\left(\mathtt{1.00283...}\right)^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.5}\left(\mathtt{76.50}\right)\left(\mathtt{1.404...}\right)}{\left(\mathtt{1.404...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{53.713...}}{\left(\mathtt{1.404...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{13,286.4...}}\right\rceil\div 100\\
+	&=\mathtt{13,287}\div 100\\
+	&=\mathtt{\$132.87}
+	\end{align*}
+	\renewcommand{\base}{\left(1+\mathtt{0.7}\cdot\mathtt{0.00464...}\right)}
+	If $\mbox{APR}=5.56\%$ and interest is compounded, $\alpha=0.7$ and $p=\$20,000$,
+	\begin{align*}
+	i&\approx\mathtt{0.00464...}>0\\
+	\alpha&=\mathtt{0.7}\ \textit{(given)}\\
+	&\quad\;\mathtt{Third\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{20,000}\cdot\mathtt{0.00464...}\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{92.874...}\right)\left(\mathtt{1.00325...}\right)^{120}}{\left(\mathtt{1.00325...}\right)^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{92.874...}\right)\left(\mathtt{1.476...}\right)}{\left(\mathtt{1.476...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{95.968...}}{\left(\mathtt{1.476...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{20,154.8...}}\right\rceil\div 100\\
+	&=\mathtt{20,155}\div 100\\
+	&=\mathtt{\$201.55}
+	\end{align*}
+	\newpage
+	\renewcommand{\base}{\left(1+\mathtt{0.7}\cdot\mathtt{0.00463...}\right)}
+	If $\mbox{APR}=5.56\%$, $\alpha=0.7$ and $p=\$20,000$,
+	\begin{align*}
+	i&=\mathtt{0.00463...}>0\\
+	\alpha&=\mathtt{0.7}\ \textit{(given)}\\
+	&\quad\;\mathtt{Third\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{20,000}\cdot\mathtt{0.00463...}\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{92.666...}\right)\left(\mathtt{1.00324...}\right)^{120}}{\left(\mathtt{1.00324...}\right)^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.7}\left(\mathtt{92.666...}\right)\left(\mathtt{1.474...}\right)}{\left(\mathtt{1.474...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{95.669...}}{\left(\mathtt{1.474...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{20,146.5...}}\right\rceil\div 100\\
+	&=\mathtt{20,147}\div 100\\
+	&=\mathtt{\$201.47}
+	\end{align*}
+	\renewcommand{\base}{\left(1+\mathtt{0.25}\cdot\mathtt{0.00333...}\right)}
+	If $\mbox{APR}=4\%$, $\alpha=0.25$ and $p=\$5,600$,
+	\begin{align*}
+	i&=\mathtt{0.00333\underline{3}...}>0\\
+	\alpha&=\mathtt{0.25}\ \textit{(given)}\\
+	&\quad\;\mathtt{Third\ case,\ proceeding...}\\[12pt]
+	a_{\rm{min_{120}}}&=\left\lceil{\frac{\mathtt{0.25}\left(\mathtt{5,600}\cdot\mathtt{0.00333...}\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.25}\left(\mathtt{18.666...}\right)\left(\mathtt{1.000833...}\right)^{120}}{\left(\mathtt{1.000833...}\right)^{120}-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{0.25}\left(\mathtt{18.666...}\right)\left(\mathtt{1.105...}\right)}{\left(\mathtt{1.105...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\frac{\mathtt{5.157...}}{\left(\mathtt{1.105...}\right)-1}\times 100}\right\rceil\div 100\\
+	&=\left\lceil{\mathtt{4,905.8...}}\right\rceil\div 100\\
+	&=\mathtt{4,906}\div 100\\
+	&=\mathtt{\$49.06}
+	\end{align*}
+
+	\newpage
+	\subsection{Algorithm}
+	\newcommand{\rate}{0.00583...}
+	\newcommand{\proportion}{0.33}
+	\newcommand{\amount}{550}
+	\newcommand{\balance}{2,000}
+	\newcommand{\interest}{0}
+	\newcommand{\months}{0}
+	\newcommand{\monthsp}{1}
+	\newcommand{\balanceitb}{1,453.85}
+	\newcommand{\interestitb}{7.82}
+	\newcommand{\monthsitb}{1}
+	\newcommand{\monthspitb}{2}
+	\newcommand{\balanceitc}{906.65}
+	\newcommand{\interestitc}{13.50}
+	\newcommand{\monthsitc}{2}
+	\newcommand{\monthspitc}{3}
+	\newcommand{\balanceitf}{358.40}
+	\newcommand{\interestitf}{17.04}
+	\newcommand{\monthsitf}{3}%
+	\newcommand{\monthspitf}{4}%
+	\newcommand{\amountfinal}{377.53}
+	\begin{example}
+	If $\mbox{APR}=7\%$, $\alpha=0.33$, $p=\$2,000$ and $a=\$550$,
+	\footnotesize
+	\setstretch{1.25}
+	\begin{align*}
+	B_{0}&=\mathtt{\balance}\ ;\\
+	O_{0}&=\mathtt{\interest}\ ;\\
+	m&=\mathtt{\monthsp}\\[12pt]
+	% ITERATION 1
+	&\quad\;\mathtt{<First\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\mathtt{3.85}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\mathtt{546.15}\overset{?}{>}0\\
+	&\quad\;\mathtt{1,453.85}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthsp}&=B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$1,453.85}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthsp}&=O_{\months}+\big\lfloor{\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\big\lfloor{\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\mathtt{11.67}-\mathtt{3.85}\\
+	&=\mathtt{\$7.82}\ ;\\[12pt]
+	m&=\mathtt{\monthsp}+1=2\mathtt{\ months}\\[12pt]
+	% ITERATION 2
+	&\quad\;\mathtt{<Second\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\mathtt{2.80}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\mathtt{547.20}\overset{?}{>}0\\
+	&\quad\;\mathtt{906.65}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitb}&=B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$906.65}\ ;\\[36pt] % 12x3pt acts as \newpage
+	% Outstanding interest-------------------------
+	O_{\monthspitb}&=O_{\monthsitb}+\big\lfloor{\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\big\lfloor{\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\mathtt{8.48}-\mathtt{2.80}\\
+	&=\mathtt{\$13.50}\ ;\\[12pt]
+	m&=\mathtt{\monthspitb}+1=3\mathtt{\ months}\\[12pt]
+	% ITERATION 3
+	&\quad\;\mathtt{<Third\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\mathtt{1.75}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\mathtt{548.25}\overset{?}{>}0\\
+	&\quad\;\mathtt{358.40}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitc}&=B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$358.40}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthspitc}&=O_{\monthsitc}+\big\lfloor{\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\big\lfloor{\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\mathtt{5.29}-\mathtt{1.75}\\
+	&=\mathtt{\$17.04}\ ;\\[12pt]
+	m&=\mathtt{\monthspitc}+1=4\mathtt{\ months}\\[12pt]
+	% FINAL ITERATION
+	&\quad\;\mathtt{<Fourth\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitf}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\mathtt{0.69}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\mathtt{‭‭549.31‬}\overset{?}{>}0\\
+	&\quad\;\mathtt{-190.91‬}\ngtr 0\\
+	&\quad\;\mathtt{Halt!}\\[12pt]
+	% Total months-----------------------
+	n&=\mathtt{\monthspitf\ months}\\[60pt] % 12x5pt acts as \newpage
+	% Final amount----------------------
+	a_{\rm{f}}&=B_{\monthsitf}+\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100+O_{\monthsitf}\\
+	&=\mathtt{\balanceitf}+\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100+\mathtt{\interestitf}\\
+	&=\mathtt{\balanceitf}+\mathtt{2.09}+\mathtt{\interestitf}\\
+	&=\mathtt{\$\amountfinal}\ ;\\[12pt]
+	% Final balance-------------------------
+	B_{\monthspitf}&=B_{\monthsitf}-\Big\{a_{\rm{f}}-\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100-O_{\monthsitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{2.09}-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\mathtt{358.40}\\
+	&=\mathtt{\$0}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\mathtt{546.15\ Prin.}\quad +\quad\;\:\mathtt{3.85\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{547.20\ Prin.}\quad +\quad\;\:\mathtt{2.80\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{548.25\ Prin.}\quad +\quad\;\:\mathtt{1.75\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\quad\mathtt{19.13\ Int.}\quad =\quad\mathtt{\amountfinal}
+	\end{align*}
+	\end{example}
+
+	\normalsize
+	\setstretch{1}
+	\newpage
+
+	\renewcommand{\rate}{0.002875}
+	\renewcommand{\proportion}{0.25}
+	\renewcommand{\amount}{200}
+	\renewcommand{\balance}{5,000}
+	\renewcommand{\interest}{0}
+	\renewcommand{\months}{0}
+	\renewcommand{\monthsp}{1}
+	\renewcommand{\balanceitb}{4,803.59}
+	\renewcommand{\interestitb}{10.79}
+	\renewcommand{\monthsitb}{1}
+	\renewcommand{\monthspitb}{2}
+	\renewcommand{\balanceitc}{4,607.04}
+	\renewcommand{\interestitc}{21.15}
+	\renewcommand{\monthsitc}{2}
+	\renewcommand{\monthspitc}{3}
+	\renewcommand{\balanceitf}{47.26}
+	\renewcommand{\interestitf}{141.77}
+	\renewcommand{\monthsitf}{25}%
+	\renewcommand{\monthspitf}{26}%
+	\renewcommand{\amountfinal}{189.17}
+	\begin{example}
+	If $\mbox{APR}=3.45\%$, $\alpha=0.25$, $p=\$5,000$ and $a=\$200$,
+	\footnotesize
+	\setstretch{1.25}
+	\begin{align*}
+	B_{0}&=\mathtt{\balance}\ ;\\
+	O_{0}&=\mathtt{\interest}\ ;\\
+	m&=\mathtt{\monthsp}\\[12pt]
+	% ITERATION 1
+	&\quad\;\mathtt{<First\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\mathtt{3.59}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\mathtt{196.41}\overset{?}{>}0\\
+	&\quad\;\mathtt{4,803.59}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthsp}&=B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$4,803.59}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthsp}&=O_{\months}+\big\lfloor{\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\big\lfloor{\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\mathtt{14.38}-\mathtt{3.59}\\
+	&=\mathtt{\$10.79}\ ;\\[12pt]
+	m&=\mathtt{\monthsp}+1=2\mathtt{\ months}\\[12pt]
+	% ITERATION 2
+	&\quad\;\mathtt{<Second\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\mathtt{3.45}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\mathtt{196.55}\overset{?}{>}0\\
+	&\quad\;\mathtt{4,607.04}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitb}&=B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$4,607.04}\ ;\\[60pt] % 12x5pt acts as \newpage
+	% Outstanding interest-------------------------
+	O_{\monthspitb}&=O_{\monthsitb}+\big\lfloor{\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\big\lfloor{\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\mathtt{13.81}-\mathtt{3.45}\\
+	&=\mathtt{\$21.15}\ ;\\[12pt]
+	m&=\mathtt{\monthspitb}+1=3\mathtt{\ months}\\[12pt]
+	% ITERATION 3
+	&\quad\;\mathtt{<Third\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\mathtt{3.31}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\mathtt{196.69}\overset{?}{>}0\\
+	&\quad\;\mathtt{4,410.35}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitc}&=B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$4,410.35}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthspitc}&=O_{\monthsitc}+\big\lfloor{\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\big\lfloor{\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\mathtt{13.25}-\mathtt{3.31}\\
+	&=\mathtt{\$31.09}\ ;\\[12pt]
+	m&=\mathtt{\monthspitc}+1=4\mathtt{\ months}\\[12pt]
+	&\quad\;\vdots\\[12pt]
+	% FINAL ITERATION
+	&\quad\;\mathtt{<Twenty}\mbox{-}\mathtt{sixth\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitf}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\mathtt{0.03}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\mathtt{‭‭199.97‬}\overset{?}{>}0\\
+	&\quad\;\mathtt{-152.71‬}\ngtr 0\\
+	&\quad\;\mathtt{Halt!}\\[12pt]
+	% Total months-----------------------
+	n&=\mathtt{\monthspitf\ months}\\[36pt] % 12x3pt acts as \newpage
+	% Final amount----------------------
+	a_{\rm{f}}&=B_{\monthsitf}+\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100+O_{\monthsitf}\\
+	&=\mathtt{\balanceitf}+\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100+\mathtt{\interestitf}\\
+	&=\mathtt{\balanceitf}+\mathtt{0.14}+\mathtt{\interestitf}\\
+	&=\mathtt{\$\amountfinal}\ ;\\[12pt]
+	% Final balance-------------------------
+	B_{\monthspitf}&=B_{\monthsitf}-\Big\{a_{\rm{f}}-\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100-O_{\monthsitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{0.14}-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\mathtt{47.26}\\
+	&=\mathtt{\$0}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\mathtt{196.41\ Prin.}\quad +\quad\;\:\mathtt{3.59\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{196.55\ Prin.}\quad +\quad\;\:\mathtt{3.45\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{196.69\ Prin.}\quad +\quad\;\:\mathtt{3.31\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{196.83\ Prin.}\quad +\quad\;\:\mathtt{3.17\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\qquad\qquad\,\vdots \qquad\qquad\qquad\quad\ \,\vdots \qquad\qquad\qquad\vdots\\
+	&\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\quad\mathtt{141.91\ Int.}\quad =\quad\mathtt{\amountfinal}
+	\end{align*}
+	\end{example}
+
+	\normalsize
+	\setstretch{1}
+	\newpage
+
+	\renewcommand{\rate}{0.00566...}
+	\renewcommand{\proportion}{0.5}
+	\renewcommand{\amount}{132.87}
+	\renewcommand{\balance}{13,500}
+	\renewcommand{\interest}{0}
+	\renewcommand{\months}{0}
+	\renewcommand{\monthsp}{1}
+	\renewcommand{\balanceitb}{13,405.38}
+	\renewcommand{\interestitb}{38.25}
+	\renewcommand{\monthsitb}{1}
+	\renewcommand{\monthspitb}{2}
+	\renewcommand{\balanceitc}{13,310.49}
+	\renewcommand{\interestitc}{76.23}
+	\renewcommand{\monthsitc}{2}
+	\renewcommand{\monthspitc}{3}
+	\renewcommand{\balanceitf}{131.70}
+	\renewcommand{\interestitf}{2,443.24}
+	\renewcommand{\monthsitf}{119}
+	\renewcommand{\monthspitf}{120}
+	\renewcommand{\amountfinal}{2,575.69}
+	\begin{example}
+	If $\mbox{APR}=6.8\%$, $\alpha=0.5$, $p=\$13,500$ and $a=a_{\rm{min_{120}}}=\$132.87$,
+	\scriptsize
+	\setstretch{1.25}
+	\begin{align*}
+	B_{0}&=\mathtt{\balance}\ ;\\
+	O_{0}&=\mathtt{\interest}\ ;\\
+	m&=\mathtt{\monthsp}\\[12pt]
+	% ITERATION 1
+	&\quad\;\mathtt{<First\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\mathtt{38.25}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\mathtt{94.62}\overset{?}{>}0\\
+	&\quad\;\mathtt{13,405.38}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthsp}&=B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$13,405.38}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthsp}&=O_{\months}+\big\lfloor{\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\big\lfloor{\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interest}+\mathtt{76.50}-\mathtt{38.25}\\
+	&=\mathtt{\$38.25}\ ;\\[12pt]
+	m&=\mathtt{\monthsp}+1=2\mathtt{\ months}\\[12pt]
+	% ITERATION 2
+	&\quad\;\mathtt{<Second\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\Big\{\mathtt{\amount}-\mathtt{37.98}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitb}-\mathtt{94.89}\overset{?}{>}0\\
+	&\quad\;\mathtt{13,310.49}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitb}&=B_{\monthsitb}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$13,310.49}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthspitb}&=O_{\monthsitb}+\big\lfloor{\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitb}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\big\lfloor{\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitb}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitb}+\mathtt{75.96}-\mathtt{37.98}\\
+	&=\mathtt{\$76.23}\ ;\\[12pt]
+	m&=\mathtt{\monthspitb}+1=3\mathtt{\ months}\\[48pt] % 12x4pt acts as \newpage
+	% ITERATION 3
+	&\quad\;\mathtt{<Third\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\Big\{\mathtt{\amount}-\mathtt{37.71}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitc}-\mathtt{95.16}\overset{?}{>}0\\
+	&\quad\;\mathtt{13,215.33}>0\\
+	&\quad\;\mathtt{Proceeding...}\\[12pt]
+	% Principal balance----------------------
+	B_{\monthspitc}&=B_{\monthsitc}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\\
+	&=\mathtt{\$13,215.33}\ ;\\[12pt]
+	% Outstanding interest-------------------------
+	O_{\monthspitc}&=O_{\monthsitc}+\big\lfloor{\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{\monthsitc}\cdot i\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\big\lfloor{\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitc}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\\
+	&=\mathtt{\interestitc}+\mathtt{75.43}-\mathtt{37.71}\\
+	&=\mathtt{\$113.95}\ ;\\[12pt]
+	m&=\mathtt{\monthspitc}+1=4\mathtt{\ months}\\[12pt]
+	&\quad\;\vdots\\[12pt]
+	% FINAL ITERATION
+	&\quad\;\mathtt{<120^{th}\ iteration>}\\
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\monthsitf}-\Big\{a-\big\lfloor{\alpha\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\Big\{\mathtt{\amount}-\mathtt{0.37}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balanceitf}-\mathtt{‭‭132.5‬0‬}\overset{?}{>}0\\
+	&\quad\;\mathtt{-0.80‬}\ngtr 0\\
+	&\quad\;\mathtt{Halt!}\\[12pt]
+	% Total months-----------------------
+	n&=\mathtt{\monthspitf\ months}\\[12pt]
+	% Final amount----------------------
+	a_{\rm{f}}&=B_{\monthsitf}+\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100+O_{\monthsitf}\\
+	&=\mathtt{\balanceitf}+\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100+\mathtt{\interestitf}\\
+	&=\mathtt{\balanceitf}+\mathtt{0.75}+\mathtt{\interestitf}\\
+	&=\mathtt{\$\amountfinal}\ ;\\[12pt]
+	% Final balance-------------------------
+	B_{\monthspitf}&=B_{\monthsitf}-\Big\{a_{\rm{f}}-\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100-O_{\monthsitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{0.75}-\mathtt{\interestitf}\Big\}\\
+	&=\mathtt{\balanceitf}-\mathtt{131.70}\\
+	&=\mathtt{\$0}\\[48pt] % 12x4pt acts as \newpage
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\mathtt{94.62\ Prin.}\quad +\quad\;\:\mathtt{38.25\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{94.89\ Prin.}\quad +\quad\;\:\mathtt{37.98\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{95.16\ Prin.}\quad +\quad\;\:\mathtt{37.71\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\!\!\!\!\mathtt{95.43\ Prin.}\quad +\quad\;\:\mathtt{37.44\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\qquad\quad\ \:\,\vdots \qquad\qquad\qquad\quad\ \ \ \,\vdots \qquad\qquad\qquad\quad\:\,\vdots\\
+	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{2,443.99\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	\end{align*}
+	\end{example}
+
+	\normalsize
+	\setstretch{1}
+	\newpage
+
+	\renewcommand{\rate}{0.00566...}
+	\renewcommand{\proportion}{0.5}
+	\renewcommand{\amount}{5,000}
+	\renewcommand{\balance}{4,000}
+	\renewcommand{\interest}{0}
+	\renewcommand{\months}{0}
+	\renewcommand{\monthsp}{1}
+	\renewcommand{\balanceitf}{\balance}
+	\renewcommand{\interestitf}{\interest}
+	\renewcommand{\monthsitf}{\months}%
+	\renewcommand{\monthspitf}{\monthsp}%
+	\renewcommand{\amountfinal}{4,022.67}
+	\begin{example}
+	If $\mbox{APR}=6.8\%$, $\alpha=0.5$, $p=\$4,000$ and $a=\$5,000$,
+	\footnotesize
+	\setstretch{1.25}
+	\begin{align*}
+	B_{0}&=\mathtt{\balance}\ ;\\
+	O_{0}&=\mathtt{\interest}\ ;\\
+	m&=\mathtt{\monthsp}\\[12pt]
+	% FINAL ITERATION
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\mathtt{11.33}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\mathtt{‭4,988.67‬}\overset{?}{>}0\\
+	&\quad\;\mathtt{-988.67‬}\ngtr 0\\
+	&\quad\;\mathtt{Halt!}\\[12pt]
+	% Total months-----------------------
+	n&=\mathtt{\monthspitf\ month}\\[12pt]
+	% Final amount----------------------
+	a_{\rm{f}}&=B_{\monthsitf}+\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100+O_{\monthsitf}\\
+	&=\mathtt{\balanceitf}+\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100+\mathtt{\interestitf}\\
+	&=\mathtt{\balanceitf}+\mathtt{22.67}+\mathtt{\interestitf}\\
+	&=\mathtt{\$\amountfinal}\ ;\\[12pt]
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;a-a_{\rm{f}}\\
+	&\quad =\mathtt{\amount}-\mathtt{\amountfinal}\\
+	&\quad =\mathtt{977.33}>0\\[12pt]
+	% Refund-------------------------
+	R&=a-a_{\rm{f}}=\mathtt{977.33}\ ;\\
+	&\quad\;\mathtt{``Refunded\ \$977.33"}\\[12pt] % strange: should be ``''
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{22.67\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	\end{align*}
+	\end{example}
+
+	\normalsize
+	\setstretch{1}
+	\newpage
+
+	\renewcommand{\rate}{0.00566...}
+	\renewcommand{\proportion}{0}
+	\renewcommand{\amount}{4,000}
+	\renewcommand{\balance}{4,000}
+	\renewcommand{\interest}{0}
+	\renewcommand{\months}{0}
+	\renewcommand{\monthsp}{1}
+	\renewcommand{\balanceitf}{\balance}
+	\renewcommand{\interestitf}{\interest}
+	\renewcommand{\monthsitf}{\months}%
+	\renewcommand{\monthspitf}{\monthsp}%
+	\renewcommand{\amountfinal}{4,022.67}
+	\begin{example}
+	If $\mbox{APR}=6.8\%$, $\alpha=0$, $p=\$4,000$ and $a=\$4,000$,
+	\footnotesize
+	\setstretch{1.25}
+	\begin{align*}
+	B_{0}&=\mathtt{\balance}\ ;\\
+	O_{0}&=\mathtt{\interest}\ ;\\
+	m&=\mathtt{\monthsp}\\[12pt]
+	% FINAL ITERATION
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;B_{\months}-\Big\{a-\big\lfloor{\alpha\left(B_{\months}\cdot i\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\big\lfloor{\mathtt{\proportion}\left(\mathtt{\balance}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\Big\{\mathtt{\amount}-\mathtt{0}\Big\}\overset{?}{>}0\\[-6pt]
+	&\quad\;\mathtt{\balance}-\mathtt{‭4,000‬}\overset{?}{>}0\\
+	&\quad\;\mathtt{0‬}\ngtr 0\\
+	&\quad\;\mathtt{Halt!}\\[12pt]
+	% Total months-----------------------
+	n&=\mathtt{\monthspitf\ month}\\[12pt]
+	% Final amount----------------------
+	a_{\rm{f}}&=B_{\monthsitf}+\big\lfloor{\left(B_{\monthsitf}\cdot i\right)\times 100}\big\rceil\div 100+O_{\monthsitf}\\
+	&=\mathtt{\balanceitf}+\big\lfloor{\left(\mathtt{\balanceitf}\cdot \mathtt{\rate}\right)\times 100}\big\rceil\div 100+\mathtt{\interestitf}\\
+	&=\mathtt{\balanceitf}+\mathtt{22.67}+\mathtt{\interestitf}\\
+	&=\mathtt{\$\amountfinal}\ ;\\[12pt]
+	% Checking--------------------------------
+	\mathtt{Check:}&\quad\;a-a_{\rm{f}}\\
+	&\quad =\mathtt{\amount}-\mathtt{\amountfinal}\\
+	&\quad =\mathtt{-22.67}<0\\[12pt]
+	% Refund-------------------------
+	E&=\left|a-a_{\rm{f}}\right|=\mathtt{22.67}\ ;\\
+	&\quad\;\mathtt{``Pay\ Extra\ \$22.67"}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{22.67\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	\end{align*}
+	\end{example}
+
+	\normalsize
+	\setstretch{1}
+	\newpage
+	\subsection{Length of repayment}
+	For $n=4$,
+	\begin{align*}
+	l_{\rm{y}}&=\bigg\lfloor{\frac{\mathtt{4}}{12}}\bigg\rfloor\\
+	&=\big\lfloor{\mathtt{0.333...}}\big\rfloor\\
+	&=\mathtt{0\ years}
+	\end{align*}
+	\begin{align*}
+	l_{\rm{m}}&=\mathtt{4}-12\cdot \mathtt{0}\\
+	&=\mathtt{4}-\mathtt{0}\\
+	&=\mathtt{4\ months}
+	\end{align*}
+
+	For $n=19$,
+	\begin{align*}
+	l_{\rm{y}}&=\bigg\lfloor{\frac{\mathtt{19}}{12}}\bigg\rfloor\\
+	&=\big\lfloor{\mathtt{1.583...}}\big\rfloor\\
+	&=\mathtt{1\ year}
+	\end{align*}
+	\begin{align*}
+	l_{\rm{m}}&=\mathtt{19}-12\cdot \mathtt{1}\\
+	&=\mathtt{19}-\mathtt{12}\\
+	&=\mathtt{7\ months}
+	\end{align*}
+
+	For $n=27$,
+	\begin{align*}
+	l_{\rm{y}}&=\bigg\lfloor{\frac{\mathtt{27}}{12}}\bigg\rfloor\\
+	&=\big\lfloor{\mathtt{2.25}}\big\rfloor\\
+	&=\mathtt{2\ years}
+	\end{align*}
+	\begin{align*}
+	l_{\rm{m}}&=\mathtt{27}-12\cdot \mathtt{2}\\
+	&=\mathtt{27}-\mathtt{24}\\
+	&=\mathtt{3\ months}
+	\end{align*}
+
+	\newpage
+	\subsection{Total payments, savings and change in savings}
+	\setcounter{example}{0} % reset letter counter
+	\begin{example}
+	Assume $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $p=\$13,500$.\\[12pt]
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{300}\\[12pt]
+	\therefore n&=\mathtt{49\ months}\\
+	B_{48}&=\mathtt{\$61.91}\\
+	O_{48}&=\mathtt{\$961.95}\\[12pt]
+	T(a)&=(\mathtt{48}) a+B_{48}+\big\lfloor{\left(B_{48}\cdot i\right)\times 100}\big\rceil\div 100+O_{48}\\
+	T(\mathtt{300})&=(\mathtt{48}) \mathtt{300}+\mathtt{61.91}+\big\lfloor{\left(\mathtt{61.91}\cdot \mathtt{0.00566...}\right)\times 100}\big\rceil\div 100+\mathtt{961.95}\\
+	&=\mathtt{14,400}+\mathtt{61.91}+\mathtt{0.35}+\mathtt{961.95}\\
+	&=\mathtt{\$15,424.21}
+	\end{align*}
+
+	\label{amina}
+	\begin{align*}\\[-36pt]
+	\mathtt{Let\ } a&=a_{\rm{min_{120}}}=\mathtt{132.87}\\[12pt]
+	\therefore n&=\mathtt{120\ months}\\
+	B_{119}&=\mathtt{\$131.70}\\
+	O_{119}&=\mathtt{\$2,443.24}\\[12pt]	
+	T_{\rm{max}}&=(\mathtt{119}) a_{\rm{min}}+B_{119}+\big\lfloor{\left(B_{119}\cdot i\right)\times 100}\big\rceil\div 100+O_{119}\\
+	&=(\mathtt{119}) \mathtt{132.87}+\mathtt{131.70}+\big\lfloor{\left(\mathtt{131.70}\cdot \mathtt{0.00566...}\right)\times 100}\big\rceil\div 100+\mathtt{2,443.24}\\
+	&=\mathtt{15,672.30}+\mathtt{131.70}+\mathtt{0.75}+\mathtt{2,443.24}\\
+	&=\mathtt{\$18,387.22}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{300})\\
+	&=\mathtt{18,387.22}-\mathtt{15,424.21}\\
+	&=\mathtt{\$2,963.01}
+	\end{align*}
+
+	\newpage
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{725}\\[12pt]
+	\therefore n&=\mathtt{20\ months}\\
+	B_{19}&=\mathtt{\$113.61}\\
+	O_{19}&=\mathtt{\$388.62}\\[12pt]		
+	T(a)&=(\mathtt{19}) a+B_{19}+\big\lfloor{\left(B_{19}\cdot i\right)\times 100}\big\rceil\div 100+O_{19}\\
+	T(725)&=(\mathtt{19}) \mathtt{725}+\mathtt{113.61}+\big\lfloor{\left(\mathtt{113.61}\cdot \mathtt{0.00566...}\right)\times 100}\big\rceil\div 100+\mathtt{388.62}\\
+	&=\mathtt{13,775}+\mathtt{113.61}+\mathtt{0.64}+\mathtt{388.62}\\
+	&=\mathtt{\$14,277.87}
+	\end{align*}
+
+	\begin{align*}\\[-36pt]
+	T_{\rm{max}}&=\mathtt{\$18,387.22}\ \mbox{(page\ \pageref{amina})}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,\label{aminb}
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{725})\\
+	&=\mathtt{18,387.22}-\mathtt{14,277.87}\\
+	&=\mathtt{\$4,109.35}
+	\end{align*}
+
+	Change in savings,
+	\begin{align*}
+	\mathtt{Let\ }s_{1}&=\mathtt{\$2,963.01}\ \mbox{(page\ \pageref{amina})}\\
+	s_{2}&=\mathtt{\$4,109.35}\\[12pt]
+	\Delta s&=\left|\ \mathtt{4,109.35}-\mathtt{2,963.01}\ \right|\\
+	&=\mathtt{\uparrow\ \$1,146.34}
+	\end{align*}
+	\end{example}	
+	
+	\newpage
+	\begin{example}
+	Assume $\mbox{APR}=3.45\%$, $\alpha=0.25$ and $p=\$5,000$.\\[12pt]
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{700}\\[12pt]
+	\therefore n&=\mathtt{8\ months}\\
+	B_{7}&=\mathtt{\$114.63}\\
+	O_{7}&=\mathtt{\$43.90}\\[12pt]		
+	T(a)&=(\mathtt{7}) a+B_{7}+\big\lfloor{\left(B_{7}\cdot i\right)\times 100}\big\rceil\div 100+O_{7}\\
+	T(700)&=(\mathtt{7}) \mathtt{700}+\mathtt{114.63}+\big\lfloor{\left(\mathtt{114.63}\cdot \mathtt{0.002875}\right)\times 100}\big\rceil\div 100+\mathtt{43.90}\\
+	&=\mathtt{4,900}+\mathtt{114.63}+\mathtt{0.33}+\mathtt{43.90}\\
+	&=\mathtt{\$5,058.86}
+	\end{align*}
+
+	\label{aminc}
+	\begin{align*}\\[-36pt]
+	\mathtt{Let\ } a&=a_{\rm{min_{\mathnormal{n}}}}=\mathtt{3.60}\\[12pt]
+	\therefore n&=\mathtt{8,822\ months}\\
+	B_{8,821}&=\mathtt{\$1.49}\\
+	O_{8,821}&=\mathtt{\$80,268.06}\\[12pt]		
+	T_{\rm{max}}&=(\mathtt{8,821}) a_{\rm{min}}+B_{8,821}+\big\lfloor{\left(B_{8,821}\cdot i\right)\times 100}\big\rceil\div 100+O_{8,821}\\
+	&=(\mathtt{8,821}) \mathtt{3.60}+\mathtt{1.49}+\big\lfloor{\left(\mathtt{1.49}\cdot \mathtt{0.002875}\right)\times 100}\big\rceil\div 100+\mathtt{80,268.06}\\
+	&=\mathtt{31,755.60}+\mathtt{1.49}+\mathtt{0}+\mathtt{80,268.06}\\
+	&=\mathtt{\$112,025.15}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{700})\\
+	&=\mathtt{112,025.15}-\mathtt{5,058.86}\\
+	&=\mathtt{\$106,966.29}
+	\end{align*}
+
+	Change in savings,
+	\begin{align*}
+	\mathtt{Let\ }s_{1}&=\mathtt{\$4,109.35}\ \mbox{(page\ \pageref{aminb})}\\
+	s_{2}&=\mathtt{\$106,966.29}\\[12pt]
+	\Delta s&=\left|\ \mathtt{106,966.29}-\mathtt{4,109.35}\ \right|\\
+	&=\mathtt{\uparrow\ \$102,856.94}
+	\end{align*}	
+	\end{example}
+
+	\newpage
+	\begin{example}
+	Assume $\mbox{APR}=7\%$, $\alpha=0.33$ and $p=\$2,000$.\\[12pt]
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{550}\\[12pt]
+	\therefore n&=\mathtt{4\ months}\\
+	B_{3}&=\mathtt{\$358.40}\\
+	O_{3}&=\mathtt{\$17.04}\\[12pt]
+	T(a)&=(\mathtt{3}) a+B_{3}+\big\lfloor{\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100+O_{3}\\
+	T(\mathtt{550})&=(\mathtt{3}) \mathtt{550}+\mathtt{358.40}+\big\lfloor{\left(\mathtt{358.40}\cdot \mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+\mathtt{17.04}\\
+	&=\mathtt{1,650}+\mathtt{358.40}+\mathtt{2.09}+\mathtt{17.04}\\
+	&=\mathtt{\$2,027.53}
+	\end{align*}
+
+	\label{amind}
+	\begin{align*}\\[-36pt]
+	\mathtt{Let\ } a&=a_{\rm{min_{120}}}=\mathtt{18.69}\\[12pt]
+	\therefore n&=\mathtt{120\ months}\\
+	B_{119}&=\mathtt{\$17.54}\\
+	O_{119}&=\mathtt{\$490.63}\\[12pt]		
+	T_{\rm{max}}&=(\mathtt{119}) a_{\rm{min}}+B_{119}+\big\lfloor{\left(B_{119}\cdot i\right)\times 100}\big\rceil\div 100+O_{119}\\
+	&=(\mathtt{119}) \mathtt{18.69}+\mathtt{17.54}+\big\lfloor{\left(\mathtt{17.54}\cdot \mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+\mathtt{490.63}\\
+	&=\mathtt{2,224.11}+\mathtt{17.54}+\mathtt{0.10}+\mathtt{490.63}\\
+	&=\mathtt{\$2,732.38}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{550})\\
+	&=\mathtt{2,732.38}-\mathtt{2,027.53}\\
+	&=\mathtt{\$704.85}
+	\end{align*}
+	
+	Change in savings,
+	\begin{align*}
+	\mathtt{Let\ }s_{1}&=\mathtt{\$106,966.29}\ \mbox{(page\ \pageref{aminc})}\\
+	s_{2}&=\mathtt{\$704.85}\\[12pt]
+	\Delta s&=\left|\ \mathtt{704.85}-\mathtt{106,966.29}\ \right|\\
+	&=\mathtt{\downarrow\ \$106,261.44}
+	\end{align*}
+
+	\newpage
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{1,000}\\[12pt]
+	\therefore n&=\mathtt{3\ months}\\
+	B_{2}&=\mathtt{\$5.78}\\
+	O_{2}&=\mathtt{\$11.75}\\[12pt]		
+	T(a)&=(\mathtt{2}) a+B_{2}+\big\lfloor{\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100+O_{2}\\
+	T(1,000)&=(\mathtt{2}) \mathtt{1,000}+\mathtt{5.78}+\big\lfloor{\left(\mathtt{5.78}\cdot \mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+\mathtt{11.75}\\
+	&=\mathtt{2,000}+\mathtt{5.78}+\mathtt{0.03}+\mathtt{11.75}\\
+	&=\mathtt{\$2,017.56}
+	\end{align*}
+
+	\begin{align*}\\[-36pt]
+	T_{\rm{max}}&=\mathtt{\$2,732.38}\ \mbox{(page\ \pageref{amind})}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,\label{amine}
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{1,000})\\
+	&=\mathtt{2,732.38}-\mathtt{2,017.56}\\
+	&=\mathtt{\$714.82}
+	\end{align*}
+
+	Change in savings,
+	\begin{align*}
+	\mathtt{Let\ }s_{1}&=\mathtt{\$704.85}\ \mbox{(page\ \pageref{amind})}\\
+	s_{2}&=\mathtt{\$714.82}\\[12pt]
+	\Delta s&=\left|\ \mathtt{714.82}-\mathtt{704.85}\ \right|\\
+	&=\mathtt{\uparrow\ \$9.97}
+	\end{align*}
+
+	\newpage
+	Total payments,
+	\begin{align*}
+	\\\mathtt{Let\ } a&=\mathtt{200}\\[12pt]
+	\therefore n&=\mathtt{11\ months}\\
+	B_{10}&=\mathtt{\$21.42}\\
+	O_{10}&=\mathtt{\$43.50}\\[12pt]	
+	T(a)&=(\mathtt{10}) a+B_{10}+\big\lfloor{\left(B_{10}\cdot i\right)\times 100}\big\rceil\div 100+O_{10}\\
+	T(\mathtt{200})&=(\mathtt{10}) \mathtt{200}+\mathtt{21.42}+\big\lfloor{\left(\mathtt{21.42}\cdot \mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+\mathtt{43.50}\\
+	&=\mathtt{2,000}+\mathtt{21.42}+\mathtt{0.12}+\mathtt{43.50}\\
+	&=\mathtt{\$2,065.04}
+	\end{align*}
+
+	\begin{align*}\\[-36pt]
+	T_{\rm{max}}&=\mathtt{\$2,732.38}\ \mbox{(page\ \pageref{amind})}
+	\end{align*}
+
+	\vspace{12pt}
+	Savings,
+	\begin{align*}
+	s&=T_{\rm{max}}-T(\mathtt{200})\\
+	&=\mathtt{2,732.38}-\mathtt{2,065.04}\\
+	&=\mathtt{\$667.34}
+	\end{align*}
+	
+	Change in savings,
+	\begin{align*}
+	\mathtt{Let\ }s_{1}&=\mathtt{\$714.82}\ \mbox{(page\ \pageref{amine})}\\
+	s_{2}&=\mathtt{\$667.34}\\[12pt]
+	\Delta s&=\left|\ \mathtt{667.34}-\mathtt{714.82}\ \right|\\
+	&=\mathtt{\downarrow\ \$47.48}
+	\end{align*}
+	\end{example}
+
+	\newpage
+
+\section{Derivation of Monthly Compound Interest Rate}%\label{section4}
+
+	\begin{definition}\label{def1}
+	If interest is compounded, it is compounded daily. Let daily payment balance be a function of each day's previous balance and the annual interest rate:
+	$$B_{d}=B_{d-1}+B_{d-1}\frac{r}{365.25},$$
+	for number of days, $d=1,\ 2,\ 3,\ \dots,\ 30,\ \frac{365.25}{12}$, where $\frac{365.25}{12}$ is the average number of days per month. 
+	Treat the last day is a partial day.
+	\end{definition}
+
+	\begin{theorem}
+	Monthly compound interest rate will be a function of the annual rate:
+	$$i=\left(1+\frac{r}{365.25}\right)^{\frac{365.25}{12}}-1$$
+	\end{theorem}
+
+	\newcommand{\bo}{p\left(1+\frac{r}{365.25}\right)} % shortens upcoming equations
+	\newcommand{\ad}{\frac{365.25}{12}}
+	\setcounter{equation}{1} % increment counter by 1
+
+	\begin{proof}
+	Using definition~\ref{def1}, find average monthly balance, $B_{\ad}$, and simplify.
+	\begin{subequations}
+	\begin{align*}
+	B_{1}&=B_{0}+B_{0}\frac{r}{365.25}\\
+	&=p+p\frac{r}{365.25}\\
+	&=p\left(1+\frac{r}{365.25}\right)\\[12pt]
+	B_{2}&=B_{1}+B_{1}\frac{r}{365.25}\\
+	&=\bo+\bo\frac{r}{365.25}\\
+	&=\bo\left(1+\frac{r}{365.25}\right)\\
+	&=\bo^{2}\\[12pt]
+	B_{3}&=B_{2}+B_{2}\frac{r}{365.25}\\
+	&=\dots=\bo^{2}\left(1+\frac{r}{365.25}\right)\\
+	&=\bo^{3}\\[12pt]
+	&\vdots\\[12pt]
+	B_{\ad}&=B_{\ad-1}+B_{\ad-1}\frac{r}{365.25}\\[6pt]
+	&=\dots=\bo^{\ad}\yesnumberequation\label{result1}
+	\end{align*}
+	Write equation~\ref{result1} as a function of $i$.
+	\begin{gather*}
+	B_{\ad}=p\left(1+i\right)\yesnumberequation\label{result2}
+	\end{gather*}
+	Combine equations~\ref{result1} and~\ref{result2} to solve for $i$.
+	\begin{gather*}
+	p\left(1+i\right)=\bo^{\ad}\\[6pt]
+	i=\left(1+\frac{r}{365.25}\right)^{\frac{365.25}{12}}-1
+	\tag*{\qedhere} % places qed in line with equation
+	\end{gather*}
+	\end{subequations}
+	\end{proof}
+	
+	\setlength\parindent{0pt} Numerically, do not round any terms in the equation or solution itself, otherwise solutions to equations that depend on the interest rate may lose precision. The solution will be a decimal, not a percentage; this is because $i$ is only meant to be an interim calculation.
+
+	\vspace{12pt}
+	\begin{remark}
+	The researcher is only aware of one instance in which interest is compounded: when loans are capitalized as students enter repayment.
+	Nevertheless, he has mentioned interest being compounded, purely for the purpose of mathematical exploration.
+	\end{remark}
+
+	\newpage
+	
+\section{Derivation of Ten-Year Minimum Payment}%\label{section5}
+
+	\begin{definition}
+	Student loan payments are made in monthly installments. Let the monthly principal balance, be a function of each month's previous balance, the interest rate, minimum payment and proportion of interest that is paid, such that:
+	\begin{equation}
+	B_{m}=B_{m-1}-\big[a_{\rm{min}}-\alpha\left(B_{m-1}\cdot i\right)\big],\label{eq}
+	\end{equation}
+	for $m=1,\ 2,\ 3,\ \dots,\ 120$ and $0\leq\alpha\leq1$, where $120$ is the number of months in ten years. 
+	We want final balance, $B_{120}=0$.
+	\end{definition}
+
+	\renewcommand{\base}{\left(1+\alpha\cdot i\right)}
+	\begin{theorem}
+	Minimum monthly payment within ten years will depend on $i$ and $\alpha$:
+	\small
+	\[
+	a_{\rm{min_{120}}}=
+	\left\{
+	\begin{array}{l l}
+	\\[-6pt]
+	\left\lceil{\dfrac{p}{120}\times 100}\right\rceil\div 100&\quad\mbox{if } i>0 \mbox{ and }\alpha=0\\[18pt]
+	\left\lceil{\dfrac{p}{120}\times 100}\right\rceil\div 100&\quad\mbox{if } i=0\\[12pt]
+	\left\lceil{\dfrac{\alpha\left(p\cdot i\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100,\mbox{ for }\alpha\cdot i\neq 0 &\quad\mbox{if } i>0\mbox{ and }0<\alpha\leq1
+	\\[18pt]
+	\end{array}
+	\right. 
+	\]
+	\end{theorem}
+
+	\renewcommand{\bo}{p\left(1+\alpha\cdot i\right)-a_{\rm{min}}}
+	\newcommand{\bt}{p\left(1+\alpha\cdot i\right)^{2}-\left(1+\alpha\cdot i\right)a_{\rm{min}}-a_{\rm{min}}}
+	\renewcommand{\base}{\left(1+\alpha\cdot i\right)} % for B_{120} only
+
+	\normalsize
+	\begin{proof}
+	Simplify equation~\ref{eq}, if possible, using each case of $i$ and $\alpha$.
+	\begin{subequations}
+	\begin{numcases}{B_{m}=}
+	\nonumber\\[-3pt]
+	\ B_{m-1}-a_{\rm{min}} &\quad\mbox{if $i>0$ and $\alpha=0$}\label{case1}\\[3pt]
+	\ B_{m-1}-a_{\rm{min}} &\quad\mbox{if $i=0$}\label{case2}\\[3pt]
+	\ B_{m-1}-\big[a_{\rm{min}}-\alpha\left(B_{m-1}\cdot i\right)\big] &\quad\mbox{if $i>0$ and $0<\alpha\leq 1$}\label{case3}
+	\\[-9pt]\nonumber
+	\end{numcases}
+	\end{subequations}
+	
+	Using cases~\ref{case1} and~\ref{case2}, find $B_{120}$ and simplify.
+	\begin{align*}
+	B_{1}&=B_{0}-a_{\rm{min}}\\
+	&=p-a_{\rm{min}}\\[12pt]
+	B_{2}&=B_{1}-a_{\rm{min}}\\
+	&=\left(p-a_{\rm{min}}\right)-a_{\rm{min}}\\
+	&=p-2a_{\rm{min}}\\[12pt]
+	B_{3}&=B_{2}-a_{\rm{min}}\\
+	&=\dots=p-3a_{\rm{min}}\\[12pt]
+	&\vdots\\[12pt]
+	B_{120}&=B_{119}-a_{\rm{min}}\\
+	&=p-120a_{\rm{min}}
+	\end{align*}
+	Set $B_{120}=0$ to solve for $a_{\rm{min}}$.
+	\begin{gather*}
+	0=p-120a_{\rm{min}}\\
+	p=120a_{\rm{min}}\\
+	a_{\rm{min}}=\frac{p}{120}
+	\end{gather*}
+	Numerically, terms in the solution may span more than two decimal places, but cents span only two. Also, we need to ensure that one repays enough money each month. So, round terms in the solution \textit{up} to the nearest two decimal places.
+	\begin{gather*}
+	a_{\rm{min}}=\left\lceil{\frac{p}{120}\times 100}\right\rceil\div 100
+	\end{gather*}
+	Let $a_{\rm{min}}=a_{\rm{min_{120}}}$ to differentiate it from the absolute minimum payment.
+	\begin{gather*}
+	a_{\rm{min_{120}}}=\left\lceil{\frac{p}{120}\times 100}\right\rceil\div 100
+	\tag*{\qed} % cannot use \qedhere because not at \end{proof}
+	\end{gather*}	
+					
+	Using case~\ref{case3}, find $B_{120}$ and simplify.
+	\begin{align*}
+	B_{1}&=B_{0}-\big[a_{\rm{min}}-\alpha\left(B_{0}\cdot i\right)\big]\\
+	&=B_{0}+\alpha\left(B_{0}\cdot i\right)-a_{\rm{min}}\\
+	&=p+\alpha\left(p\cdot i\right)-a_{\rm{min}}\\
+	&=p\left(1+\alpha\cdot i\right)-a_{\rm{min}}\\[12pt]
+	B_{2}&=B_{1}-\big[a_{\rm{min}}-\alpha\left(B_{1}\cdot i\right)\big]\\
+	&=B_{1}+\alpha\left(B_{1}\cdot i\right)-a_{\rm{min}}\\
+	&=\big[\bo\big]+\alpha\Big(\big[\bo\big]\cdot i\Big)-a_{\rm{min}}\\
+	&=\big[\bo\big]\big[1+\alpha\cdot i\big]-a_{\rm{min}}\\
+	&=p\left(1+\alpha\cdot i\right)^{2}-\left(1+\alpha\cdot i\right)a_{\rm{min}}-a_{\rm{min}}\\[12pt]
+	B_{3}&=B_{2}-\big[a_{\rm{min}}-\alpha\left(B_{2}\cdot i\right)\big]\\
+	&=\dots=\big[\bt\big]\\
+	\begin{split} % equation is too long
+	&\qquad\quad\;\:\,+\alpha\Big(\big[\bt\big]\cdot i\Big)-a_{\rm{min}}
+	\end{split}\\
+	&=\big[\bt\big]\big[1+\alpha\cdot i\big]-a_{\rm{min}}\\
+	&=p\left(1+\alpha\cdot i\right)^{3}-\left(1+\alpha\cdot i\right)^{2}a_{\rm{min}}
+	-\left(1+\alpha\cdot i\right)a_{\rm{min}}-a_{\rm{min}}\\[12pt] % equation is not as long as it looks
+	&\vdots\\[108pt] % 12x9pt, acts as \pagebreak
+	B_{120}&=B_{119}-\big[a_{\rm{min}}-\alpha\left(B_{119}\cdot i\right)\big]\\
+	&=\dots=\big[p\base^{119}-\base^{118}a_{\rm{min}}-\base^{117}a_{\rm{min}}\\
+	\begin{split}
+	&\qquad\quad\;\:\,-\dots-a_{\rm{min}}\big]\big[1+\alpha\cdot i\big]-a_{\rm{min}}
+	\end{split}\\
+	&=p\base^{120}-\base^{119}a_{\rm{min}}-\base^{118}a_{\rm{min}}\\
+	\begin{split}
+	&\quad-\dots-\base a_{\rm{min}}-a_{\rm{min}}
+	\end{split}\\
+	&=p\base^{120}-a_{\rm{min}}\sum_{m=1}^{120}\base^{m-1}
+	\end{align*}
+	Set $B_{120}=0$ to solve for $a_{\rm{min}}$.
+	\begin{gather*}
+	0=p\base^{120}-a_{\rm{min}}\sum_{m=1}^{120}\base^{m-1}
+	\end{gather*}
+	\vspace{-12pt} % remove some padding above next equation
+	\begin{align*}
+	p\base^{120}&=a_{\rm{min}}\sum_{m=1}^{120}\base^{m-1}\\
+	p\base^{120}\times\base&=a_{\rm{min}}\sum_{m=1}^{120}\base^{m}\\
+	p\base^{120}-p\base^{120}\times\base&=a_{\rm{min}}\nonumber\\
+	\begin{split}
+	&\quad-\base^{120}a_{\rm{min}}
+	\end{split}\\[12pt]
+	p\base^{120}\big[1-\base\big]&=a_{\rm{min}}\big[1-\base^{120}\big]\\[12pt]
+	p\base^{120}\big[\alpha\cdot i\big]&=a_{\rm{min}}\big[\base^{120}-1\big]
+	\end{align*}
+	% using a mixture of styles (i.e., [12pt] and \vspace) because some equations are centered and some are aligned, and this affects spacing
+	\begin{gather*}
+	a_{\rm{min}}=\frac{\alpha\left(p\cdot i\right)\base^{120}}{\base^{120}-1},\mbox{ for }\alpha\cdot i\neq 0
+	\end{gather*}
+	Numerically, do not round any terms in the equation; round only those in the solution.
+	However, again terms in the solution may span more than two decimal places, and we need to ensure that one repays enough money each month. So, round terms in the solution \textit{up} to the nearest two decimal places.
+	\begin{gather*}
+	a_{\rm{min}}=\left\lceil{\frac{\alpha\left(p\cdot i\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100,\mbox{ for }\alpha\cdot i\neq 0
+	\end{gather*}
+	Let $a_{\rm{min}}=a_{\rm{min_{120}}}$ to differentiate it from the absolute minimum payment.
+	\begin{gather*}
+	a_{\rm{min_{120}}}=\left\lceil{\frac{\alpha\left(p\cdot i\right)\base^{120}}{\base^{120}-1}\times 100}\right\rceil\div 100,\mbox{ for }\alpha\cdot i\neq 0
+	\tag*{\qedhere}
+	\end{gather*}	
+	\end{proof}
+
+	\newpage
+	\begin{remark}
+	The reason for using $\alpha\left(B_{m-1}\cdot i\right)$ in equation~\ref{eq}, instead of the corresponding expression $\big\lfloor{\alpha\left(B_{m-1}\cdot i\right)\times 100}\big\rceil\div 100$ of section 2 of ``Deeper Insight into the iOS App'', is because, if $i>0$ and $0<\alpha\leq1$ and one uses the latter expression to find a simplified equation for $B_{120}$, factoring $p+\big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100-a$ from the \texttt{nint} function in $B_{2}$ will not be possible. Subsequent equations (i.e., $B_{3}$, $B_{4}$, $B_{5}$, $\dots$) will continue to expand with no way to simplify them even. The caveat to using the former expression, though, is that each numerical solution of $a_{\rm{min_{120}}}$ could potentially deviate by one cent from each solution had they been computed by using the latter expression.
+	\end{remark}	
+
+	\vspace{12pt}
+	\begin{remark}
+	Simplifying the fractional part
+	$$\frac{\base^{120}}{\base^{120}-1},\mbox{ for }\alpha\cdot i\neq 0$$
+	is not possible. $\alpha$ is at most equal to $1$, and $\mbox{APR}$ is probably at most $10\%$ (i.e., $i$ is at most $0.00836...$ [interest is compounded] ).
+	$$\frac{\left(1+\mathtt{1}\cdot\mathtt{0.00836...}\right)^{120}}{\left(1+\mathtt{1}\cdot\mathtt{0.00836...}\right)^{120}-1}=\frac{\left(\mathtt{1.00836...}\right)^{120}}{\left(\mathtt{1.00836...}\right)^{120}-1}=\frac{\mathtt{2.717...}}{\mathtt{2.717...}-1}=\mathtt{1.582...}$$
+	In fact, all other quotients for values of $\alpha$ and $i$ will exceed $1.582...$ Only if all quotients were equal to $1$, could one cancel the numerator and denominator from the fractional part.
+	\end{remark}
+
+\end{document}
