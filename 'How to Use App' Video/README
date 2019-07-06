@@ -21,15 +21,9 @@ $ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-rel
 $ sudo apt update
 $ sudo apt install openshot
 
-macOS: https://github.com/OpenShot/openshot-qt/releases/download/v2.4.1/OpenShot-v2.4.1-x86_64.dmg
-
-
 (2) install iOS_profile
 
-...open a terminal
-
-Ubuntu: $ cp iOS_profile ~/.openshot/user_profiles/
-macOS: $ cp iOS_profile ~/.openshot_qt/profiles/
+$ cp iOS_profile ~/.openshot/user_profiles/
 
 
 (3) extract introduction.tar.gz, and set permissions
@@ -69,3 +63,10 @@ Notes
 -----
 (1) video clips and images may render differently between Ubuntu and macOS, due to differences between GTK+ and Qt
 (2) researcher recorded videos in Open Broadcaster Software (OBS), hence the "obs" directory in /usr/local/introduction
+
+
+
+
+
+(1) macOS: https://github.com/OpenShot/openshot-qt/releases/download/v2.4.1/OpenShot-v2.4.1-x86_64.dmg
+(2) macOS: $ cp iOS_profile ~/.openshot_qt/profiles/
