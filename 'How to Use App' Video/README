@@ -15,16 +15,15 @@ power on the virtual machine
 
 (1) install OpenShot
 
-...open a terminal
-
+...launch a terminal
 $ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 $ sudo apt update
 $ sudo apt install openshot
 
 (2) install iOS_profile
 
+...launch openshot
 $ cp iOS_profile ~/.openshot/user_profiles/
-
 
 (3) extract introduction.tar.gz, and set permissions
 
