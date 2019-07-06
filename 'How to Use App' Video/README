@@ -47,10 +47,10 @@ Target: MOV (h.264)
 Video Profile: iOS_profile
 Export Video
 
-
 (6) OPTIONAL: Replace original archive, and clean up
 
-(back to terminal) $ sudo tar -czf /path/to/introduction.tar.gz *
+...back to terminal
+$ sudo tar -czf introduction.tar.gz *
 $ sudo rm -r /usr/local/introduction
 
 
