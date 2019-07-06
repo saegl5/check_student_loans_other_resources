@@ -38,14 +38,13 @@ $ cd /usr/local/introduction
 $ openshot Default\ Project.osp
 ...wait a moment
 
-(5) update it, then export NEW introduction.mov
+(5) update it, then export new "introduction.mov"
 
 File > Export Video...
-
-File Name: introduction.mov
+File Name: introduction
+Profile: All Formats
 Target: MOV (h.264)
 Video Profile: iOS_profile
-
 Export Video
 
 
