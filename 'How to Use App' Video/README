@@ -2,6 +2,8 @@ iOS app
   |__"'How to Use App' Video"/introduction.mov
 
 introduction.mov is exported from OpenShot 1.4.3 on Ubuntu 17.10
+Ubuntu 17.10 can be downloaded from http://old-releases.ubuntu.com/releases/17.10/
+
 Target: MOV (h.264)
 Video Profile: iOS_profile
 
