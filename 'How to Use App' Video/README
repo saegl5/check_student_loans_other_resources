@@ -24,7 +24,7 @@ $ sudo apt install openshot
 
 ...launch openshot, then close it
 ...back to terminal
-$ cp iOS_profile ~/.openshot/user_profiles/
+$ mv iOS_profile ~/.openshot/user_profiles/
 
 (3) extract introduction.tar.gz, and set permissions
 
