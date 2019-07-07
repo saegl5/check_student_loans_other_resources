@@ -22,7 +22,7 @@ $ sudo apt install openshot
 
 (2) install iOS_profile
 
-...launch openshot
+...launch openshot, then close it
 ...back to terminal
 $ cp iOS_profile ~/.openshot/user_profiles/
 
@@ -36,7 +36,6 @@ $ sudo chmod -R o+w /usr/local/introduction
 
 $ cd /usr/local/introduction
 $ openshot Default\ Project.osp
-...wait a moment
 
 (5) update it, then export new "introduction.mov"
 
