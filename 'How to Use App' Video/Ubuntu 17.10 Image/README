@@ -1,0 +1,17 @@
+Source:
+ubuntu-17.10-desktop-amd64.iso from http://old-releases.ubuntu.com/releases/17.10/
+
+Modifications/changes:
++ created an account
++ enabled automatic login
++ installed OpenShot
++ installed GStreamer Multimedia Codecs ("libav"/ffmpeg plugin)
++ added Terminal to Favorites
++ added OpenShot to Favorites
++ set up the project directory
++ bookmarked the project directory in Nautilus
++ created a shortcut to the project directory on the desktop
+- disabled automatic screen lock
+- removed the lock screen button from the status menu
+- selected "never" to notify me when a new Ubuntu version is available
+- streamlined the Dash
