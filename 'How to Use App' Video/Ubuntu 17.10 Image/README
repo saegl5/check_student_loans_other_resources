@@ -1,5 +1,6 @@
-Source:
-ubuntu-17.10-desktop-amd64.iso from http://old-releases.ubuntu.com/releases/17.10/
+Base operating system:
+ubuntu-17.10-desktop-amd64.iso
+(source: http://old-releases.ubuntu.com/releases/17.10/)
 
 Modifications/changes:
 + created an account
