@@ -5,7 +5,7 @@ Modifications/changes:
 + created an account
 + enabled automatic login
 + installed OpenShot
-+ installed GStreamer Multimedia Codecs (libav plugin)
++ installed GStreamer Multimedia Codecs ("libav"/ffmpeg plugin)
 + added Terminal to Favorites
 + added OpenShot to Favorites
 + set up the project directory
