@@ -2,6 +2,10 @@ Base operating system:
 ubuntu-17.10-desktop-amd64.iso
 (source: http://old-releases.ubuntu.com/releases/17.10/)
 
+VMware Workstation 15 Player:
+Created a new virtual machine entitled "Ubuntu 17.10" using Easy Install
+Memory: 4 GB, Processors: 2, Virtualization engine: Virtualize Intel VT-x/EPT
+
 Modifications/changes:
 + created an account
 + enabled automatic login
