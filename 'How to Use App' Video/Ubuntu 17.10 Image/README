@@ -1,10 +1,14 @@
-INSTRUCTIONS
+INSTALLATION INSTRUCTIONS
 
 Linux terminal: $ cat * > "Ubuntu 17.10.zip"
 Windows 10 PowerShell: $ cmd /c copy /b * "Ubuntu 17.10.zip"
 
 Unzip "Ubuntu 17.10.zip," and open "Ubuntu 17.10.vmx" in VMware Workstation 15 Player.
 If one sees a login prompt, simply restart the virtual machine.
+
+Caveats:
+OpenShot 1.4.3 is unstable, so save the project frequently.
+The image does not provide root access. If one needs root access, replicate the image (see below).
 
 To verify the authenticity of "Ubuntu 17.10.zip":
 $ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
@@ -14,9 +18,9 @@ To verify the integrity of "Ubuntu 17.10.zip":
 Linux terminal: $ sha1sum "Ubuntu 17.10.zip" (example)
 Windows 10 PowerShell: $ Get-FileHash "Ubuntu 17.10.zip" -Algorithm SHA1 (example)
 
-SOURCE
+HOW THE IMAGE WAS CREATED
 
-Base operating system:
+Downloaded the base operating system:
 ubuntu-17.10-desktop-amd64.iso
 (source: http://old-releases.ubuntu.com/releases/17.10/)
 
@@ -24,7 +28,7 @@ VMware Workstation 15 Player:
 Created a new virtual machine entitled "Ubuntu 17.10" using Easy Install
 Memory: 4 GB, Processors: 2, Virtualize Intel VT-x/EPT
 
-Modifications/changes:
+Modifications/changes: <---- revise
 + created an account
 + updated /etc/apt/sources.list with the latest server URL (i.e., http://old-releases.ubuntu.com/ubuntu)
 + installed openshot and gstreamer1.0-libav
@@ -41,15 +45,3 @@ Modifications/changes:
 + defragmented the hard disk
 
 Sent "Ubuntu 17.10.vmdk" and "Ubuntu 17.10.vmx" into a compressed folder, "Ubuntu 17.10.zip"
-Attempted to upload the zip file...
-
-Issue #1: Maximum upload filesize is 10 MiB (i.e., ~10.4 MB)
-Resolution: $ split -b 10m "Ubuntu 17.10.zip" "Ubuntu 17.10.zip.part-" -d
-(Parts are numbered 00-89 and 9000-9213, respectively.)
-
-Issue #2: Files can only be uploaded one at a time through a web browser.
-Resolution:
-$ git add "Ubuntu 17.10.zip.part-0*"
-$ git commit -m "added zip parts via command line"
-$ git push origin master
-(Repeated for 1*, 2*, ..., 900*, 901*, 902*, ..., ten or twenty parts at a time)
