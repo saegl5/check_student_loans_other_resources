@@ -1,3 +1,25 @@
+INSTRUCTIONS
+
+Linux terminal: $ cat * "Ubuntu 17.10.zip"
+Windows 10 PowerShell: $ cmd /c copy /b * "Ubuntu 17.10.zip"
+
+Unzip "Ubuntu 17.10.zip," and open "Ubuntu 17.10.vmx" in VMware Workstation 15 Player.
+If one sees a login prompt, simply restart the virtual machine.
+
+To verify the authenticity of "Ubuntu 17.10.zip":
+$ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
+$ gpg --verify SHA1SUMS.gpg SHA1SUMS (example)
+
+To verify the integrity of "Ubuntu 17.10.zip":
+Linux terminal: $ sha1sum Ubuntu\ 17.10.zip
+Windows 10 PowerShell: $ Get-FileHash '.\Ubuntu 17.10.zip' -Algorithm SHA1
+
+How to use gpg tools to verify the  of a file
+How to use sha256 tools to verify the integrity of a file
+
+
+SOURCE
+
 Base operating system:
 ubuntu-17.10-desktop-amd64.iso
 (source: http://old-releases.ubuntu.com/releases/17.10/)
