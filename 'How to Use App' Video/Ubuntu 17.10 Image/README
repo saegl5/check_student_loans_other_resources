@@ -10,6 +10,9 @@ Caveats:
 OpenShot 1.4.3 is unstable, so save the project frequently.
 The image does not provide root access. If one needs root access, replicate the image (see below).
 
+One can ignore ERROR 1 and the message, ``No LADSPA plugins were found!'' 
+To address ``ladspa'' anyway: $ sudo apt install ladspa-sdk
+
 To verify the authenticity of "Ubuntu 17.10.zip":
 $ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
 $ gpg --verify SHA1SUMS.gpg SHA1SUMS (example)
