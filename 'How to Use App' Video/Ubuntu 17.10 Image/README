@@ -9,8 +9,7 @@ Memory: 4 GB, Processors: 2, Virtualization engine: Virtualize Intel VT-x/EPT
 Modifications/changes:
 + created an account
 + enabled automatic login
-+ installed OpenShot
-+ installed GStreamer Multimedia Codecs ("libav"/ffmpeg plugin)
++ $ sudo apt install openshot gstreamer1.0-libav
 + added Terminal to Favorites
 + added OpenShot to Favorites
 + set up the project directory
