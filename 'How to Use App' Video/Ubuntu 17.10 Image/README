@@ -28,20 +28,33 @@ VMware Workstation 15 Player:
 Created a new virtual machine entitled "Ubuntu 17.10" using Easy Install
 Memory: 4 GB, Processors: 2, Virtualize Intel VT-x/EPT
 
-Modifications/changes: <---- revise
-+ created an account
-+ updated /etc/apt/sources.list with the latest server URL (i.e., http://old-releases.ubuntu.com/ubuntu)
-+ installed openshot and gstreamer1.0-libav
-+ upgraded all packages
-+ enabled automatic login
-- disabled automatic screen lock
-- removed the lock screen button from the status menu
-+ set up the project directory
+Modifications/changes:
++ updated /etc/apt/sources.list with the latest server URL, and updated package lists:
+  $ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+  $ sudo apt update
++ installed OpenShot and GStreamer Libav plug-in:
+  $ sudo apt install openshot gstreamer1.0-libav
++ upgraded all packages:
+  $ sudo apt upgrade
++ enabled automatic login:
+  Settings > Details > Users > Automatic Login: ON
+- disabled automatic screen lock:
+  Settings > Privacy > Screen Lock > Automatic Screen Lock: OFF
+- removed the lock screen button from the status menu:
+  $ dconf write /org/gnome/desktop/lockdown/disable-user-switching true
++ set up the project directory:
+  (see README)
 + bookmarked the project directory in Nautilus
-+ created a shortcut to the project directory on the desktop
-+ added Terminal and OpenShot to Favorites
-- streamlined the Dash
-- selected "never" to notify me when a new Ubuntu version is available
-+ defragmented the hard disk
+  Click on, and drag, the ``introduction'' folder to left panel onto ``New bookmark.''
++ created a shortcut to the project directory on the desktop:
+  Nautilus > Preferences > Behavior: select ``Show action to create symbolic links''
+  Right-click on ``Default Project.osp,'' and select ``Create Link.''
+  Click on, and drag, the link to the desktop.
++ added Terminal and OpenShot to Favorites:
+  Open each application; in the Dash right-click on the application; and select ``Add to Favorites.''
+- streamlined the Dash:
+  For each application, in the Dash right-click on the application and select ``Remove from Favorites.''
+- selected ``never'' to notify me when a new Ubuntu version is available:
+  Software Updater > Settings > Notify me of a new Ubuntu version: Never
 
 Sent "Ubuntu 17.10.vmdk" and "Ubuntu 17.10.vmx" into a compressed folder, "Ubuntu 17.10.zip"
