@@ -4,20 +4,24 @@ ubuntu-17.10-desktop-amd64.iso
 
 VMware Workstation 15 Player:
 Created a new virtual machine entitled "Ubuntu 17.10" using Easy Install
-Memory: 4 GB, Processors: 2, Virtualization engine: Virtualize Intel VT-x/EPT
+Memory: 4 GB, Processors: 2, Virtualize Intel VT-x/EPT
 
 Modifications/changes:
 + created an account
++ updated /etc/apt/sources.list with the latest server URL (i.e., http://old-releases.ubuntu.com/ubuntu)
++ installed openshot and gstreamer1.0-libav
++ upgraded all packages
 + enabled automatic login
-+ $ sudo apt install openshot gstreamer1.0-libav
-+ added Terminal to Favorites
-+ added OpenShot to Favorites
+- disabled automatic screen lock
+- removed the lock screen button from the status menu
 + set up the project directory
 + bookmarked the project directory in Nautilus
 + created a shortcut to the project directory on the desktop
-+ $ sudo apt update
-+ $ sudo apt upgrade
-- disabled automatic screen lock
-- removed the lock screen button from the status menu
-- selected "never" to notify me when a new Ubuntu version is available
++ added Terminal and OpenShot to Favorites
 - streamlined the Dash
+- selected "never" to notify me when a new Ubuntu version is available
+
+Issue #1: virtual disk was split into multiple files...
+Trialed VMware Workstation 15 Pro
+$ vmware-vdiskmanager -r "Ubuntu 17.10.vmdk" -t 0 Ubuntu-17.10.vmdk
+Removed the old multiple files, and renamed the single file "Ubuntu 17.10.vmdk"
