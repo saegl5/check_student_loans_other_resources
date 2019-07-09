@@ -19,8 +19,15 @@ Linux terminal: $ sha1sum "Ubuntu 17.10.zip" (example)
 Windows 10 PowerShell: $ Get-FileHash "Ubuntu 17.10.zip" -Algorithm SHA1 (example)
 
 One can ignore ERROR 1 and the message, ``No LADSPA plugins were found!'' 
-To address ERROR 1 anyway, launch OpenShot with Python: $ python -m openshot
-To address ``ladspa,'' install---for example---the LADSPA SDK: $ sudo apt install ladspa-sdk
+To address ERROR 1 anyway, either launch OpenShot with Python from the ``openshot'' directory:
+$ cd /usr/share/openshot/openshot
+$ python -m openshot
+...or instruct OpenShot to launch immediately from the ``openshot'' directory, instead of trying /openshot/bin:
+$ sudo nano /usr/bin/openshot
+Change line 53 to ``from openshot.openshot import main'' (excluding quotation marks)
+
+To address ``ladspa'' anyway, install---for example---the LADSPA SDK: 
+$ sudo apt install ladspa-sdk
 (One may need to re-launch OpenShot twice, for it to recognize the newly installed plugin.)
 
 HOW THE IMAGE WAS CREATED
