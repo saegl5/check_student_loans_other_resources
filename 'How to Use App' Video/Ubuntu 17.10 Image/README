@@ -16,6 +16,8 @@ Modifications/changes:
 + set up the project directory
 + bookmarked the project directory in Nautilus
 + created a shortcut to the project directory on the desktop
++ $ sudo apt update
++ $ sudo apt upgrade
 - disabled automatic screen lock
 - removed the lock screen button from the status menu
 - selected "never" to notify me when a new Ubuntu version is available
