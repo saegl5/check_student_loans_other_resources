@@ -22,19 +22,16 @@ Modifications/changes:
 - selected "never" to notify me when a new Ubuntu version is available
 + defragmented the hard disk
 
-Issue #1: virtual disk was split into multiple files...was meant to be stored as a single file
-Trialed VMware Workstation 15 Pro
-$ vmware-vdiskmanager -r "Ubuntu 17.10.vmdk" -t 0 Ubuntu-17.10.vmdk
-Removed the old multiple files, and renamed the single file "Ubuntu 17.10.vmdk"
+Sent "Ubuntu 17.10.vmdk" and "Ubuntu 17.10.vmx" into a compressed folder, "Ubuntu 17.10.zip"
+Attempted to upload the zip file...
 
-Compressed "Ubuntu 17.10.vmdk" and "Ubuntu 17.10.vmx"
+Issue #1: Maximum upload filesize is 10 MiB (i.e., ~10.4 MB)
+Resolution: $ split -b 10m "Ubuntu 17.10.zip" "Ubuntu 17.10.zip.part-" -d
+(Parts are numbered 00-89 and 9000-9213, respectively.)
 
-Issue #2: maximum upload filesize is 10 MiB (i.e., about 10.4 MB), so the single file had to be split into parts
-ubuntu terminal: $ split -b 10m "Ubuntu 17.10.zip" "Ubuntu 17.10.zip.part-" -d
-(parts are numbered 00-89 and 9000-9213)
-
-Issue #3: files can only uploaded one at a time, so repository was cloned and the ubuntu terminal again utilized
+Issue #2: Files can only be uploaded one at a time through a web browser.
+Resolution:
 $ git add Ubuntu\ 17.10.zip.part-0*
 $ git commit -m "added zip parts via command line"
 $ git push origin master
-(repeated for 1*, 2*, ..., 900*, 901*, 902*, ..., ten or twenty parts at a time)
+(Repeated for 1*, 2*, ..., 900*, 901*, 902*, ..., ten or twenty parts at a time)
