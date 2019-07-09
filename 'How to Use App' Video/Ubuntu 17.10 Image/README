@@ -11,12 +11,8 @@ $ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
 $ gpg --verify SHA1SUMS.gpg SHA1SUMS (example)
 
 To verify the integrity of "Ubuntu 17.10.zip":
-Linux terminal: $ sha1sum Ubuntu\ 17.10.zip
-Windows 10 PowerShell: $ Get-FileHash '.\Ubuntu 17.10.zip' -Algorithm SHA1
-
-How to use gpg tools to verify the  of a file
-How to use sha256 tools to verify the integrity of a file
-
+Linux terminal: $ sha1sum Ubuntu\ 17.10.zip (example)
+Windows 10 PowerShell: $ Get-FileHash '.\Ubuntu 17.10.zip' -Algorithm SHA1 (example)
 
 SOURCE
 
