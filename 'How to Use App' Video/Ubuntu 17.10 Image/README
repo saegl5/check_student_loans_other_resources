@@ -4,7 +4,7 @@ Installation Instructions
 Linux terminal: $ cat * > "Ubuntu 17.10.zip"
 Windows 10 PowerShell: $ cmd /c copy /b * "Ubuntu 17.10.zip"
 
-Unzip "Ubuntu 17.10.zip," and open "Ubuntu 17.10.vmx" in VMware Workstation 15 Player.
+Unzip ``Ubuntu 17.10.zip,'' and open ``Ubuntu 17.10.vmx'' in VMware Workstation 15 Player.
 If one sees a login prompt, simply restart the virtual machine.
 
 Double-click on ``Default Project.osp'' on the desktop.
@@ -12,11 +12,11 @@ Double-click on ``Default Project.osp'' on the desktop.
 --------------------------------------------------------------------------------------------------
 Optional
 
-To verify the authenticity of "Ubuntu 17.10.zip":
+To verify the authenticity of ``Ubuntu 17.10.zip'':
 $ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
 $ gpg --verify SHA1SUMS.gpg SHA1SUMS (example)
 
-To verify the integrity of "Ubuntu 17.10.zip":
+To verify the integrity of ``Ubuntu 17.10.zip'':
 Linux terminal: $ sha1sum "Ubuntu 17.10.zip" (example)
 Windows 10 PowerShell: $ Get-FileHash "Ubuntu 17.10.zip" -Algorithm SHA1 (example)
 
@@ -33,7 +33,7 @@ ubuntu-17.10-desktop-amd64.iso
 (source: http://old-releases.ubuntu.com/releases/17.10/)
 
 VMware Workstation 15 Player:
-Created a new virtual machine entitled "Ubuntu 17.10" using Easy Install
+Created a new virtual machine entitled ``Ubuntu 17.10'' using Easy Install
 Memory: 4 GB, Processors: 2, Virtualize Intel VT-x/EPT
 
 Modifications/changes:
@@ -66,4 +66,4 @@ How to perform the modifications/changes:
 11) For each application, in the Dash right-click on the application and select ``Remove from Favorites.''
 12) Software Updater > Settings > Notify me of a new Ubuntu version: Never
 
-Sent "Ubuntu 17.10.vmdk" and "Ubuntu 17.10.vmx" to a compressed folder entitled "Ubuntu 17.10.zip"
+Sent ``Ubuntu 17.10.vmdk'' and ``Ubuntu 17.10.vmx'' to a compressed folder entitled ``Ubuntu 17.10.zip''

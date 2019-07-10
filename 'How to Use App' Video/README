@@ -32,7 +32,7 @@ $ sudo chmod -R o+w /usr/local/introduction
 $ cd /usr/local/introduction
 $ openshot "Default Project.osp"
 
-(5) update it, then export new "introduction.mov"
+(5) update it, then export new ``introduction.mov''
 
 File > Export Video...
 
@@ -63,5 +63,5 @@ $ sudo apt install ladspa-sdk (example)
 
 Images of Ubuntu 16.04 LTS, 16.10 and 17.04 may also work.
 Images of newer Ubuntu versions (i.e., 18.04 LTS onward), though, may not work.
-Videos were recorded in Open Broadcaster Software, hence the "obs" directory in /usr/local/introduction.
+Videos were recorded in Open Broadcaster Software, hence the ``obs'' directory in /usr/local/introduction.
 Make sure that imported files are located in the project directory; they are not copied or moved into the directory automatically.

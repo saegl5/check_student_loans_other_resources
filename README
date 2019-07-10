@@ -4,7 +4,7 @@ Keep iOS_app_overview.docx for personal reference.
 Instructional App
 |__course_material.docx
 |__iOS app
-    |__"'How to Use App' Video"/introduction.mov     <-- what subjects see, when app launches
+    |__``'How to Use App' Video''/introduction.mov     <-- what subjects see, when app launches
     
 
 Supplementary
@@ -18,4 +18,4 @@ Source Code
 |__deeper_insight.tex
 |__extra_insight.tex
 
-"'How to Use App' Video" directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
+``'How to Use App' Video'' directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
