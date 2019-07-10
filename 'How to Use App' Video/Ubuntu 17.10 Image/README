@@ -50,7 +50,7 @@ Modifications/changes:
 4)  enabled automatic login
 5)  disabled automatic screen lock
 6)  removed the lock screen button from the status menu
-7)  set up the project directory (see README)
+7)  set up the project directory (see  ``'How to Use App' Video'' README)
 8)  bookmarked the project directory in Nautilus
 9)  created a shortcut to the project directory on the desktop
 10) added Terminal and OpenShot to Favorites
