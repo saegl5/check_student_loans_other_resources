@@ -20,16 +20,6 @@ To verify the integrity of "Ubuntu 17.10.zip":
 Linux terminal: $ sha1sum "Ubuntu 17.10.zip" (example)
 Windows 10 PowerShell: $ Get-FileHash "Ubuntu 17.10.zip" -Algorithm SHA1 (example)
 
-To address ERROR 1:
-$ cd /usr/share/openshot/openshot
-$ python -m openshot
-Alternatively:
-$ sudo nano /usr/bin/openshot
-Change line 53 to ``from openshot.openshot import main'' (excluding quotation marks)
-
-To address ``No LADSPA plugins were found!'': 
-$ sudo apt install ladspa-sdk (example)
-
 --------------------------------------------------------------------------------------------------
 
 Caveats:
