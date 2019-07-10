@@ -7,6 +7,8 @@ Windows 10 PowerShell: $ cmd /c copy /b * "Ubuntu 17.10.zip"
 Unzip "Ubuntu 17.10.zip," and open "Ubuntu 17.10.vmx" in VMware Workstation 15 Player.
 If one sees a login prompt, simply restart the virtual machine.
 
+Double-click on ``Default Project.osp'' on the desktop.
+
 --------------------------------------------------------------------------------------------------
 Optional
 
@@ -36,8 +38,10 @@ The image does not provide root access. If one needs root access, replicate the 
 
 
 
+
+
+--------------------------------------------------------------------------------------------------
 How the Image Was Created
--------------------------
 
 Downloaded the base operating system:
 ubuntu-17.10-desktop-amd64.iso
@@ -68,7 +72,7 @@ How to perform the modifications/changes:
 4)  Settings > Details > Users > Automatic Login: ON
 5)  Settings > Privacy > Screen Lock > Automatic Screen Lock: OFF
 6)  $ dconf write /org/gnome/desktop/lockdown/disable-user-switching true
-7)  See ``'How to Use App' Video'' README
+7)  See ``'How to Use App' Video'' README, steps (2) and (3)
 8)  Click on, and drag, the ``introduction'' folder to left panel onto ``New bookmark.''
 9)  Nautilus > Preferences > Behavior: select ``Show action to create symbolic links''
         Right-click on ``Default Project.osp,'' and select ``Create Link.''
