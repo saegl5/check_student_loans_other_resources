@@ -1,29 +1,24 @@
 iOS app
-  |__"'How to Use App' Video"/introduction.mov
+  |__``'How to Use App' Video''/introduction.mov
 
-introduction.mov is exported from OpenShot 1.4.3 on Ubuntu 17.10
-Target: MOV (h.264)
-Video Profile: iOS_profile
+introduction.mov was exported from OpenShot 1.4.3 on Ubuntu 17.10
 
+See ``Ubuntu 17.10 Image'' to install or replicate a working image of the project in Ubuntu.
+Instructions below assume one has their own image of Ubuntu 17.10. 
 
-Export NEW introduction.mov
----------------------------
-
-download "ubuntu-17.10-desktop-amd64.iso" from http://old-releases.ubuntu.com/releases/17.10/
-install it in a virtual machine (e.g., vmware workstation player)
-power on the virtual machine
+Export Instructions
+-------------------
 
 (1) install OpenShot
 
 ...launch a terminal
-$ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
-$ sudo apt update
+$ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list && sudo apt update
 $ sudo apt install openshot
 
 (2) install iOS_profile
 
 ...launch openshot, then close it
-...back to terminal
+...back to the terminal
 $ mv iOS_profile ~/.openshot/user_profiles/
 
 (3) extract introduction.tar.gz, and set permissions
@@ -35,34 +30,38 @@ $ sudo chmod -R o+w /usr/local/introduction
 (4) open the project
 
 $ cd /usr/local/introduction
-$ openshot Default\ Project.osp
+$ openshot "Default Project.osp"
 
 (5) update it, then export new "introduction.mov"
 
 File > Export Video...
+
 File Name: introduction
 Profile: All Formats
 Target: MOV (h.264)
 Video Profile: iOS_profile
+
 Export Video
 
-(6) OPTIONAL: Replace original archive, and clean up
+--------------------------------------------------------------------------------------------------
+Optional
 
-...back to terminal
+Compress the archive, and clean up:
 $ sudo tar -czf introduction.tar.gz *
+Move introduction.tar.gz out of the directory
 $ sudo rm -r /usr/local/introduction
 
+To address ERROR 1: 
+$ cd /usr/share/openshot/openshot && python -m openshot
 
-Notes
------
-(1) video clips and images may render differently between Ubuntu and macOS, due to differences between GTK+ and Qt
-(2) researcher recorded videos in Open Broadcaster Software (OBS), hence the "obs" directory in /usr/local/introduction
+To address ``No LADSPA plugins were found!'': 
+$ sudo apt install ladspa-sdk (example)
 
+--------------------------------------------------------------------------------------------------
 
+[Notes]
 
-
-
-(1) macOS: https://github.com/OpenShot/openshot-qt/releases/download/v2.4.1/OpenShot-v2.4.1-x86_64.dmg
-(2) macOS: $ cp iOS_profile ~/.openshot_qt/profiles/
-(4) macOS: open .. > drag "introduction" directory onto sidebar
-(4) macOS: (back to terminal) $ open -a "OpenShot Video Editor" > Open Project > "introduction" directory from sidebar > Default\ Project.osp
+Images of Ubuntu 16.04 LTS, 16.10 and 17.04 may also work.
+Images of newer Ubuntu versions (i.e., 18.04 LTS onward), though, may not work.
+Videos were recorded in Open Broadcaster Software (OBS), hence the "obs" directory in /usr/local/introduction.
+Make sure that imported files are located in the project directly; they are not copied or moved into the directory automatically.
