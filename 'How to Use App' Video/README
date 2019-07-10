@@ -46,7 +46,7 @@ Export Video
 --------------------------------------------------------------------------------------------------
 Optional
 
-Compress the archive, and clean up:
+Compress the project (i.e., archive it), and clean up:
 $ sudo tar -czf introduction.tar.gz *
 Move introduction.tar.gz out of the directory
 $ sudo rm -r /usr/local/introduction
@@ -63,5 +63,5 @@ $ sudo apt install ladspa-sdk (example)
 
 Images of Ubuntu 16.04 LTS, 16.10 and 17.04 may also work.
 Images of newer Ubuntu versions (i.e., 18.04 LTS onward), though, may not work.
-Videos were recorded in Open Broadcaster Software (OBS), hence the "obs" directory in /usr/local/introduction.
-Make sure that imported files are located in the project directly; they are not copied or moved into the directory automatically.
+Videos were recorded in Open Broadcaster Software, hence the "obs" directory in /usr/local/introduction.
+Make sure that imported files are located in the project directory; they are not copied or moved into the directory automatically.
