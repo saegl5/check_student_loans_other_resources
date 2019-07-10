@@ -11,14 +11,14 @@ Export Instructions
 
 (1) Install OpenShot.
 
-...launch a terminal.
+Launch a terminal.
 $ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list && sudo apt update
 $ sudo apt install openshot
 
 (2) Install the iOS_profile.
 
-...launch OpenShot, then close it.
-...back to the terminal
+Launch OpenShot, then close it.
+Return to the terminal.
 $ mv iOS_profile ~/.openshot/user_profiles/
 
 (3) Extract introduction.tar.gz, and set permissions.
