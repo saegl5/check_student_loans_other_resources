@@ -64,6 +64,7 @@ How to perform the modifications/changes:
 4)  Settings > Details > Users > Automatic Login: ON
 5)  Settings > Privacy > Screen Lock > Automatic Screen Lock: OFF
 6)  $ dconf write /org/gnome/desktop/lockdown/disable-user-switching true
+7)  See ``'How to Use App' Video'' README
 8)  Click on, and drag, the ``introduction'' folder to left panel onto ``New bookmark.''
 9)  Nautilus > Preferences > Behavior: select ``Show action to create symbolic links''
         Right-click on ``Default Project.osp,'' and select ``Create Link.''
