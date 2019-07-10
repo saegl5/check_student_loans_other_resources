@@ -40,8 +40,9 @@ The image does not provide root access. If one needs root access, replicate the 
 
 
 
---------------------------------------------------------------------------------------------------
+
 How the Image Was Created
+-------------------------
 
 Downloaded the base operating system:
 ubuntu-17.10-desktop-amd64.iso
