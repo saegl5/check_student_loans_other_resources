@@ -3,53 +3,50 @@ iOS app
 
 introduction.mov was exported from OpenShot 1.4.3 on Ubuntu 17.10.
 
-See ``Ubuntu 17.10 Image'' to install or replicate a working image of the project in Ubuntu.
-Instructions below assume one has their own image of Ubuntu 17.10. 
-
 Export Instructions
 -------------------
 
-(1) Install OpenShot.
+(1) Install Ubuntu 17.10 in a virtual machine.
+
+Download ubuntu-17.10-desktop-amd64.iso from http://old-releases.ubuntu.com/releases/17.10/
+Download VMware Workstation 15 Player from https://www.vmware.com/products/workstation-player.html
+Create a new virtual machine entitled ``Ubuntu 17.10'' using Easy Install.
+Memory: 4 GB, Processors: 2, Virtualize Intel VT-x/EPT or AMD-V/RVI
+
+(2) Install OpenShot 1.4.3 and GStreamer Libav plug-in.
 
 Launch a terminal.
 $ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list && sudo apt update
-$ sudo apt install openshot
+$ sudo apt install openshot gstreamer1.0-libav
 
-(2) Install the iOS_profile.
+(3) Install the iOS_profile.
 
 Launch OpenShot, then close it.
 Return to the terminal.
 $ mv iOS_profile ~/.openshot/user_profiles/
 
-(3) Extract introduction.tar.gz, and set permissions.
+(4) Extract introduction.tar.gz, and set permissions.
 
 $ sudo mkdir /usr/local/introduction
 $ sudo tar -xzf introduction.tar.gz -C /usr/local/introduction
 $ sudo chmod -R o+w /usr/local/introduction
 
-(4) Open the project.
+(5) Open the project.
 
 $ cd /usr/local/introduction
 $ openshot "Default Project.osp"
 
-(5) Update it, then export a new ``introduction.mov.''
+(6) Update it, then export a new ``introduction.mov.''
 
 File > Export Video...
-
 File Name: introduction
 Profile: All Formats
 Target: MOV (h.264)
 Video Profile: iOS_profile
-
 Export Video
 
 --------------------------------------------------------------------------------------------------
 Optional
-
-Compress the project (i.e., archive it), and clean up:
-$ sudo tar -czf introduction.tar.gz *
-Move introduction.tar.gz out of the directory.
-$ sudo rm -r /usr/local/introduction
 
 To address ERROR 1:
 $ cd /usr/share/openshot/openshot && python -m openshot
@@ -57,11 +54,17 @@ $ cd /usr/share/openshot/openshot && python -m openshot
 To address ``No LADSPA plugins were found!'':
 $ sudo apt install ladspa-sdk (example)
 
+Compress the project (i.e., archive it), and clean up:
+$ sudo tar -czf introduction.tar.gz *
+Move introduction.tar.gz out of the directory.
+$ sudo rm -r /usr/local/introduction
+
 --------------------------------------------------------------------------------------------------
 
 [Notes]
 
 Images of Ubuntu 16.04 LTS, 16.10 and 17.04 may also work.
 Images of newer Ubuntu versions (i.e., 18.04 LTS onward), though, may not work.
+OpenShot 1.4.3 is unstable, so save the project frequently.
 Videos were recorded in Open Broadcaster Software (OBS), hence presence of the ``obs'' directory in /usr/local/introduction.
 Make sure that imported files are located in the project directory; they are not copied or moved into the directory automatically.
