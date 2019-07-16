@@ -1,5 +1,5 @@
 %
-% Insight - extra.tex
+% extra_insight.tex
 % Student Loans
 %
 % Created by Ed Silkworth on 6/7/19.
@@ -386,11 +386,18 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{2.09}-\mathtt{\interestitf}\Big\}\\
 	&=\mathtt{\balanceitf}-\mathtt{358.40}\\
 	&=\mathtt{\$0}\\[12pt]
-	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Monthly\ Balance:}\\
+	&\!\!\!\!\!\!\!\mathtt{2000.00}\quad +\qquad\mathtt{2000.00}\cdot \mathtt{\rate}\quad -\quad \mathtt{550.00}\quad =\quad \mathtt{1453.85}\\
+	&\!\!\!\!\!\!\!\mathtt{1453.85}\quad +\qquad\mathtt{1453.85}\cdot \mathtt{\rate}\quad -\quad \mathtt{550.00}\quad =\quad \ \ \mathtt{906.65}\\
+	&\!\!\!\!\!\!\!\ \ \mathtt{906.65}\quad +\qquad\ \ \mathtt{906.65}\cdot \mathtt{\rate}\quad -\quad \mathtt{550.00}\quad =\quad\ \ \mathtt{358.40}\\
+	% &\!\!\!\!\!\!\!\mathtt{906.65}\quad +\qquad\mathtt{906.65}\cdot \mathtt{\rate}\quad -\quad \mathtt{550.00}\quad =\quad \mathtt{358.40}\\
+	% &\vdots\qquad\qquad\qquad\qquad\qquad\qquad\ \ \vdots\qquad\quad\,\ \vdots\qquad\quad\ \ \ \:\vdots\\
+	&\!\!\!\!\!\!\!\ \ \mathtt{358.40}\quad +\qquad\ \ \mathtt{358.40}\cdot \mathtt{\rate}\quad -\quad \mathtt{377.53}\quad =\quad\ \ \ \ \ \ \mathtt{0.00}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ Pay:}\\
 	&\!\!\!\!\!\!\!\mathtt{546.15\ Prin.}\quad +\quad\;\:\mathtt{3.85\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
 	&\!\!\!\!\!\!\!\mathtt{547.20\ Prin.}\quad +\quad\;\:\mathtt{2.80\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
 	&\!\!\!\!\!\!\!\mathtt{548.25\ Prin.}\quad +\quad\;\:\mathtt{1.75\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\quad\mathtt{19.13\ Int.}\quad =\quad\mathtt{\amountfinal}
+	&\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\ \ \ \,\mathtt{19.13\ Int.}\quad =\ \ \ \,\mathtt{\amountfinal}
 	\end{align*}
 	\end{example}
 
@@ -503,13 +510,20 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{0.14}-\mathtt{\interestitf}\Big\}\\
 	&=\mathtt{\balanceitf}-\mathtt{47.26}\\
 	&=\mathtt{\$0}\\[12pt]
-	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Monthly\ Balance:}\\
+	&\!\!\!\!\!\!\!\mathtt{5000.00}\quad +\qquad\mathtt{5000.00}\cdot \mathtt{0.00287...}\quad -\quad \mathtt{200.00}\quad =\quad \mathtt{4803.59}\\
+	&\!\!\!\!\!\!\!\mathtt{4803.59}\quad +\qquad\mathtt{4803.59}\cdot \mathtt{0.00287...}\quad -\quad \mathtt{200.00}\quad =\quad \mathtt{4607.04}\\
+	&\!\!\!\!\!\!\!\mathtt{4607.04}\quad +\qquad\mathtt{4607.04}\cdot \mathtt{0.00287...}\quad -\quad \mathtt{200.00}\quad =\quad\mathtt{4410.35}\\
+	&\!\!\!\!\!\!\!\mathtt{4410.35}\quad +\qquad\mathtt{4410.35}\cdot \mathtt{0.00287...}\quad -\quad \mathtt{200.00}\quad =\quad \mathtt{4213.52}\\
+	&\qquad\ \:\vdots\qquad\qquad\qquad\qquad\qquad\quad\ \ \ \ \ \vdots\qquad\qquad\quad\ \ \vdots\qquad\qquad\qquad\:\ \vdots\\
+	&\!\!\!\!\!\!\!\ \ \ \ \mathtt{47.26}\quad +\qquad\ \ \ \ \,\mathtt{47.26}\cdot \mathtt{0.00287...}\quad -\quad \mathtt{189.17}\quad =\quad\ \ \ \ \ \ \mathtt{0.00}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ Pay:}\\
 	&\!\!\!\!\!\!\!\mathtt{196.41\ Prin.}\quad +\quad\;\:\mathtt{3.59\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
 	&\!\!\!\!\!\!\!\mathtt{196.55\ Prin.}\quad +\quad\;\:\mathtt{3.45\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
 	&\!\!\!\!\!\!\!\mathtt{196.69\ Prin.}\quad +\quad\;\:\mathtt{3.31\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
 	&\!\!\!\!\!\!\!\mathtt{196.83\ Prin.}\quad +\quad\;\:\mathtt{3.17\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\qquad\qquad\,\vdots \qquad\qquad\qquad\quad\ \,\vdots \qquad\qquad\qquad\vdots\\
-	&\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\quad\mathtt{141.91\ Int.}\quad =\quad\mathtt{\amountfinal}
+	&\qquad\qquad\ \ \vdots \qquad\qquad\qquad\quad\:\vdots \qquad\qquad\quad\ \ \ \vdots\\
+	&\!\!\!\!\,\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\ \ \ \mathtt{141.91\ Int.}\quad =\ \ \ \,\mathtt{\amountfinal}
 	\end{align*}
 	\end{example}
 
@@ -622,13 +636,20 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\balanceitf}-\Big\{\mathtt{\amountfinal}-\mathtt{0.75}-\mathtt{\interestitf}\Big\}\\
 	&=\mathtt{\balanceitf}-\mathtt{131.70}\\
 	&=\mathtt{\$0}\\[48pt] % 12x4pt acts as \newpage
-	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
-	&\!\!\!\!\!\!\!\mathtt{94.62\ Prin.}\quad +\quad\;\:\mathtt{38.25\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\!\!\!\!\!\!\!\mathtt{94.89\ Prin.}\quad +\quad\;\:\mathtt{37.98\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\!\!\!\!\!\!\!\mathtt{95.16\ Prin.}\quad +\quad\;\:\mathtt{37.71\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\!\!\!\!\!\!\!\mathtt{95.43\ Prin.}\quad +\quad\;\:\mathtt{37.44\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
-	&\qquad\quad\ \:\,\vdots \qquad\qquad\qquad\quad\ \ \ \,\vdots \qquad\qquad\qquad\quad\:\,\vdots\\
-	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{2,443.99\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Monthly\ Balance:}\\
+	&\!\!\!\!\!\!\!\mathtt{13500.00}\quad +\qquad\mathtt{13500.00}\cdot \mathtt{\rate}\quad -\quad \mathtt{132.87}\quad =\quad \mathtt{13405.38}\\
+	&\!\!\!\!\!\!\!\mathtt{13405.38}\quad +\qquad\mathtt{13405.38}\cdot \mathtt{\rate}\quad -\quad \mathtt{132.87}\quad =\quad \mathtt{13310.49}\\
+	&\!\!\!\!\!\!\!\mathtt{13310.49}\quad +\qquad\mathtt{13310.49}\cdot \mathtt{\rate}\quad -\quad \mathtt{132.87}\quad =\quad\mathtt{13215.33}\\
+	&\!\!\!\!\!\!\!\mathtt{13215.33}\quad +\qquad\mathtt{13215.33}\cdot \mathtt{\rate}\quad -\quad \mathtt{132.87}\quad =\quad \mathtt{13119.90}\\
+	&\qquad\ \ \ \ \vdots\qquad\qquad\qquad\qquad\qquad\quad\ \ \ \ \ \ \ \vdots\qquad\qquad\quad\ \,\ \vdots\qquad\qquad\qquad\:\ \ \ \vdots\\
+	&\!\!\!\!\!\!\!\ \ \ \ \mathtt{131.70}\quad +\qquad\ \ \ \ \,\mathtt{131.70}\cdot \mathtt{\rate}\quad -\ \ \mathtt{2575.69}\quad =\quad\ \ \ \ \ \ \ \ \mathtt{0.00}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ Pay:}\\
+	&\!\!\!\mathtt{94.62\ Prin.}\quad +\quad\;\:\mathtt{38.25\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\mathtt{94.89\ Prin.}\quad +\quad\;\:\mathtt{37.98\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\mathtt{95.16\ Prin.}\quad +\quad\;\:\mathtt{37.71\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\!\!\!\mathtt{95.43\ Prin.}\quad +\quad\;\:\mathtt{37.44\ Int.}\quad =\quad\quad\,\,\mathtt{\amount}\\
+	&\qquad\quad\ \ \ \ \ \ \vdots \qquad\qquad\qquad\quad\ \ \; \vdots \qquad\qquad\qquad\quad\:\vdots\\
+	&\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\!\quad\mathtt{2443.99\ Int.}\quad =\quad\ \ \; \mathtt{2575.69}
 	\end{align*}
 	\end{example}
 
@@ -678,8 +699,10 @@ This document consists of examples. It also includes derivations for the monthly
 	% Refund-------------------------
 	R&=a-a_{\rm{f}}=\mathtt{977.33}\ ;\\
 	&\quad\;\mathtt{``Refunded\ \$977.33"}\\[12pt] % strange: should be ``''
-	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
-	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{22.67\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Monthly\ Balance:}\\
+	&\!\!\!\!\!\!\!\mathtt{4000.00}\quad +\quad\mathtt{4000.00}\cdot \mathtt{\rate}\quad -\quad \mathtt{4022.67}\quad =\quad \mathtt{0.00}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ Pay:}\\
+	&\!\!\!\!\!\!\!\mathtt{4000.00\ Prin.}\quad +\quad\mathtt{22.67\ Int.}\quad =\quad\mathtt{4022.67}
 	\end{align*}
 	\end{example}
 
@@ -729,8 +752,10 @@ This document consists of examples. It also includes derivations for the monthly
 	% Refund-------------------------
 	E&=\left|a-a_{\rm{f}}\right|=\mathtt{22.67}\ ;\\
 	&\quad\;\mathtt{``Pay\ Extra\ \$22.67"}\\[12pt]
-	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ pay:}\\
-	&\!\!\!\!\!\!\!\!\!\!\mathtt{\balanceitf\ Prin.}\quad +\!\!\!\!\!\quad\mathtt{22.67\ Int.}\quad =\quad\ \ \mathtt{\amountfinal}
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Monthly\ Balance:}\\
+	&\!\!\!\!\!\!\!\mathtt{4000.00}\quad +\quad\mathtt{4000.00}\cdot \mathtt{\rate}\quad -\quad \mathtt{4022.67}\quad =\quad \mathtt{0.00}\\[12pt]
+	&\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\mathtt{Breakdown\ of\ Pay:}\\
+	&\!\!\!\!\!\!\!\mathtt{4000.00\ Prin.}\quad +\quad\mathtt{22.67\ Int.}\quad =\quad\mathtt{4022.67}
 	\end{align*}
 	\end{example}
 
