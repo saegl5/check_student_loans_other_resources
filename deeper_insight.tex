@@ -226,15 +226,25 @@ This document consists of context, an overview, starting terminology and a summa
 	\end{remark}
 
 	\newpage
-	Breakdown of pay,
+	Monthly Balance,
 	\small
+	\begin{align*}
+	B_{0}\quad +\qquad\big\lfloor{\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{1}\\
+	B_{1}\quad +\qquad\big\lfloor{\left(B_{1}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{2}\\
+	B_{2}\quad +\qquad\big\lfloor{\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{3}\\
+	B_{3}\quad +\qquad\big\lfloor{\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{4}\\
+	\vdots\qquad\qquad\qquad\qquad\qquad\qquad\ \ \vdots\qquad\quad\,\ \vdots\qquad\quad\ \ \ \:\vdots\\
+	B_{n-1}\quad +\quad\,\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100\ \ \ \;-\ \ \ a_{\rm{f}}\quad =\ \ \ \,B_{n}
+	\end{align*}
+	
+	Breakdown of Pay,
 	\begin{align*}
 	a-\big\lfloor{\alpha\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Prin.}&\quad +\quad \qquad\quad\ \ \ \big\lfloor{\alpha\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Int.}&\, =\quad a&\\
 	a-\big\lfloor{\alpha\left(B_{1}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Prin.}&\quad +\quad \qquad\quad\ \ \ \big\lfloor{\alpha\left(B_{1}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Int.}&\, =\quad a&\\
 	a-\big\lfloor{\alpha\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Prin.}&\quad +\quad \qquad\quad\ \ \ \big\lfloor{\alpha\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Int.}&\, =\quad a&\\
 	a-\big\lfloor{\alpha\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Prin.}&\quad +\quad \qquad\quad\ \ \ \big\lfloor{\alpha\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Int.}&\, =\quad a&\\
-	\vdots&\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\ \ \ \,\,\vdots&\vdots&\\
-	B_{n-1}\mbox{\ Prin.}&\quad +\quad \big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100+O_{n-1}\mbox{\ Int.}&\, =\ \ \,a_{\rm{f}}&
+	&&\vdots&\\
+	B_{n-1}\mbox{\ Prin.}&\quad +\quad\ \:\:\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100+O_{n-1}\mbox{\ Int.}& =\,\ \ \,a_{\rm{f}}&
 	\end{align*}
 	\normalsize
 
@@ -273,13 +283,13 @@ This document consists of context, an overview, starting terminology and a summa
 	Be mindful of the differences between $\lfloor{\ }\rceil$, $\lfloor{\ }\rfloor$ and $\left|\;\ \right|$. The former brackets correspond to the nearest integer (i.e., \texttt{nint}) function, middle ones to the nearest lowest integer (i.e., \texttt{floor}) function, and latter the absolute value (i.e., \texttt{abs}) function.
 	\end{remark}
 
-	\vspace{12pt}
+	\newpage
 	\setlength\parindent{0pt} Absolute minimum monthly payment (\$):
 	$$a_{\rm{min_{\mathnormal{n}}}}=\big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100+0.01$$
 	$$$$
 	$$a_{\rm{min_{\mathnormal{n}}}}=\quad\quad\quad\emphasis{\ \big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100}{applied to interest}\quad\quad\quad+\ \emphasis{\ 0.01}{applied to principal}$$
 
-	\newpage
+	\vspace{12pt}
 	\setlength\parindent{0pt} Ten-year minimum monthly payment (\$):\footnote{See section 3 of ``Extra Insight into the iOS App'' for more information on the ten-year payment.}
 	\newcommand{\base}{\left(1+\alpha\cdot i\right)}
 	\small
