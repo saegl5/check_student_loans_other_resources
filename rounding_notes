@@ -4,7 +4,7 @@ Notes:
     However, iOS sometimes rounds the remainder .##4999... down (e.g., 2.454999... to 2.45).
     So, test the remainder: (let amount be "a")
     
-    	if (a*100 - floor(a*100) > 0.499999) && (a*100 - floor(a*100) < 0.5)
+    	if (a*100 - floor(a*100) > 0.499999) && (a*100 - floor(a*100) < 0.500001)
     		{ a = round(a*100 + 1)/100 }
     	else { a = round(a*100)/100 }
     
@@ -13,7 +13,7 @@ Notes:
     	2.454999...*100 = 245.4999...
         floor(245.4999...) = 245
         So, 245.4999... - 245 = 0.4999...
-        Meaning, 0.4999... > 0.499999 && 0.4999... < 0.5 are true
+        Meaning, 0.4999... > 0.499999 && 0.4999... < 0.500001 are true
     
         Therefore, a = round(245.4999... + 1)/100
         = round(246.4999...)/100
