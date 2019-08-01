@@ -215,14 +215,15 @@ This document consists of context, an overview, starting terminology and a summa
 	\vspace{12pt}
 	\texttt{set} $\quad n=m$\\
 	\texttt{set} $\quad a_{\rm{f}}=B_{n-1}+\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100\ \ +\emphasis{\ O_{n-1}}{paid now}$\;
-	$\quad\quad\;\;\;\,B_{n}=B_{n-1}-\Big\{a_{\rm{f}}-\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100-O_{n-1}\Big\}\quad (=0)$
+	$\quad\quad\;\;\;\,B_{n}=B_{n-1}-\Big\{a_{\rm{f}}-\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100-O_{n-1}\Big\}\quad (=0)$\\[3pt]
+	$\quad\quad\;\;\;\,(O_{n}=0)$
 	\setstretch{1}
 	\end{algorithm}
 	\end{minipage}
 	\end{figure}
 	
 	\begin{remark}
-	If one is programming the \texttt{while} loop in Swift, round $B_{m}$ and $O_{m}$ to the nearest two decimal places after each iteration of the loop. Otherwise, the values of $B_{m}$ and $O_{m}$ may drift by one cent or more over time. Simultaneously, inform Swift to round a quantity upward two places, if it has a hundredth remainder between, say, 0.499999 and 0.500001 exclusive; otherwise, Swift will round downward. The researcher checked and rounded proportion of interest that is paid, interest owed, interest paid, $B_{m}$, $O_{m}$ and the absolute minimum monthly payment. He checked and rounded other quantities, as well, but doing so was not as crucial.
+	If one is programming the \texttt{while} loop in Swift, round $B_{m}$ and $O_{m}$ to the nearest two decimal places after each iteration of the loop. Otherwise, the values of $B_{m}$ and $O_{m}$ may drift by one cent or more over time. Simultaneously, inform Swift to round a quantity upward two places, if it has a hundredth remainder between, say, 0.499999 and 0.5 exclusive; otherwise, Swift will round downward. The researcher checked and rounded proportion of interest that is paid, interest owed, interest paid, $B_{m}$, $O_{m}$ and the absolute minimum monthly payment. He checked and rounded other quantities, as well, but doing so was not as crucial.
 	\end{remark}
 
 	\newpage
