@@ -41,14 +41,14 @@
 \newcommand{\emphasis}[3][black]{
 	\settowidth{\emphasislength}{#3} % using length of ``#3,'' which refers to the emphasis text (e.g., `interest paid')
 	\stackrel{ % stacking above a math expression
-		\begin{minipage}{\emphasislength}
-		\color{#1}\centering #3\\ % ``#1'' refers to the `black' color
-		\rule{0.25pt}{10pt} % {line thickness}{line height}
-		\end{minipage}
+	\begin{minipage}{\emphasislength}
+	\color{#1}\centering #3\\ % ``#1'' refers to the `black' color
+	\rule{0.25pt}{10pt} % {line thickness}{line height}
+	\end{minipage}
 	}
 	{\colorbox[rgb]{0.95,0.95,0.95} % boxing the math expression, each rgb color is 95% of 255
-		{\color{#1}$#2$ % ``#2'' refers to the math expression
-		}
+	{\color{#1}$#2$ % ``#2'' refers to the math expression
+	}
 	}
 }
 
