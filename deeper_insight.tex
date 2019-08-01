@@ -41,14 +41,14 @@
 \newcommand{\emphasis}[3][black]{
 	\settowidth{\emphasislength}{#3} % using length of ``#3,'' which refers to the emphasis text (e.g., `interest paid')
 	\stackrel{ % stacking above a math expression
-		\begin{minipage}{\emphasislength}
-		\color{#1}\centering #3\\ % ``#1'' refers to the `black' color
-		\rule{0.25pt}{10pt} % {line thickness}{line height}
-		\end{minipage}
+	\begin{minipage}{\emphasislength}
+	\color{#1}\centering #3\\ % ``#1'' refers to the `black' color
+	\rule{0.25pt}{10pt} % {line thickness}{line height}
+	\end{minipage}
 	}
 	{\colorbox[rgb]{0.95,0.95,0.95} % boxing the math expression, each rgb color is 95% of 255
-		{\color{#1}$#2$ % ``#2'' refers to the math expression
-		}
+	{\color{#1}$#2$ % ``#2'' refers to the math expression
+	}
 	}
 }
 
@@ -101,18 +101,18 @@ This document consists of context, an overview, starting terminology and a summa
 
 	\rhead{\thepage} % display page number on second page onward
 	\begin{table}[H] % places table directly underneath section heading
-		\centering
-		\rotatebox{90}{
-			\begin{minipage}{1.25\textwidth} % centers table vertically
-				\begin{tabular}{c c c}
-					Main Screen & & Mathematics Screen \\[12pt]
-					\includegraphics[height=4.6in]{main} & & 
-					\qquad\ \ \includegraphics[height=4.6in]{math} \\[12pt] % \qquad is for spacing
-					Not displayed: increment timers & \qquad\qquad & Caution: $a$ and $\alpha$ are different quantities. \\
-					& & ``[\textit{R} or \textit{E}]'' means one or the other may be displayed. \\
-				\end{tabular}
-			\end{minipage}
-		}
+	\centering
+	\rotatebox{90}{
+	\begin{minipage}{1.25\textwidth} % centers table vertically
+	\begin{tabular}{c c c}
+	Main Screen & & Mathematics Screen \\[12pt]
+	\includegraphics[height=4.6in]{main} & & 
+	\qquad\ \ \includegraphics[height=4.6in]{math} \\[12pt] % \qquad is for spacing
+	Not displayed: increment timers & \qquad\qquad & Caution: $a$ and $\alpha$ are different quantities. \\
+	& & ``[\textit{R} or \textit{E}]'' means one or the other may be displayed. \\
+	\end{tabular}
+	\end{minipage}
+	}
 	\end{table}
 
 	\newpage
