@@ -190,7 +190,7 @@ This document consists of examples. It also includes derivations for the monthly
 
 	\newpage
 
-	\subsection{Ten-year minimum monthly payment}
+	\subsection{Ten-year minimum monthly payment}\label{errorcheck}
 	If $\mbox{APR}=7\%$, $\alpha=0$ and $p=\$35,221$,
 	\begin{align*}
 	i&=\mathtt{0.00583...}>0\\
@@ -1026,7 +1026,7 @@ This document consists of examples. It also includes derivations for the monthly
 
 	\newpage
 
-\section{Derivation of Monthly Compound Interest Rate}%\label{section4}
+\section{Derivation of Monthly Compound Interest Rate}
 
 	\begin{definition}\label{def1}
 	If interest is compounded, it is compounded daily. Let daily payment balance be a function of each day's previous balance and the annual interest rate:
@@ -1085,7 +1085,7 @@ This document consists of examples. It also includes derivations for the monthly
 
 	\newpage
 	
-\section{Derivation of Ten-Year Minimum Payment}%\label{section5}
+\section{Derivation of Ten-Year Minimum Payment}
 
 	\begin{definition}
 	Student loan payments are made in monthly installments. Let the monthly principal balance, be a function of each month's previous balance, the interest rate, minimum payment and proportion of interest that is paid, such that:
@@ -1228,14 +1228,14 @@ This document consists of examples. It also includes derivations for the monthly
 	\end{remark}
 	
 	\vspace{12pt}
-	\begin{remark} The caveat to using the former expression, though, is that each numerical solution of $a_{\rm{min_{120}}}$ could still deviate by one cent or more from each solution had they been computed by using the latter expression. For example, for default parameters (i.e., $p_{\rm{min}}=\$2,000$, $p_{\rm{max}}=\$10,000$, $N=40$, $\mbox{APR}=4.45\%$ [not compounded] and $\alpha =1$) no numerical solutions deviate. If $\mbox{APR}=5\%$, all other parameters being the default, one solution deviates by a cent; the correct solution for $p=\$4,600$ should be $a_{\rm{min_{120}}}=\$48.79$, not $\$48.80$. If one widens the range of $p$, more solutions may deviate. Roughly 2\% of all solutions deviate, by at most one cent, half in each direction.\footnote{Based on 200,002 computations for $p_{\rm{min}}=\$0$, $p_{\rm{max}}=\$100,000$, $N=100,000$ and $\alpha =1$, first for $\mbox{APR}=4.45\%$ (not compounded) and then for  $\mbox{APR}=5\%$ (not compounded).} Open ``Ten-Year\_Minimum\_Errors.ipynb'' in Jupyter Notebook or Jupyter Lab, customize the cell, and run it to see for one self.
+	\begin{remark} The caveat to using the former expression, though, is that each numerical solution of $a_{\rm{min_{120}}}$ could still deviate by one cent or more from each solution had they been computed by using the latter expression. For example, for default parameters (i.e., $p_{\rm{min}}=\$2,000$, $p_{\rm{max}}=\$10,000$, $N=40$, $\mbox{APR}=4.45\%$ [not compounded] and $\alpha =1$) no numerical solutions deviate. If $\mbox{APR}=5\%$, all other parameters being the default, one solution deviates by a cent; the correct solution for $p=\$4,600$ should be $a_{\rm{min_{120}}}=\$48.79$, not $\$48.80$. If one widens the range of $p$, more solutions may deviate. Roughly 2.14\% of all solutions do in fact deviate, by at most one cent, 56\% one cent high and 44\% one cent low.\footnote{Based on over one million computations given $p_{\rm{min}}=\$0$, $p_{\rm{max}}=\$100,000$ and $N=100,000$, provided $\alpha =1$ for $\mbox{APR}=4.45\%$, $\mbox{APR}=5\%$ and $\mbox{APR}=7.4\%$ (all not compounded) and $\mbox{APR}=2.98\%$, $\mbox{APR}=4.45\%$ and $\mbox{APR}=5\%$ (all compounded), provided $\alpha =0.25$, $\alpha =0.71$ and $\alpha =0.2$ for $\mbox{APR}=4.45\%$ (not compounded) and provided $\alpha =0.6$ for $\mbox{APR}=4.45\%$ (compounded).} Open ``Ten-Year\_Minimum\_Errors.ipynb'' in Jupyter Notebook or Jupyter Lab, customize the cell, and run it to see for one self. (None of the latter four numerical solutions in section~\ref{errorcheck} deviated.)
 	\end{remark}	
 
 	\vspace{12pt}
 	\begin{remark}
 	Simplifying the fractional part
 	$$\frac{\base^{120}}{\base^{120}-1},\mbox{ for }\alpha\cdot i\neq 0$$
-	is not possible. $\alpha$ is at most equal to $1$, and $\mbox{APR}$ is probably at most $10\%$ (i.e., $i$ is at most $0.00836...$ [interest is compounded] ).
+	is not possible. $\alpha$ is at most equal to $1$, and $\mbox{APR}$ is probably at most $10\%$ (i.e., $i$ is at most $0.00836...$ [compounded] ).
 	$$\frac{\left(1+\mathtt{1}\cdot\mathtt{0.00836...}\right)^{120}}{\left(1+\mathtt{1}\cdot\mathtt{0.00836...}\right)^{120}-1}=\frac{\left(\mathtt{1.00836...}\right)^{120}}{\left(\mathtt{1.00836...}\right)^{120}-1}=\frac{\mathtt{2.717...}}{\mathtt{2.717...}-1}=\mathtt{1.582...}$$
 	In fact, all other quotients for values of $\alpha$ and $i$ will exceed $1.582...$ Only if all quotients were equal to $1$, could one cancel the numerator and denominator from the fractional part.
 	\end{remark}
