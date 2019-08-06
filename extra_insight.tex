@@ -127,21 +127,21 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{0.00287\underline{5}/month}
 	\end{align*}
 	\newpage
-	\setlength\parindent{0pt} If $\mbox{APR}=7\%$ and interest is compounded,
+	\setlength\parindent{0pt} If $\mbox{APR}=7\%$ compounded,
 	\begin{align*}
 	i&\approx\left(1+\frac{\mathtt{0.07}}{365.25}\right)^{\frac{365.25}{12}}-1\\
 	&=\left(\mathtt{1.000191...}\right)^{\frac{365.25}{12}}-1\\
 	&=\mathtt{1.00584...}-1\\
 	&=\mathtt{0.00584.../month}
 	\end{align*}
-	If $\mbox{APR}=6.8\%$ and interest is compounded,
+	If $\mbox{APR}=6.8\%$ compounded,
 	\begin{align*}
 	i&\approx\left(1+\frac{\mathtt{0.068}}{365.25}\right)^{\frac{365.25}{12}}-1\\
 	&=\left(\mathtt{1.000186...}\right)^{\frac{365.25}{12}}-1\\
 	&=\mathtt{1.00568...}-1\\
 	&=\mathtt{0.00568.../month}
 	\end{align*}
-	If $\mbox{APR}=3.45\%$ and interest is compounded,
+	If $\mbox{APR}=3.45\%$ compounded,
 	\begin{align*}
 	i&\approx\left(1+\frac{\mathtt{0.0345}}{365.25}\right)^{\frac{365.25}{12}}-1\\
 	&=\left(\mathtt{1.0000944...}\right)^{\frac{365.25}{12}}-1\\
@@ -150,7 +150,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\end{align*}
 
 	\subsection{Absolute minimum monthly payment}
-	If $\mbox{APR}=6.8\%$, $\alpha=0.25$ and $p=\$2,000$,
+	If $p=\$2,000$, $\mbox{APR}=6.8\%$ and $\alpha=0.25$,
 	\begin{align*}
 	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.25}\left(\mathtt{2,000}\cdot\mathtt{0.00566...}\right)\times 100}\big\rceil\div 100+0.01\\
 	&=\big\lfloor{\mathtt{0.25}\left(\mathtt{11.333...}\right)\times 100}\big\rceil\div 100+0.01\\
@@ -160,7 +160,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\$2.84}\\
 	\end{align*}
 	\newpage
-	If $\mbox{APR}=2.61\%$, $\alpha=0.2$ and $p=\$2,700$,
+	If $p=\$2,700$, $\mbox{APR}=2.61\%$ and $\alpha=0.2$,
 	\begin{align*}
 	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.2}\left(\mathtt{2,700}\cdot\mathtt{0.00217\underline{5}}\right)\times 100}\big\rceil\div 100+0.01\\
 	&=\big\lfloor{\mathtt{0.2}\left(\mathtt{5.872...}\right)\times 100}\big\rceil\div 100+0.01\\
@@ -169,7 +169,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{1.17}+0.01\\
 	&=\mathtt{\$1.18}\\
 	\end{align*}
-	If $\mbox{APR}=2.61\%$ and interest is compounded, $\alpha=0.2$ and $p=\$2,700$,
+	If $p=\$2,700$, $\mbox{APR}=2.61\%$ compounded and $\alpha=0.2$,
 	\begin{align*}
 	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0.2}\left(\mathtt{2,700}\cdot\mathtt{0.00217\underline{7}...}\right)\times 100}\big\rceil\div 100+0.01\\
 	&=\big\lfloor{\mathtt{0.2}\left(\mathtt{5.878...}\right)\times 100}\big\rceil\div 100+0.01\\
@@ -178,7 +178,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{1.18}+0.01\\
 	&=\mathtt{\$1.19}\\
 	\end{align*}
-	If $\mbox{APR}=7\%$, $\alpha=0$ and $p=\$35,221$,
+	If $p=\$35,221$, $\mbox{APR}=7\%$ and $\alpha=0$,
 	\begin{align*}
 	a_{\rm{min_{\mathnormal{n}}}}&=\big\lfloor{\mathtt{0}\left(\mathtt{35,221}\cdot\mathtt{0.00583...}\right)\times 100}\big\rceil\div 100+0.01\\
 	&=\big\lfloor{\mathtt{0}\left(\mathtt{15.75}\right)\times 100}\big\rceil\div 100+0.01\\
@@ -191,7 +191,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\newpage
 
 	\subsection{Ten-year minimum monthly payment}\label{errorcheck}
-	If $\mbox{APR}=7\%$, $\alpha=0$ and $p=\$35,221$,
+	If $p=\$35,221$, $\mbox{APR}=7\%$ and $\alpha=0$,
 	\begin{align*}
 	i&=\mathtt{0.00583...}>0\\
 	\alpha&=\mathtt{0}\ \textit{(given)}\\
@@ -201,7 +201,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{29,351}\div 100\\
 	&=\mathtt{\$293.51}
 	\end{align*}
-	If $\mbox{APR}=3.45\%$ and interest is compounded, $\alpha=0$ and $p=\$26,970$,
+	If $p=\$26,970$, $\mbox{APR}=3.45\%$ compounded and $\alpha=0$,
 	\begin{align*}
 	i&\approx\mathtt{0.002879...}>0\\
 	\alpha&=\mathtt{0}\ \textit{(given)}\\
@@ -211,7 +211,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{22,475}\div 100\\
 	&=\mathtt{\$224.75}
 	\end{align*}
-	If $\mbox{APR}=0\%$, $\alpha=0.5$ and $p=\$24,190$,
+	If $p=\$24,190$, $\mbox{APR}=0\%$ and $\alpha=0.5$,
 	\begin{align*}
 	i&=\mathtt{0}\\
 	\alpha&=\mathtt{0.5}\ \textit{(given)}\\
@@ -223,7 +223,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\end{align*}
 	\newpage
 	\newcommand{\base}{\left(1+\mathtt{0.5}\cdot\mathtt{0.00566...}\right)}
-	If $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $p=\$13,500$,
+	If $p=\$13,500$, $\mbox{APR}=6.8\%$ and $\alpha=0.5$,
 	\begin{align*}
 	i&=\mathtt{0.00566...}>0\\
 	\alpha&=\mathtt{0.5}\ \textit{(given)}\\
@@ -237,7 +237,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\$132.87}
 	\end{align*}
 	\renewcommand{\base}{\left(1+\mathtt{0.7}\cdot\mathtt{0.00464...}\right)}
-	If $\mbox{APR}=5.56\%$ and interest is compounded, $\alpha=0.7$ and $p=\$20,000$,
+	If $p=\$20,000$, $\mbox{APR}=5.56\%$ compounded and $\alpha=0.7$,
 	\begin{align*}
 	i&\approx\mathtt{0.00464...}>0\\
 	\alpha&=\mathtt{0.7}\ \textit{(given)}\\
@@ -252,7 +252,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\end{align*}
 	\newpage
 	\renewcommand{\base}{\left(1+\mathtt{0.7}\cdot\mathtt{0.00463...}\right)}
-	If $\mbox{APR}=5.56\%$, $\alpha=0.7$ and $p=\$20,000$,
+	If $p=\$20,000$, $\mbox{APR}=5.56\%$ and $\alpha=0.7$,
 	\begin{align*}
 	i&=\mathtt{0.00463...}>0\\
 	\alpha&=\mathtt{0.7}\ \textit{(given)}\\
@@ -266,7 +266,7 @@ This document consists of examples. It also includes derivations for the monthly
 	&=\mathtt{\$201.47}
 	\end{align*}
 	\renewcommand{\base}{\left(1+\mathtt{0.25}\cdot\mathtt{0.00333...}\right)}
-	If $\mbox{APR}=4\%$, $\alpha=0.25$ and $p=\$5,600$,
+	If $p=\$5,600$, $\mbox{APR}=4\%$ and $\alpha=0.25$,
 	\begin{align*}
 	i&=\mathtt{0.00333\underline{3}...}>0\\
 	\alpha&=\mathtt{0.25}\ \textit{(given)}\\
@@ -303,7 +303,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\newcommand{\monthspitf}{4}%
 	\newcommand{\amountfinal}{377.53}
 	\begin{example}
-	If $\mbox{APR}=7\%$, $\alpha=0.33$, $p=\$2,000$ and $a=\$550$,
+	If $p=\$2,000$, $\mbox{APR}=7\%$, $\alpha=0.33$ and $a=\$550$,
 	\footnotesize
 	\setstretch{1.25}
 	\begin{align*}
@@ -426,7 +426,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\renewcommand{\monthspitf}{26}%
 	\renewcommand{\amountfinal}{189.17}
 	\begin{example}
-	If $\mbox{APR}=3.45\%$, $\alpha=0.25$, $p=\$5,000$ and $a=\$200$,
+	If $p=\$5,000$, $\mbox{APR}=3.45\%$, $\alpha=0.25$ and $a=\$200$,
 	\footnotesize
 	\setstretch{1.25}
 	\begin{align*}
@@ -552,7 +552,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\renewcommand{\monthspitf}{120}
 	\renewcommand{\amountfinal}{2,575.69}
 	\begin{example}
-	If $\mbox{APR}=6.8\%$, $\alpha=0.5$, $p=\$13,500$ and $a=a_{\rm{min_{120}}}=\$132.87$,
+	If $p=\$13,500$, $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $a=a_{\rm{min_{120}}}=\$132.87$,
 	\scriptsize
 	\setstretch{1.25}
 	\begin{align*}
@@ -670,7 +670,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\renewcommand{\monthspitf}{\monthsp}%
 	\renewcommand{\amountfinal}{4,022.67}
 	\begin{example}
-	If $\mbox{APR}=6.8\%$, $\alpha=0.5$, $p=\$4,000$ and $a=\$5,000$,
+	If $p=\$4,000$, $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $a=\$5,000$,
 	\footnotesize
 	\setstretch{1.25}
 	\begin{align*}
@@ -723,7 +723,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\renewcommand{\monthspitf}{\monthsp}%
 	\renewcommand{\amountfinal}{4,022.67}
 	\begin{example}
-	If $\mbox{APR}=6.8\%$, $\alpha=0$, $p=\$4,000$ and $a=\$4,000$,
+	If $p=\$4,000$, $\mbox{APR}=6.8\%$, $\alpha=0$ and $a=\$4,000$,
 	\footnotesize
 	\setstretch{1.25}
 	\begin{align*}
@@ -803,7 +803,7 @@ This document consists of examples. It also includes derivations for the monthly
 	\subsection{Total payments, savings and change in savings}
 	\setcounter{example}{0} % reset letter counter
 	\begin{example}
-	Assume $\mbox{APR}=6.8\%$, $\alpha=0.5$ and $p=\$13,500$.\\[12pt]
+	Assume $p=\$13,500$, $\mbox{APR}=6.8\%$ and $\alpha=0.5$.\\[12pt]
 	Total payments,
 	\begin{align*}
 	\\\mathtt{Let\ } a&=\mathtt{300}\\[12pt]
@@ -872,7 +872,7 @@ This document consists of examples. It also includes derivations for the monthly
 	
 	\newpage
 	\begin{example}
-	Assume $\mbox{APR}=3.45\%$, $\alpha=0.25$ and $p=\$5,000$.\\[12pt]
+	Assume $p=\$5,000$, $\mbox{APR}=3.45\%$ and $\alpha=0.25$.\\[12pt]
 	Total payments,
 	\begin{align*}
 	\\\mathtt{Let\ } a&=\mathtt{700}\\[12pt]
@@ -916,7 +916,7 @@ This document consists of examples. It also includes derivations for the monthly
 
 	\newpage
 	\begin{example}
-	Assume $\mbox{APR}=7\%$, $\alpha=0.33$ and $p=\$2,000$.\\[12pt]
+	Assume $p=\$2,000$, $\mbox{APR}=7\%$ and $\alpha=0.33$.\\[12pt]
 	Total payments,
 	\begin{align*}
 	\\\mathtt{Let\ } a&=\mathtt{550}\\[12pt]
