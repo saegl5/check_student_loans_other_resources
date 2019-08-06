@@ -12,6 +12,7 @@
 
 % preamble
 \usepackage{amsthm, amsmath, mathtools, fancyhdr, cases, cleveref, amssymb, setspace, xcolor, chngcntr, alphalph, graphicx, float}
+\usepackage[document]{ragged2e} % left-aligns content
 \graphicspath{ {./images/} }
 \usepackage{mathptmx} % times new roman font for text and mathematics
 \usepackage[normalem]{ulem} % ``normalem'' to prevent underline in algorithm
@@ -223,20 +224,26 @@ This document consists of context, an overview, starting terminology and a summa
 	\end{figure}
 	
 	\begin{remark}
+	Making outstanding interest due the final month is arbitrary. However, by doing so students may see the impact of interest on loans more clearly. Not only may final month's payment be higher, but also it may break equation~\ref{eq41}---as in \textit{break the bank}. 
+	\end{remark}
+
+	\vspace{12pt}
+	\begin{remark}
 	If one is programming the \texttt{while} loop in Swift, round $B_{m}$ and $O_{m}$ to the nearest two decimal places after each iteration of the loop. Otherwise, the values of $B_{m}$ and $O_{m}$ may drift by one cent or more over time. Simultaneously, inform Swift to round a quantity upward two places, if it has a hundredth remainder between, say, 0.499999 and 0.5 exclusive; otherwise, Swift will round downward. The researcher checked and rounded proportion of interest that is paid, interest owed, interest paid, $B_{m}$, $O_{m}$ and the absolute minimum monthly payment. He checked and rounded other quantities, as well, but doing so was not as crucial.
 	\end{remark}
 
-	\newpage
+	% \newpage
+	\vspace{12pt}
 	Monthly Balance,
 	\small
-	\begin{align*}
-	B_{0}\quad +\qquad\big\lfloor{\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{1}\\
-	B_{1}\quad +\qquad\big\lfloor{\left(B_{1}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{2}\\
-	B_{2}\quad +\qquad\big\lfloor{\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{3}\\
-	B_{3}\quad +\qquad\big\lfloor{\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{4}\\
-	\vdots\qquad\qquad\qquad\qquad\qquad\qquad\ \ \vdots\qquad\quad\,\ \vdots\qquad\quad\ \ \ \:\vdots\\
+	\begin{align}\label{eq41}
+	B_{0}\quad +\qquad\big\lfloor{\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{1}\nonumber\\
+	B_{1}\quad +\qquad\big\lfloor{\left(B_{1}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{2}\nonumber\\
+	B_{2}\quad +\qquad\big\lfloor{\left(B_{2}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{3}\nonumber\\
+	B_{3}\quad +\qquad\big\lfloor{\left(B_{3}\cdot i\right)\times 100}\big\rceil\div 100\quad -\quad a\quad =\quad B_{4}\nonumber\\
+	\vdots\qquad\qquad\qquad\qquad\qquad\qquad\ \ \vdots\qquad\quad\,\ \vdots\qquad\quad\ \ \ \:\vdots\nonumber\\
 	B_{n-1}\quad +\quad\,\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100\ \ \ \;-\ \ \ a_{\rm{f}}\quad =\ \ \ \,B_{n}
-	\end{align*}
+	\end{align}
 	
 	Breakdown of Pay,
 	\begin{align*}
@@ -280,11 +287,13 @@ This document consists of context, an overview, starting terminology and a summa
 	\end{minipage}
 	\end{figure}
 
+	% \newpage
 	\begin{remark}
 	Be mindful of the differences between $\lfloor{\ }\rceil$, $\lfloor{\ }\rfloor$ and $\left|\;\ \right|$. The former brackets correspond to the nearest integer (i.e., \texttt{nint}) function, middle ones to the nearest lowest integer (i.e., \texttt{floor}) function, and latter the absolute value (i.e., \texttt{abs}) function.
 	\end{remark}
 
-	\newpage
+	% \newpage
+	\vspace{12pt}
 	\setlength\parindent{0pt} Absolute minimum monthly payment (\$):
 	$$a_{\rm{min_{\mathnormal{n}}}}=\big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100+0.01$$
 	$$$$
