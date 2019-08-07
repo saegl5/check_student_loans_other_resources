@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="750"
+   height="1334"
+   viewBox="0 0 750 1334"
+   sodipodi:docname="math.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1166"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-9" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-6" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-4" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-2" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7255"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS">
+      <path
+         transform="scale(0.2)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path7253" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6631"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path6629" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleOutL-4"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4773" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6487"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path6485" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleOutS"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS">
+      <path
+         transform="scale(0.2)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4779" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6367"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path6365" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4776" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5881"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         id="path5879" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         id="path4658" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#fe0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4646" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="EmptyTriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL">
+      <path
+         transform="scale(0.8) translate(-6,0)"
+         style="fill-rule:evenodd;fill:#fe0000;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4791" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4634" />
+    </marker>
+    <clipPath
+       id="clipPath10119"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="80.479042"
+         x="205.41318"
+         height="208.47903"
+         width="226.10779"
+         id="rect10121"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:34;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:29.60000038;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="-372.84949"
+     inkscape:cy="654.76661"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.74825287px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.91870636"
+     x="73.587593"
+     y="170.32057"
+     id="text1086-9-6-3-9-6"
+     transform="scale(0.95984885,1.0418307)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-4-5-7-4"
+       x="73.587593"
+       y="170.32057"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.91870636">÷ 100 =</tspan></text>
+  <rect
+     id="rect73"
+     width="749.3338"
+     height="1333.3337"
+     x="0.33310205"
+     y="0.33315772"
+     style="opacity:0.25;fill:none;stroke:#000000;stroke-width:0.66666667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.31093979px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.95777357"
+     x="247.06709"
+     y="66.852844"
+     id="text1086-9"
+     transform="scale(1.0392885,0.96219674)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8"
+       x="247.06709"
+       y="66.852844"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.95777357">Loaned</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243"
+     x="426.42615"
+     y="59.520176"
+     id="text1086-0-1-1"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-5-5"
+       x="426.42615"
+       y="59.520176"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.81280243">p</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.31093979px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.95777357"
+     x="69.170975"
+     y="134.19962"
+     id="text1086-9-6"
+     transform="scale(1.0392885,0.96219674)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-4"
+       x="69.170975"
+       y="134.19962"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.95777357">APR</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 41.65697,83.830366 H 710.7183"
+     id="path9294"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:59.47191238px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48679781;stroke-opacity:1"
+     x="197.89925"
+     y="119.63419"
+     id="text962-5-6"
+     transform="scale(0.92572116,1.0802389)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan960-3-8"
+       x="197.89925"
+       y="119.63419"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.68314743px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:1.48679781;stroke-opacity:1">APR</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.51025009px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.96275628"
+     x="466.24603"
+     y="138.62903"
+     id="text1086-9-9"
+     transform="scale(1.0748909,0.93032698)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-43"
+       x="466.24603"
+       y="138.62903"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.96275628">Compound</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 552.6097,174.50323 c 0,-29.67399 29.9068,-29.90673 29.9068,-29.90673 h 41.1944 c 29.674,0 29.965,29.96492 29.965,29.96492 0,30.54675 -30.4304,30.43039 -30.4304,30.43039 h -40.0308 c -32.1178,0 -30.605,-30.48858 -30.605,-30.48858 z"
+     id="path954-8"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.02116776px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.97552925"
+     x="182.521"
+     y="304.82339"
+     id="text1086-9-5"
+     transform="scale(1.0585553,0.94468375)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-2"
+       x="182.521"
+       y="304.82339"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.97552925">Pay Monthly</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 41.04309,249.2997 H 710.1044"
+     id="path9294-8"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="457.48273"
+     y="292.71832"
+     id="text1086-0-4-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1"
+       x="457.48273"
+       y="292.71832"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.12868118px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.80321705"
+     x="39.715126"
+     y="385.58157"
+     id="text1086-9-8"
+     transform="scale(0.99878778,1.0012137)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       x="39.715126"
+       y="385.58157"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.80321705"
+       id="tspan9512">Interest</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="38.632706"
+     y="354.72391"
+     id="text1086-0-4-3-0"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5"
+       x="38.632706"
+       y="354.72391"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan1023">α<tspan
+   style="font-size:15.99999996px"
+   id="tspan210">∙</tspan></tspan>∙100%</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="562.68762"
+     y="352.27948"
+     id="text1086-0-4-3-0-2"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-6"
+       x="562.68762"
+       y="352.27948"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">(1–<tspan
+   style="font-style:italic"
+   id="tspan1025">α</tspan>)<tspan
+   style="font-size:15.99999996px"
+   id="tspan214"> </tspan>∙100%</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.12868118px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.80321705"
+     x="621.65601"
+     y="385.25894"
+     id="text1086-9-8-1"
+     transform="scale(0.99878778,1.0012137)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       x="621.65601"
+       y="385.25894"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.80321705"
+       id="tspan9512-1">Later</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 175.73658,363.63867 c 0,2.50193 2.54862,2.54862 2.54862,2.54862 h 394.2453 c 4.0776,0 3.6267,-3.62669 3.6267,-3.62669"
+     id="path9572"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 178.89778,350.30887 H 573.1338 c 2.8136,0 3.0234,3.02341 3.0234,3.02341 v 10.27565"
+     id="path9570-7"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 175.73658,363.63867 v -10.95393 c 0,-2.38627 3.1612,-2.37587 3.1612,-2.37587"
+     id="path9593"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.80685425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 319.4597,338.64052 v 40"
+     id="path1303-8"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243"
+     x="300.75839"
+     y="335.32321"
+     id="text1086-0-1-8"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-5-6"
+       x="300.75839"
+       y="335.32321"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke-width:0.81280243">α</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.02116776px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.97552925"
+     x="209.83888"
+     y="497.60892"
+     id="text1086-9-5-7"
+     transform="scale(1.0585553,0.94468375)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-2-7"
+       x="209.83888"
+       y="497.60892"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.97552925">Monthly Balance</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="25.31398"
+     y="557.659"
+     id="text1086-4"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9"
+       x="25.31398"
+       y="557.659"
+       style="fill:#cccccc;stroke-width:0.61556989">Principal</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="248.56967"
+     y="557.67365"
+     id="text1086-4-0"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-0"
+       x="248.56967"
+       y="557.67365"
+       style="fill:#cccccc;stroke-width:0.61556989">Interest</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="478.21326"
+     y="557.17981"
+     id="text1086-4-0-2"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-0-7"
+       x="478.21326"
+       y="557.17981"
+       style="fill:#cccccc;stroke-width:0.61556989">Pay</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 20.01241,493.21511 h 115.90313 c 9.07675,0 9.30949,7.91307 9.30949,7.91307 v 290.22329 c 0,9.30949 -9.07675,9.77496 -9.07675,9.77496 H 19.77967 c -8.61127,0 -8.84401,-7.91306 -8.84401,-7.91306 V 501.59365 c 0,-8.61128 9.07675,-8.37854 9.07675,-8.37854 z"
+     id="path9690"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 481.773,493.21468 h 98.6318 c 7.7241,0 7.9222,7.91307 7.9222,7.91307 v 290.22329 c 0,9.30949 -7.7242,9.77496 -7.7242,9.77496 H 481.575 c -7.3281,0 -7.5261,-7.91306 -7.5261,-7.91306 V 501.59322 c 0,-8.61128 7.7241,-8.37854 7.7241,-8.37854 z"
+     id="path9690-1"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 164.60696,493.68013 H 452.9337 c 8.2285,0 7.8994,6.91195 7.8994,6.91195 v 293.26384 c 0,6.5828 -7.2411,7.24108 -7.2411,7.24108"
+     id="path9746"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 453.592,801.097 H 164.60696 c -7.24108,0 -7.40565,-6.91194 -7.40565,-6.91194 V 501.90864 c 0,-8.55765 7.40565,-8.22851 7.40565,-8.22851"
+     id="path9748"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <circle
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#c0c0c0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="path9750"
+     cx="151.02991"
+     cy="669.19409"
+     r="14.153025"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 150.94765,661.21245 v 16.62158"
+     id="path9752"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 142.39001,669.60552 h 16.78614"
+     id="path9754"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <circle
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#c0c0c0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="path9750-0"
+     cx="467.55249"
+     cy="668.69897"
+     r="14.153025"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 458.9125,669.11039 h 16.7861"
+     id="path9754-4"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <circle
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#c0c0c0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="path9750-0-8"
+     cx="595.06769"
+     cy="669.23761"
+     r="14.153025"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 586.4278,665.64903 h 16.7861"
+     id="path9754-4-2"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 586.4369,673.32427 H 603.223"
+     id="path9754-4-2-2"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.02116776px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.97552925"
+     x="310.06332"
+     y="989.74219"
+     id="text1086-9-5-7-2"
+     transform="scale(1.0585553,0.94468375)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-2-7-7"
+       x="310.06332"
+       y="989.74219"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.97552925">Time</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.02116776px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.97552925"
+     x="290.92957"
+     y="1164.7991"
+     id="text1086-9-5-7-2-2"
+     transform="scale(1.0585553,0.94468375)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-2-7-7-4"
+       x="290.92957"
+       y="1164.7991"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.97552925">Savings</tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 40.8126,1061.1361 H 709.8739"
+     id="path9294-8-5"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="377.88638"
+     y="1225.9913"
+     id="text966-8-9-3-9-4-4"
+     transform="scale(0.97444641,1.0262237)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan964-6-6-0-6-5-1"
+       x="377.88638"
+       y="1225.9913"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.87982368">s</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:59.47191238px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48679781;stroke-opacity:1"
+     x="209.13217"
+     y="209.19104"
+     id="text962-5-6-6-4"
+     transform="scale(0.92572116,1.0802389)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan960-3-8-8-8"
+       x="209.13217"
+       y="209.19104"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.68314743px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:1.48679781;stroke-opacity:1">i</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="36.138725"
+     y="591.29657"
+     id="text1086-0-4-3-0-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5"
+       x="36.138725"
+       y="591.29657"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan9958">B</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan9956">0</tspan> = <tspan
+   style="font-style:italic"
+   id="tspan10180">p</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="69.922867"
+     y="771.92407"
+     id="text1086-4-2"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4"
+       x="69.922867"
+       y="771.92407"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="70.008118"
+     y="783.79852"
+     id="text1086-4-2-7"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4"
+       x="70.008118"
+       y="783.79852"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="69.930878"
+     y="794.93597"
+     id="text1086-4-2-7-7"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-5"
+       x="69.930878"
+       y="794.93597"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="282.22665"
+     y="771.89966"
+     id="text1086-4-2-6"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-5"
+       x="282.22665"
+       y="771.89966"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="282.31216"
+     y="783.77411"
+     id="text1086-4-2-7-76"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-9"
+       x="282.31216"
+       y="783.77411"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="282.23483"
+     y="794.91156"
+     id="text1086-4-2-7-7-7"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-5-0"
+       x="282.23483"
+       y="794.91156"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="495.39267"
+     y="771.82092"
+     id="text1086-4-2-6-3"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-5-2"
+       x="495.39267"
+       y="771.82092"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="495.47812"
+     y="783.69537"
+     id="text1086-4-2-7-76-3"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-9-8"
+       x="495.47812"
+       y="783.69537"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="495.40067"
+     y="794.83282"
+     id="text1086-4-2-7-7-7-0"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-5-0-5"
+       x="495.40067"
+       y="794.83282"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="628.7923"
+     y="771.81104"
+     id="text1086-4-2-6-3-2"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-5-2-5"
+       x="628.7923"
+       y="771.81104"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="628.87744"
+     y="783.68549"
+     id="text1086-4-2-7-76-3-1"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-9-8-5"
+       x="628.87744"
+       y="783.68549"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6227932px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.61556989"
+     x="628.80023"
+     y="794.82294"
+     id="text1086-4-2-7-7-7-0-1"
+     transform="scale(1.0645361,0.93937631)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-9-4-4-5-0-5-1"
+       x="628.80023"
+       y="794.82294"
+       style="fill:#cccccc;stroke-width:0.61556989">∙</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="261.30887"
+     y="592.18323"
+     id="text1086-0-4-3-0-3-5"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8"
+       x="261.30887"
+       y="592.18323"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan9958-9">B</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan9956-3">0</tspan>∙<tspan
+   style="font-style:italic"
+   id="tspan221">i</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="509.59998"
+     y="590.12787"
+     id="text1086-0-4-3-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-6"
+       x="509.59998"
+       y="590.12787"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="640.74109"
+     y="591.69141"
+     id="text1086-0-4-3-0-3-7"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-86"
+       x="640.74109"
+       y="591.69141"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-2">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan9956-5">1</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="63.132957"
+     y="635.34003"
+     id="text1086-0-4-3-0-3-1"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-0"
+       x="63.132957"
+       y="635.34003"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-0">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan10243">1</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="261.08609"
+     y="636.22668"
+     id="text1086-0-4-3-0-3-5-2"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8-8"
+       x="261.08609"
+       y="636.22668"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan9958-9-8">B</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10249">1</tspan>∙<tspan
+   style="font-style:italic"
+   id="tspan223">i</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="509.37708"
+     y="634.17133"
+     id="text1086-0-4-3-3-0"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-6-1"
+       x="509.37708"
+       y="634.17133"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="640.51819"
+     y="635.73486"
+     id="text1086-0-4-3-0-3-7-5"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-86-0"
+       x="640.51819"
+       y="635.73486"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-2-8">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan9956-5-0">2</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="62.64959"
+     y="678.70355"
+     id="text1086-0-4-3-0-3-1-7"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-0-1"
+       x="62.64959"
+       y="678.70355"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-0-5">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan10243-1">2</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="260.60281"
+     y="679.59021"
+     id="text1086-0-4-3-0-3-5-2-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8-8-3"
+       x="260.60281"
+       y="679.59021"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan9958-9-8-9">B</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10249-4">2</tspan>∙<tspan
+   style="font-style:italic"
+   id="tspan225">i</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="508.89368"
+     y="677.53485"
+     id="text1086-0-4-3-3-0-8"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-6-1-2"
+       x="508.89368"
+       y="677.53485"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="640.03491"
+     y="679.09839"
+     id="text1086-0-4-3-0-3-7-5-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-86-0-6"
+       x="640.03491"
+       y="679.09839"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-2-8-0">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan9956-5-0-9">3</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="61.735085"
+     y="720.73364"
+     id="text1086-0-4-3-0-3-1-0"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-0-7"
+       x="61.735085"
+       y="720.73364"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-0-0">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan10243-2">3</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="259.6882"
+     y="721.6203"
+     id="text1086-0-4-3-0-3-5-2-0"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8-8-0"
+       x="259.6882"
+       y="721.6203"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan9958-9-8-0">B</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10249-40">3</tspan>∙<tspan
+   style="font-style:italic"
+   id="tspan227">i</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="507.97931"
+     y="719.56494"
+     id="text1086-0-4-3-3-0-81"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-6-1-1"
+       x="507.97931"
+       y="719.56494"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="639.12042"
+     y="721.12848"
+     id="text1086-0-4-3-0-3-7-5-9"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-86-0-9"
+       x="639.12042"
+       y="721.12848"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-2-8-3">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan9956-5-0-99">4</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="61.035912"
+     y="800.45709"
+     id="text1086-0-4-3-0-3-1-0-7"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-0-7-5"
+       x="61.035912"
+       y="800.45709"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-0-0-6">B</tspan><tspan
+         style="font-size:64.99999762%;baseline-shift:sub"
+         id="tspan10243-2-0"><tspan
+   style="font-style:italic;baseline-shift:baseline"
+   id="tspan10422">n–</tspan>1</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="239.54839"
+     y="801.34375"
+     id="text1086-0-4-3-0-3-5-2-0-4"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8-8-0-6"
+       x="239.54839"
+       y="801.34375"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+   style="font-style:italic"
+   id="tspan10428">B<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10436">n</tspan></tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10438">–1</tspan>∙<tspan
+   style="font-style:italic"
+   id="tspan229">i</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="507.28021"
+     y="799.28839"
+     id="text1086-0-4-3-3-0-81-8"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-6-1-1-9"
+       x="507.28021"
+       y="799.28839"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;font-style:normal"
+   id="tspan10440">f</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="638.42145"
+     y="800.85193"
+     id="text1086-0-4-3-0-3-7-5-9-6"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-86-0-9-8"
+       x="638.42145"
+       y="800.85193"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1"><tspan
+         style="font-style:italic"
+         id="tspan9958-2-8-3-5">B</tspan><tspan
+         style="font-style:italic;font-size:64.99999762%;baseline-shift:sub"
+         id="tspan9956-5-0-99-9">n</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="378.39938"
+     y="962.13666"
+     id="text966-8-9-3-0"
+     transform="scale(0.97444641,1.0262237)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan964-6-6-0-7"
+       x="378.39938"
+       y="962.13666"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.87982368">l<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';baseline-shift:sub"
+   id="tspan1385-8">y</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="372.18542"
+     y="1009.2351"
+     id="text966-8-9-3-9-5"
+     transform="scale(0.97444641,1.0262237)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan964-6-6-0-6-8"
+       x="372.18542"
+       y="1009.2351"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.87982368">l<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';baseline-shift:sub"
+   id="tspan1385-0-7">m</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="353.48502"
+     y="1174.8973"
+     id="text966-8-9-3-9-4-4-8"
+     transform="scale(0.97444641,1.0262237)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan964-6-6-0-6-5-1-0"
+       x="353.48502"
+       y="1174.8973"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.87982368">T<tspan
+   style="font-style:normal;font-size:64.99999762%;baseline-shift:sub"
+   id="tspan10490">max</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="354.63525"
+     y="1121.7534"
+     id="text966-8-9-3-9-4-4-8-5"
+     transform="scale(0.97444641,1.0262237)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan964-6-6-0-6-5-1-0-2"
+       x="354.63525"
+       y="1121.7534"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Italic';stroke-width:0.87982368">T<tspan
+   style="font-style:normal"
+   id="tspan219">(</tspan>a<tspan
+   style="font-style:normal"
+   id="tspan217">)</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 552.6097,174.50323 c 0,-29.67399 29.9067,-29.90673 29.9067,-29.90673 h 41.1945 c 29.674,0 29.9649,29.96492 29.9649,29.96492 0,30.54675 -30.4304,30.43039 -30.4304,30.43039 h -40.0308 c -32.1177,0 -30.6049,-30.48858 -30.6049,-30.48858 z"
+     id="path954-7"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <path
+     style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 583.1291,148.20393 c -28.8595,0 -26.9394,26.93933 -26.9394,26.93933 0,25.77565 27.0557,27.0557 27.0557,27.0557 27.3466,0 26.9975,-26.99751 26.9975,-26.99751 0,-27.69573 -27.1138,-26.99752 -27.1138,-26.99752 z"
+     id="path958-2-5"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
+     x="313.67572"
+     y="887.86536"
+     id="text1086-0-4-3-0-3-5-2-0-4-3"
+     transform="scale(1.0287622,0.97204194)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-6-4-1-5-5-8-8-0-6-6"
+       x="313.67572"
+       y="887.86536"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1;font-size:32.51209251px">[<tspan
+   style="font-style:italic;font-size:32.51209251px"
+   id="tspan1015">R</tspan> or <tspan
+   style="font-style:italic;font-size:32.51209251px"
+   id="tspan1017">E</tspan>]</tspan></text>
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect1007"
+     width="475.42328"
+     height="316.43002"
+     x="5.6837268"
+     y="489.43564"
+     ry="11.731215"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <circle
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="path1011"
+     cx="567.65155"
+     cy="517.03558"
+     r="9.1094551"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="565.51251"
+     y="521.95721"
+     id="text1015"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1013"
+       x="565.51251"
+       y="521.95721"
+       style="font-size:16px">!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="18.880955"
+     y="825.56287"
+     id="text1020"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1018"
+       x="18.880955"
+       y="861.59302" /></text>
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.33333333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+     id="rect216"
+     width="423.69714"
+     height="115.38132"
+     x="459.75189"
+     y="857.58398"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:'Times New Roman, ';font-stretch:normal;font-variant:normal;"
+     x="522.71558"
+     y="1104.1993"
+     id="text4734"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan4732"
+       x="522.71558"
+       y="1140.6925" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="472.54782"
+     y="900.29175"
+     id="text4744"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan4854"
+       x="472.54782"
+       y="900.29175"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '">Displays “Breakdown of </tspan><tspan
+       sodipodi:role="line"
+       id="tspan4856"
+       x="472.54782"
+       y="951.77905"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '">Pay,” if ⓘ is pressed.</tspan></text>
+  <text
+     id="text4797"
+     y="1074.0144"
+     x="646.78088"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:'Times New Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       id="tspan4795"
+       y="0"
+       x="0"
+       sodipodi:role="line"><tspan
+         id="tspan4793"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000" /></tspan></text>
+  <text
+     id="text4803"
+     y="1074.0144"
+     x="653.82043"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       id="tspan4801"
+       y="1074.0144"
+       x="653.82043"
+       sodipodi:role="line"><tspan
+         id="tspan4799"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Calibri;fill:#000000"
+         dy="0"
+         dx="0"> </tspan></tspan></text>
+  <text
+     id="text4825"
+     y="1070.5026"
+     x="983.48151"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:'Times New Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       id="tspan4823"
+       y="0"
+       x="0"
+       sodipodi:role="line"><tspan
+         id="tspan4821"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000" /></tspan></text>
+  <text
+     id="text4865"
+     y="1077.251"
+     x="709.89514"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:'Times New Roman';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       id="tspan4863"
+       y="0"
+       x="0"
+       sodipodi:role="line"><tspan
+         id="tspan4861"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000" /></tspan></text>
+  <text
+     id="text4871"
+     y="1077.251"
+     x="716.93475"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       id="tspan4869"
+       y="1077.251"
+       x="716.93475"
+       sodipodi:role="line"><tspan
+         id="tspan4867"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Calibri;fill:#000000"
+         dy="0"
+         dx="0"> </tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.33333333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 459.75189,857.58398 429.95313,805.89062"
+     id="path4888"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.46203995px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.911551"
+     x="74.25634"
+     y="214.04128"
+     id="text1086-9-6-3-0"
+     transform="scale(0.95237307,1.0500087)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan1084-8-4-5-9"
+       x="74.25634"
+       y="214.04128"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';fill:#cccccc;stroke-width:0.911551">÷ 12 =</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:59.47191238px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48679781;stroke-opacity:1"
+     x="231.64284"
+     y="163.93373"
+     id="text962-5-6-6-4-5"
+     transform="scale(0.92572116,1.0802389)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
+       sodipodi:role="line"
+       id="tspan960-3-8-8-8-3"
+       x="231.64284"
+       y="163.93373"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.68314743px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:1.48679781;stroke-opacity:1">r</tspan></text>
+  <g
+     id="g1239"
+     transform="matrix(1.4129714,0,0,1.4129714,669.1542,-505.06595)"
+     inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#c0c0c0;stroke-width:0.96522713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:29.60000038;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect10069"
+       width="17.052942"
+       height="17.013308"
+       x="-98.128586"
+       y="543.72736" />
+    <path
+       style="fill:none;stroke:#c0c0c0;stroke-width:0.96522713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -81.701006,544.35227 -10.362786,10.3387 v -7.65975"
+       id="path10141"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#c0c0c0;stroke-width:0.96522713;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -81.341978,543.99408 -10.705821,10.68094 h 7.931753"
+       id="path10141-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

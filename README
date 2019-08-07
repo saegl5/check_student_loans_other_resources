@@ -7,16 +7,20 @@ Instructional App
     |__``'How to Use App' Video''/introduction.mov     <-- What subjects see, when app launches
     
 Supplementary
-|__deeper_insight.pdf (context, overview, terminology and formulae)
-|__extra_insight.pdf (examples and derivations)
+|__latex
+    |__deeper_insight.pdf (context, overview, terminology and formulae)
+    |__extra_insight.pdf (examples and derivations)
 |__checking_calculations.xlsx
+|__jupyter
     |__Ten-Year_Minimum_Errors.ipynb (for computing ten-year minimum errors)
 |__checklist_for_checking_calculations.docx
 |__rounding_notes
 
 Source Code
-|__deeper_insight.tex
-    |__ ``images'' directory
-|__extra_insight.tex
+|__latex
+    |__deeper_insight.tex
+        |__``images'' directory
+    |__extra_insight.tex
 
 ``'How to Use App' Video'' directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
+``Images'' directory also contains an ``svg'' directory of SVG files from which the images were exported.
