@@ -7,7 +7,7 @@ Launch the vector graphics editor, and open each SVG file.
 
 Edit each SVG file, then File > Export PNG Image... > 300+ dpi > Export
 
-Optional
+[Optional]
 
 Substitute Times New Roman Italic for another font style, such as Liberation Serif Italic.
 Windows/macOS: Install ``LiberationSerif-Italic.ttf.''
