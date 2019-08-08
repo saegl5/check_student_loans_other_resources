@@ -1,0 +1,43 @@
+Install and set up Python 2 and pip
+-----------------------------------
+
+macOS:
+Python is preinstalled.
+$ sudo easy_install python-dateutil pip
+
+Linux: 
+Python is preinstalled. 
+$ sudo apt install python-pip
+
+Windows:
+Turn Windows features on or off > enable ``Windows Subsystem for Linux'' (WSL)
+Download and install ``Ubuntu'' from the Microsoft Store.
+Launch Ubuntu (i.e., launch Ubuntu on WSL), and follow the prompts.
+Python and pip are preinstalled. 
+
+Install and set up JupyterLab
+-----------------------------
+
+macOS:
+$ pip install --user jupyterlab
+$ export PATH=/Users/$USER/Library/Python/2.7/bin:$PATH
+$ sudo chown $USER /Users/$USER/.jupyter/
+
+Linux:
+$ pip install jupyterlab
+$ export PATH=/home/$USER/.local/bin:$PATH
+
+Ubuntu on WSL:
+$ pip install jupyterlab
+
+Launch Jupyter Lab
+------------------
+
+macOS/Linux: $ jupyter lab
+Ubuntu on WSL: $ jupyter lab, copy and paste URL into a browser
+
+Edit the IPYNB file, and run the cell
+-------------------------------------
+
+Open and edit the IPYNB file.
+Click the play button.
