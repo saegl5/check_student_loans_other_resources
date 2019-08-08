@@ -22,5 +22,8 @@ Source Code
         |__``images'' directory
     |__extra_insight.tex
 
+[Notes]
+
 ``'How to Use App' Video'' directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
+Utilizing a separate CHANGELOG for ``'How to Use App' Video'' directory because the video itself is drawn from a project.
 ``Images'' directory also contains an ``svg'' directory of SVG files from which the images were exported.
