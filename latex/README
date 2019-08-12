@@ -1,15 +1,18 @@
-Install TeX Live:
+Install TeX Live
+----------------
 
 Windows: Install MiKTeX (https://miktex.org/), and it will prompt users to install any packages it needs when it needs them. 
 macOS: Install MacTeX (https://tug.org/mactex/), and it will install all packages in TeX Live.
-Linux: $ sudo apt install texlive-latex-extra texlive-science texworks
+Ubuntu: $ sudo apt install texlive-latex-extra texlive-science texworks
 
-Launch a TeX editor:
+Launch a TeX editor
+-------------------
 
-Windows/Linux: Launch TeXworks.
+Windows/Ubuntu: Launch TeXworks.
 macOS: Launch TeXShop.
 
-Edit and typeset TeX documents:
+Edit and typeset TeX documents
+------------------------------
 
 Open and edit a TeX document.
 Typeset the document to view it as a PDF.

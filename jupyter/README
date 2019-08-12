@@ -5,7 +5,7 @@ macOS:
 Python is preinstalled.
 $ sudo easy_install python-dateutil pip
 
-Linux: 
+Ubuntu: 
 Python is preinstalled. 
 $ sudo apt install python-pip
 
@@ -23,17 +23,17 @@ $ pip install --user jupyterlab
 $ export PATH=/Users/$USER/Library/Python/2.7/bin:$PATH
 $ sudo chown $USER /Users/$USER/.jupyter/
 
-Linux:
+Ubuntu:
 $ pip install jupyterlab
 $ export PATH=/home/$USER/.local/bin:$PATH
 
 Ubuntu on WSL:
 $ pip install jupyterlab
 
-Launch Jupyter Lab
+Launch JupyterLab
 ------------------
 
-macOS/Linux: $ jupyter lab
+macOS/Ubuntu: $ jupyter lab
 Ubuntu on WSL: $ jupyter lab, copy and paste URL into a browser
 
 Edit the IPYNB file, and run the cell
