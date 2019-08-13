@@ -41,3 +41,8 @@ Edit the IPYNB file, and run the cell
 
 Open and edit the IPYNB file.
 Click the play button.
+
+[Note]
+
+Python 2, instead of Python 3, is used because the IPYNB file was originally created using the SageMath 8.1 kernel.
+SageMath uses Python 2.
