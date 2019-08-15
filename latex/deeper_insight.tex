@@ -165,18 +165,19 @@ This document consists of context, an overview, starting terminology and a summa
 	\end{array}
 	\]
 
+	\vspace{12pt}
 	\setlength\parindent{0pt} Monthly principal balance (\$):
 	$$B_{m}=B_{m-1}-\big[a-\alpha\left(B_{m-1}\cdot i\right)\big]$$
-	$$$$ % empty line to space out emphases
+	% $$$$ % empty line to space out emphases
 	$$\textcolor[rgb]{0.8,0.8,0.8}{B_{m}=B_{m-1}-\big[a\ -\emphasis{\ \alpha\left(B_{m-1}\cdot i\right)}{interest paid}\big]}$$
-	$$\textcolor[rgb]{0.8,0.8,0.8}{B_{m}=B_{m-1}-\big[\emphasis{\ a-\alpha\left(B_{m-1}\cdot i\right)}{principal paid}\big]}$$
+	% $$\textcolor[rgb]{0.8,0.8,0.8}{B_{m}=B_{m-1}-\big[\emphasis{\ a-\alpha\left(B_{m-1}\cdot i\right)}{principal paid}\big]}$$
 
 	\vspace{12pt} % add some padding above next sentence
 	\setlength\parindent{0pt} Monthly outstanding interest (\$):
 	$$O_{m}=O_{m-1}+\left(B_{m-1}\cdot i\right)-\alpha\left(B_{m-1}\cdot i\right)$$
-	$$$$
+	% $$$$
 	$$\textcolor[rgb]{0.8,0.8,0.8}{O_{m}=O_{m-1}\ +\emphasis{\ \left(B_{m-1}\cdot i\right)}{interest owed}-\ \alpha\left(B_{m-1}\cdot i\right)}$$ % \  for adding space between items that \colorbox compressed together
-	$$\textcolor[rgb]{0.8,0.8,0.8}{O_{m}=O_{m-1}\ +\emphasis{\ \left(B_{m-1}\cdot i\right)-\ \alpha\left(B_{m-1}\cdot i\right)}{interest unpaid}}$$
+	% $$\textcolor[rgb]{0.8,0.8,0.8}{O_{m}=O_{m-1}\ +\emphasis{\ \left(B_{m-1}\cdot i\right)-\ \alpha\left(B_{m-1}\cdot i\right)}{interest unpaid}}$$
 
 	\vspace{12pt}
 	\begin{remark}
@@ -190,11 +191,13 @@ This document consists of context, an overview, starting terminology and a summa
 	\setlength\parindent{0pt} Monthly outstanding interest (adjusted):
 	$$O_{m}=O_{m-1}+\big\lfloor{\left(B_{m-1}\cdot i\right)\times 100}\big\rceil\div 100-\big\lfloor{\alpha\left(B_{m-1}\cdot i\right)\times 100}\big\rceil\div 100$$
 
+	\vspace{12pt}
 	\begin{remark}
 	For rounding $\alpha\left(B_{m-1}\cdot i\right)$, why not round $B_{m-1}\cdot i$ and then $\alpha\left(B_{m-1}\cdot i\right)$? This is because doing so would make computations less precise than by rounding once.
 	\end{remark}
 
-	\vspace{12pt}
+	\newpage
+	% \vspace{12pt}
 	\setlength\parindent{0pt} Basic algorithm for computing the principal balance and outstanding interest:
 	\begin{figure}[h] % ``h'' places algorithm directly beneath heading
 	\centering
@@ -245,6 +248,7 @@ This document consists of context, an overview, starting terminology and a summa
 	B_{n-1}\quad +\quad\,\big\lfloor{\left(B_{n-1}\cdot i\right)\times 100}\big\rceil\div 100\ \ \ \;-\ \ \ a_{\rm{f}}\quad =\ \ \ \,B_{n}
 	\end{align}
 	
+	\newpage
 	Breakdown of Pay,
 	\begin{align*}
 	a-\big\lfloor{\alpha\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Prin.}&\quad +\quad \qquad\quad\ \ \ \big\lfloor{\alpha\left(B_{0}\cdot i\right)\times 100}\big\rceil\div 100\mbox{\ Int.}&\, =\quad a&\\
@@ -296,10 +300,11 @@ This document consists of context, an overview, starting terminology and a summa
 	\vspace{12pt}
 	\setlength\parindent{0pt} Absolute minimum monthly payment (\$):
 	$$a_{\rm{min_{\mathnormal{n}}}}=\big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100+0.01$$
-	$$$$
+	\vspace{0pt}
 	$$a_{\rm{min_{\mathnormal{n}}}}=\quad\quad\quad\emphasis{\ \big\lfloor{\alpha\left(p\cdot i\right)\times 100}\big\rceil\div 100}{applied to interest}\quad\quad\quad+\ \emphasis{\ 0.01}{applied to principal}$$
 
-	\vspace{12pt}
+	\newpage
+	% \vspace{12pt}
 	\setlength\parindent{0pt} Ten-year minimum monthly payment (\$):\footnote{See section 3 of ``Extra Insight into the iOS App'' for more information on the ten-year payment.}
 	\newcommand{\base}{\left(1+\alpha\cdot i\right)}
 	\small
