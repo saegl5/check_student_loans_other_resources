@@ -15,8 +15,8 @@
    height="1334"
    viewBox="0 0 750 1334"
    sodipodi:docname="math.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/mnt/c/Users/Ed/XcodeProjects/check_student_loans_app_ios/Resources/latex/images/math.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <metadata
@@ -276,11 +276,11 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.5"
-     inkscape:cx="-372.84949"
-     inkscape:cy="654.76661"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="146.9182"
+     inkscape:cy="669.42915"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0" />
@@ -1427,8 +1427,8 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
-     x="313.67572"
-     y="887.86536"
+     x="302.01117"
+     y="887.86542"
      id="text1086-0-4-3-0-3-5-2-0-4-3"
      transform="scale(1.0287622,0.97204194)"
      inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\math.png"
@@ -1436,13 +1436,13 @@
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan1084-6-4-1-5-5-8-8-0-6-6"
-       x="313.67572"
-       y="887.86536"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1;font-size:32.51209251px">[<tspan
-   style="font-style:italic;font-size:32.51209251px"
-   id="tspan1015">R</tspan> or <tspan
-   style="font-style:italic;font-size:32.51209251px"
-   id="tspan1017">E</tspan>]</tspan></text>
+       x="302.01117"
+       y="887.86542"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">[ |<tspan
+   style="font-style:italic;font-size:32.51209259px"
+   id="tspan1015">a – a<tspan
+   style="font-style:normal;font-size:64.99999762%;baseline-shift:sub"
+   id="tspan286">f</tspan>| </tspan>]</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
      id="rect1007"
