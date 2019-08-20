@@ -1,7 +1,4 @@
-iOS app
-  |__Video/introduction.mov
-
-introduction.mov was exported from OpenShot 1.4.3 on Ubuntu 17.10.
+Video introduction (i.e., introduction.mov) was exported from OpenShot 1.4.3 on Ubuntu 17.10.
 
 Export Instructions - Ubuntu only!
 ----------------------------------
@@ -36,7 +33,7 @@ $ sudo chmod -R o+w /usr/local/introduction
 $ cd /usr/local/introduction
 $ openshot "Default Project.osp"
 
-(6) Edit it, then export a new ``introduction.mov.''
+(6) Edit it, then export a new ``introduction.mov''.
 
 File > Export Video...
 File Name: introduction
