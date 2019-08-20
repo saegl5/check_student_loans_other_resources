@@ -4,7 +4,7 @@ Keep iOS_app_overview.docx for personal reference.
 Instructional App
 |__course_material.docx
 |__iOS app
-    |__``'How to Use App' Video''/introduction.mov     <-- What subjects see, when app launches
+    |__Video/introduction.mov     <-- What subjects see, when app launches
     
 Supplementary
 |__LaTeX
@@ -24,6 +24,6 @@ Additional Source Code
 
 [Notes]
 
-``'How to Use App' Video'' directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
-Utilizing a separate CHANGELOG for ``'How to Use App' Video'' directory because the video itself is drawn from a project.
+``Video'' directory contains more information on introduction.mov and instructions on how to export a new introduction.mov, as well.
+Utilizing a separate CHANGELOG for the ``Video'' directory because the video itself is drawn from a project.
 ``Images'' directory also contains an ``svg'' directory of SVG files from which the images were exported.
