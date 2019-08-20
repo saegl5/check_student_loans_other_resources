@@ -13,7 +13,7 @@ Windows:
 Turn Windows features on or off > enable ``Windows Subsystem for Linux'' (WSL)
 Download and install ``Ubuntu'' from the Microsoft Store.
 Launch Ubuntu (i.e., launch Ubuntu on WSL), and follow the prompts.
-Python and pip are preinstalled. 
+Python and pip will be preinstalled. 
 
 Install and set up JupyterLab
 -----------------------------
@@ -31,7 +31,7 @@ Ubuntu on WSL:
 $ pip install jupyterlab
 
 Launch JupyterLab
-------------------
+-----------------
 
 macOS/Ubuntu: $ jupyter lab
 Ubuntu on WSL: $ jupyter lab, copy and paste URL into a browser
@@ -44,5 +44,5 @@ Click the play button.
 
 [Note]
 
-Python 2, instead of Python 3, is used because the IPYNB file was originally created using the SageMath 8.1 kernel.
+Python 2, instead of Python 3, is used because the IPYNB file was created using the SageMath 8.1 kernel.
 SageMath uses Python 2.

@@ -1,7 +1,7 @@
 Install TeX Live
 ----------------
 
-Windows: Install MiKTeX (https://miktex.org/), and it will prompt users to install any packages it needs when it needs them. 
+Windows: Install MiKTeX (https://miktex.org/), and it will prompt users to install any packages it needs when it needs one. 
 macOS: Install MacTeX (https://tug.org/mactex/), and it will install all packages in TeX Live.
 Ubuntu: $ sudo apt install texlive-latex-extra texlive-science texworks
 

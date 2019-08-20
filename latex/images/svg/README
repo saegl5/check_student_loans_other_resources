@@ -1,11 +1,11 @@
 Download and install Inkscape (https://inkscape.org/) or another vector graphics editor (e.g., Adobe Illustrator).
 
-Windows/macOS: Install ``cmunrm.ttf'' and ``LiberationSans-Regular.'' One may need to install the fonts system-wide, but try to install them locally first.
+Windows/macOS: Install ``cmunrm.ttf'' and ``LiberationSans-Regular.'' One may need to install the fonts system-wide.
 Linux: $ sudo apt install fonts-cmu ttf-mscorefonts-installer
 
 Launch the vector graphics editor, and open each SVG file.
 
-Edit each SVG file, then File > Export PNG Image... > 300+ dpi > Export
+Edit each SVG file, then File > Export PNG Image... > 300 dpi or more > Export
 
 --------------------------------------------------------------------------------------------------
 Optional
