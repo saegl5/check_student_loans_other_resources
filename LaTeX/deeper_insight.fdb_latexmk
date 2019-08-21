@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1566358749 "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1566358833
+["pdflatex"] 1566417435 "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1566417439
   "/etc/texmf/web2c/texmf.cnf" 1564079313 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/./images/main.png" 1566188511 163547 983221f2da803574ea6246506bde4bd0 ""
   "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/./images/math.png" 1566188511 400001 f0fae54765fab78f8ea329a812b3f641 ""
-  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux" 1566358751 491 2a97c89ab8072521ed04fafab6d6a34c ""
-  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.tex" 1566358832 17680 fb070996c8bd8e9112b79e0b7fbf87ff ""
+  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux" 1566417439 491 2a97c89ab8072521ed04fafab6d6a34c ""
+  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.tex" 1566417435 17698 63c40177b2721d9988044cf95a5b6100 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -115,5 +115,5 @@
   "images/math.png" 1566188511 400001 f0fae54765fab78f8ea329a812b3f641 ""
   (generated)
   "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.log"
-  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux"
   "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.pdf"
+  "/home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux"
