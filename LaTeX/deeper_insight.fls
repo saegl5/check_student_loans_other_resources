@@ -1,10 +1,10 @@
-PWD /mnt/c/Users/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX
+PWD /mnt/c/Users/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.tex
-OUTPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.log
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.tex
+OUTPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -96,9 +96,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux
-OUTPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux
+OUTPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
@@ -164,7 +164,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-OUTPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.pdf
+OUTPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -202,10 +202,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/./images/main.png
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/main.png
 INPUT ./images/main.png
 INPUT ./images/main.png
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/./images/math.png
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/math.png
 INPUT ./images/math.png
 INPUT ./images/math.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
@@ -317,7 +317,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /home/ed/Ed/XcodeProjects/check_student_loans_ios/Resources/LaTeX/deeper_insight.aux
+INPUT /home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
