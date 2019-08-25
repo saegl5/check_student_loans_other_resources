@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1566594707 "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1566594710
+["pdflatex"] 1566698930 "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1566698933
   "/etc/texmf/web2c/texmf.cnf" 1564079313 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/main.png" 1566593722 163547 983221f2da803574ea6246506bde4bd0 ""
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/math.png" 1566593722 400001 f0fae54765fab78f8ea329a812b3f641 ""
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux" 1566594710 491 2a97c89ab8072521ed04fafab6d6a34c ""
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.tex" 1566594706 17698 63c40177b2721d9988044cf95a5b6100 ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/main.png" 1566695941 163547 983221f2da803574ea6246506bde4bd0 ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/./images/math.png" 1566695941 400001 f0fae54765fab78f8ea329a812b3f641 ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux" 1566698933 491 2a97c89ab8072521ed04fafab6d6a34c ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.tex" 1566695941 17698 63c40177b2721d9988044cf95a5b6100 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -111,9 +111,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1564169525 164837 f472f40ab643c6b1fa7fff8b04d446df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1564171692 812317 80686213af030a6841a7734ede50ae1d ""
-  "images/main.png" 1566593722 163547 983221f2da803574ea6246506bde4bd0 ""
-  "images/math.png" 1566593722 400001 f0fae54765fab78f8ea329a812b3f641 ""
+  "images/main.png" 1566695941 163547 983221f2da803574ea6246506bde4bd0 ""
+  "images/math.png" 1566695941 400001 f0fae54765fab78f8ea329a812b3f641 ""
   (generated)
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.log"
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.pdf"
-  "/home/ed/Ed/XcodeProjects/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux"
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.aux"
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.pdf"
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/deeper_insight.log"
