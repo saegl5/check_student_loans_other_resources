@@ -15,8 +15,8 @@
    height="1334"
    viewBox="0 0 750 1334"
    sodipodi:docname="main.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\Ed Silkworth\Desktop\main.png"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/ed/images/main.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,12 +46,12 @@
      inkscape:window-height="837"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.57784146"
-     inkscape:cx="50.070896"
-     inkscape:cy="825.7816"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="1.1556829"
+     inkscape:cx="376.17076"
+     inkscape:cy="243.31402"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -296,30 +296,32 @@
    id="tspan1385-0">m</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
-     x="680.80719"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
+     x="658.23047"
      y="1171.8705"
      id="text966-8-9-3-9-4"
      transform="scale(0.97444641,1.0262237)"><tspan
        sodipodi:role="line"
        id="tspan964-6-6-0-6-5"
-       x="680.80719"
+       x="658.23047"
        y="1171.8705"
-       style="font-style:italic;stroke-width:0.87982368;-inkscape-font-specification:'Times New Roman,  Italic';font-family:'Times New Roman';font-weight:normal;font-stretch:normal;font-variant:normal">s</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.87982368">⌊<tspan
+   style="font-style:italic"
+   id="tspan88">s</tspan>⌉</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.19294739px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87982368"
-     x="659.57983"
-     y="1215.4264"
+     x="577.92645"
+     y="1215.4268"
      id="text966-8-9-3-9-4-8"
      transform="scale(0.97444641,1.0262237)"><tspan
        sodipodi:role="line"
        id="tspan964-6-6-0-6-5-6"
-       x="659.57983"
-       y="1215.4264"
-       style="font-style:normal;stroke-width:0.87982368;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-stretch:normal;font-variant:normal">∆<tspan
+       x="577.92645"
+       y="1215.4268"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.87982368">	↑↓ ⌊∆<tspan
    style="font-style:italic"
-   id="tspan9078">s</tspan></tspan></text>
+   id="tspan9078">s</tspan>⌉</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:59.47191238px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48679781;stroke-opacity:1;"
@@ -417,4 +419,14 @@
      x="0.2498699"
      y="0.24988596"
      style="opacity:0.25;fill:none;stroke:#000000;stroke-width:0.4997398;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="676.70819"
+     y="1202.6013"
+     id="text84"><tspan
+       sodipodi:role="line"
+       id="tspan82"
+       x="676.70819"
+       y="1237.9919"></tspan></text>
 </svg>
