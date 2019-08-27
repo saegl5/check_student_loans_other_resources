@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1566913584 "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.tex" "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.pdf" "extra_insight" 1566913586
+["pdflatex"] 1566918067 "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.tex" "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.pdf" "extra_insight" 1566918071
   "/etc/texmf/web2c/texmf.cnf" 1564079313 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.aux" 1566913586 2227 4951893672cf36637fb973f61acd17fc ""
-  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.tex" 1566913583 66762 ea48ea7c12ac77b15b48b06898a5ce81 ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.aux" 1566918070 2227 4951893672cf36637fb973f61acd17fc ""
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.tex" 1566918066 66762 3407931d08a89083d7c9bef189778b32 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -116,5 +116,5 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1564171692 812317 80686213af030a6841a7734ede50ae1d ""
   (generated)
   "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.pdf"
-  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.log"
   "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.aux"
+  "/home/ed/Ed/Development/Check-Student-Loans-for-iOS/Resources/LaTeX/extra_insight.log"
