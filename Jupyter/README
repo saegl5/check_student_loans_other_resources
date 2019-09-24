@@ -10,8 +10,8 @@ Python is preinstalled.
 $ sudo apt install python-pip
 
 Windows:
-Turn Windows features on or off > enable ``Windows Subsystem for Linux'' (WSL)
-Download and install ``Ubuntu'' from the Microsoft Store.
+Turn Windows features on or off > enable "Windows Subsystem for Linux" (WSL)
+Download and install "Ubuntu" from the Microsoft Store.
 Launch Ubuntu (i.e., launch Ubuntu on WSL), and follow the prompts.
 Python and pip will be preinstalled. 
 
