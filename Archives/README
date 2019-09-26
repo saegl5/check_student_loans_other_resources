@@ -1,0 +1,21 @@
+"Unzip" the bundle, then...
+
+Open the IPYNB file with JupyterLab.<br>
+Open the XLSX file with Microsoft Excel.<br>
+Open the DOCX file with Microsoft Word.<br>
+Open each PDF file with Acrobat Reader DC (https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html).<br>
+Open the TXT file with a text editor (e.g., Notepad, TextEdit or gedit).
+
+--------------------------------------------------------------------------------------------------
+Optional
+
+Prerequisites: gnupg (https://www.gnupg.org/)
+
+To verify the authenticity of the PDF files in Terminal:
+$ gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
+$ gpg --verify SHA1SUMS.gpg SHA1SUMS (example)
+
+To verify the integrity of the PDF files in Terminal:
+$ shasum -a 1 -c SHA1SUMS (example)
+
+--------------------------------------------------------------------------------------------------
