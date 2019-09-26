@@ -1,6 +1,5 @@
-Sep 1-2, 2019 · Version 1.7.1: merged resources from two repositories into one new repository, archived pdf files
-Aug 27, 2019 · Version 1.7: updated interest rate and default numbers, aligned how savings and change in savings are calculated and displayed
-Aug 25, 2019 · Version 1.6: updated course material
+Sep 24-26, 2019 · Version 1.6.1: extracted some resources from the "course material" repository into a newly separate repository, added extension to rounding_notes, archived the resources
+Aug 27, 2019 · Version 1.6: updated interest rate and default numbers, aligned how savings and change in savings are calculated and displayed
 Aug 20, 2019 · Version 1.5: reorganized resources again, corrected spreadsheet
 Aug 8, 2019 · Version 1.4: reorganized resources, provided raw files for images, added READMEs
 Jul 29-Aug 5, 2019 · Version 1.3: uploaded Ten-Year_Minimum_Errors.ipynb, updated other documents
