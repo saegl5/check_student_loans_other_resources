@@ -1,7 +1,8 @@
-Notes:
+Special Case #1
     
-(1) Theoretically, to round an amount to the nearest cent, use round(amount*100)/100.
-    However, iOS rounds the remainder .##4999... down one cent (e.g., 2.454999... to 2.45, instead of 2.46).
+Theoretically, to round an amount to the nearest cent, use round(amount*100)/100.
+However, iOS rounds the remainder .##4999... down one cent (e.g., 2.454999... to 2.45, instead of 2.46).
+    
     So, test the remainder: (let amount be "a")
     
     	if (a*100 - floor(a*100) > 0.499999) && (a*100 - floor(a*100) < 0.5)
@@ -21,8 +22,14 @@ Notes:
         = round(246.4999...)/100
         = 246/100 = 2.46
     
-(2) If one casts a Double as an Integer, iOS will simply truncate the decimal part of a number.
-    For example, Int(38.999...) = 38, even though 38.999... = 39. So, test the remainder:
+
+
+Special Case #2
+
+If one casts a Double as an Integer, iOS will simply truncate the decimal part of a number.
+For example, Int(38.999...) = 38, even though 38.999... = 39. 
+
+    So, test the remainder:
     
         if (a - floor(a) > 0.99999)
     		{ a = Int(a + 1) }
