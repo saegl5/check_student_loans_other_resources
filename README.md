@@ -3,7 +3,7 @@
 
 # ![Alt](./app_icon_and_logo.png "Check Student Loans"): Other Resources
 
-This project consists of other resources. These resources supplement the course material or native app.<p>
+This project consists of other resources. These resources supplement the [course material](https://gitlab.com/saegl5/check-student-loans-course-material "Click here to access the course material repository."), [native app](https://gitlab.com/saegl5/check-student-loans-for-ios "Click here to access the native app's repository.") or each other.<p>
 
 Alternative downloads:<br>
 [Version 1.x for Feasibility Test](./Archives/feasibility_test.zip "Click here to access the download link.")<br>
@@ -31,35 +31,27 @@ $ git show-ref --heads --hash
 </pre>
 Check that the hash matches the commit SHA.<p>
 
-### introductory_script.md
+### introductory_script.md<br>(supplements the course material)
 
->&nbsp;<br>
 >Open and edit "introductory_script.md" with a text editor (e.g., Notepad, TextEdit or gedit).<p>
 >Then, convert it to a Microsoft Word document.<br>
 >To convert the file, install [Pandoc](https://pandoc.org/ "Click here for more information.") and open a terminal:
 >```
 >$ pandoc --lua-filter gitlab-math.lua -s introductory_script.md -o introductory_script.docx
 >```
->Afterward, open "introductory_script.docx" with Microsoft Word.<br>
->&nbsp;
+>Afterward, open "introductory_script.docx" with Microsoft Word.
 
-### iOS_app_overview.md
+### iOS_app_overview.md<br>(supplements the course material)
 
->&nbsp;<br>
->Open and edit "iOS_app_overview.md," and convert it to a Microsoft Word document, as done similarly above. Then, open "iOS_app_overview.docx" with Microsoft Word.<br>
->&nbsp;
+>Open and edit "iOS_app_overview.md," and convert it to a Microsoft Word document, as done similarly above. Then, open "iOS_app_overview.docx" with Microsoft Word.
 
-### checklist_for_checking_calculations.docx
+### checklist_for_checking_calculations.docx<br>(supplements the native app)
 
->&nbsp;<br>
->Open and edit "checklist_for_checking_calculations.docx" with Microsoft Word.<br>
->&nbsp;
+>Open and edit "checklist_for_checking_calculations.docx" with Microsoft Word.
 
-### checking_calculations.xlsx
+### checking_calculations.xlsx<br>(supplements the native app)
 
->&nbsp;<br>
->Open and edit "checking_calculations.xlsx" with Microsoft Excel.<br>
->&nbsp;
+>Open and edit "checking_calculations.xlsx" with Microsoft Excel.
 
 The markdown files', document's and spreadsheet's latest version is 1.6.1. The Lua filter requires Pandoc version 2.0 or higher. Known to work on Windows 10 Pro version 1903, in Microsoft Word for Office 365 version 1908 (64-bit)
 
@@ -82,20 +74,20 @@ $ R
 ``` 
 The benefit to rendering markdown with R is that one can embed executable R [code chunks](https://rmarkdown.rstudio.com/lesson-3.html "Click here for more information."). Embed a chunk; change the file's extension to .Rmd; then, re-render the file. -->
 
-### Additional Resources
+## Additional Resources
 
 special_cases_in_iOS.txt<br>
-(one for rounding to the nearest cent, and one for casting as an integer)
+(one for rounding to the nearest cent, and one for casting as an integer; supplements the native app)
 
 
 Jupyter > Ten-Year_Minimum_Errors.ipynb<br>
-(for computing ten-year minimum monthly payment errors)
+(for computing ten-year minimum monthly payment errors; supplements checking_calculations.xlsx *and* the native app)
 
 LaTeX > deeper_insight.pdf<br>
-(provides context, an overview, terminology and formulae)
+(provides context, an overview, terminology and formulae; supplements checking_calculations.xlsx *and* the native app)
 
 LaTeX > extra_insight.pdf<br>
-(provides examples and derivations)
+(provides examples and derivations; supplements checking_calculations.xlsx *and* the native app)
 
 <!--deeper_insight.tex (source code)
     extra_insight.tex (source code)
@@ -104,7 +96,7 @@ LaTeX > extra_insight.pdf<br>
 
 ## Contributing
 
-Sign into GitLab, to fork the project.<p>
+Sign into GitLab, and fork the project.<p>
 
 Modify any resources.<br>
 Under Source Control, select Commit, and Push the changes.<p>
