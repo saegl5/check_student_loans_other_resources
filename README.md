@@ -3,7 +3,7 @@
 
 # ![Alt](./app_icon_and_logo.png "Check Student Loans"): Other Resources
 
-This project consists of other resources. These resources supplement the [course material](https://gitlab.com/saegl5/check-student-loans-course-material "Click here to access the course material repository."), [native app](https://gitlab.com/saegl5/check-student-loans-for-ios "Click here to access the native app's repository.") or each other.<p>
+This project consists of other resources. These resources supplement the [course material](https://gitlab.com/check-student-loans/course-material "Click here to access the course material repository."), [native app](https://gitlab.com/check-student-loans/ios "Click here to access the native app's repository.") or each other.<p>
 
 Alternative downloads:<br>
 [Version 1.x for Feasibility Test](./Archives/feasibility_test.zip "Click here to access the download link.")<br>
@@ -19,14 +19,14 @@ Alternative downloads:<br>
 
 Clone the project:
 <pre>
-$ git clone https://gitlab.com/saegl5/check-student-loans-other-resources.git
+$ git clone https://gitlab.com/check-student-loans/other-resources.git
 </pre>
 
 (Recommended) Verify the project's authenticity: Look for "Verified" next to the commit SHA (e.g., Verified e733a45d).
 
 (Recommended) Open a terminal, and verify the project's integrity:
 <pre>
-$ cd /path/to/check-student-loans-other-resources
+$ cd /path/to/other-resources
 $ git show-ref --heads --hash
 </pre>
 Check that the hash matches the commit SHA.<p>
@@ -58,7 +58,7 @@ The markdown files', document's and spreadsheet's latest version is 1.6.1; their
 ## Usage
 
 Instructors follow the introductory script and can keep the app overview for their personal reference.
-[Course material](https://gitlab.com/saegl5/check-student-loans-course-material "Click here to access the course material repository.") is distributed to students for them to complete.
+[Course material](https://gitlab.com/check-student-loans/course-material "Click here to access the course material repository.") is distributed to students for them to complete.
 However, instructors should not simply hand them the material; they should illustrate some examples briefly.
 Students answer some questions in the course material with the native app, some not.
 On how to proceed from there is the instructor's discretion.
