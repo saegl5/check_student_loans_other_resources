@@ -106,6 +106,7 @@ For any issues, submit a new issue or discuss an existing one.<p>
 
 ## History
 
+Sep 25, 2019: unified author name and email of all commits<br>
 Sep 24-28, 2019 &middot; Version 1.6.1: extracted some resources from the "course material" repository into a newly separate repository, added extension to rounding_notes, renamed rounding_notes, archived the resources<br>
 Aug 27, 2019 &middot; Version 1.6: updated interest rate and default numbers, aligned how savings and change in savings are calculated and displayed<br>
 Aug 20, 2019 &middot; Version 1.5: reorganized resources again, corrected spreadsheet<br>
