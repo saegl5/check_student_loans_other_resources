@@ -11,8 +11,9 @@ Alternative downloads:<br>
 [Version 1.x for Informal Pilot Test](./Archives/informal_pilot_test.zip "Click here to access the download link.")<br>
 [Version 1.x for Focus Groups](./Archives/focus_groups.zip "Click here to access the download link.")<br>
 [Version 1.x for Panel Discussion](./Archives/panel_discussion.zip "Click here to access the download link.")<br>
-[Version 1.6.1 - Summative Copy](./Archives/summative_copy.zip "Click here to access the download link.")<p>
-<!--[Version 2.7.2 - Latest](./Archives/latest.ipa "Click here to access the download link.") (Updated: August 16, 2019)<p>-->
+[Version 1.6.1 - Summative Copy](./Archives/summative_copy.zip "Click here to access the download link.")<br>
+[Version 1.6.1 - Latest](./Archives/latest.zip "Click here to access the download link.") (Oct 3, 2019)<p>
+
 "Unzip" the bundle, then open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link.").
 
 ## Build from Source Code
@@ -53,7 +54,7 @@ Check that the hash matches the commit SHA.<p>
 
 >Open and edit "checking_calculations.xlsx" with Microsoft Excel.
 
-The markdown files', document's and spreadsheet's latest version is 1.6.1; their version matches their archived ZIP file version. The Lua filter requires Pandoc version 2.0 or higher. Known to work on Windows 10 Pro version 1903, in Microsoft Word for Office 365 version 1908 (64-bit)
+The Lua filter requires Pandoc version 2.0 or higher.
 
 ## Usage
 
