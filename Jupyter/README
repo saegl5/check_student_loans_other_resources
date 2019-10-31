@@ -1,5 +1,5 @@
 Install and set up Python 2 and pip
------------------------------------
+--------------------------------------
 
 macOS:
 Python is preinstalled.
@@ -16,7 +16,7 @@ Launch Ubuntu (i.e., launch Ubuntu on WSL), and follow the prompts.
 Python and pip will be preinstalled. 
 
 Install and set up JupyterLab
------------------------------
+-------------------------------
 
 macOS:
 $ pip install --user jupyterlab
@@ -31,13 +31,13 @@ Ubuntu on WSL:
 $ pip install jupyterlab
 
 Launch JupyterLab
------------------
+--------------------
 
 macOS/Ubuntu: $ jupyter lab
-Ubuntu on WSL: $ jupyter lab, copy and paste URL into a browser
+Ubuntu on WSL: $ jupyter lab  # copy and paste URL into a browser
 
 Edit the IPYNB file, and run the cell
--------------------------------------
+--------------------------------------
 
 Open and edit the IPYNB file.
 Click the play button.

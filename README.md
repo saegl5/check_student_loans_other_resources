@@ -18,17 +18,19 @@ Alternative downloads:<br>
 
 ## Build from Source Code
 
-Clone the project:
+Download and install [Pandoc](https://pandoc.org/ "Click here for more information.") and [Git](https://git-scm.com/downloads "Click here to access the download link.").
+
+Open a terminal, and clone the project:
 <pre>
-$ git clone https://gitlab.com/check-student-loans/other-resources.git
+git clone https://gitlab.com/check-student-loans/other-resources.git
 </pre>
 
-(Recommended) Verify the project's authenticity: Look for "Verified" next to the commit SHA (e.g., Verified e733a45d).
+(Recommended) Verify the project's authenticity: Look in GitLab for "Verified" next to the commit SHA (e.g., Verified e733a45d).
 
 (Recommended) Open a terminal, and verify the project's integrity:
 <pre>
-$ cd /path/to/other-resources
-$ git show-ref --heads --hash
+cd other-resources
+git show-ref --heads --hash
 </pre>
 Check that the hash matches the commit SHA.<p>
 
@@ -36,9 +38,9 @@ Check that the hash matches the commit SHA.<p>
 
 >Open and edit "introductory_script.md" with a text editor (e.g., Notepad, TextEdit or gedit).<p>
 >Then, convert it to a Microsoft Word document.<br>
->To convert the file, install [Pandoc](https://pandoc.org/ "Click here for more information.") and open a terminal:
+>To convert the file, and open a terminal:
 >```
->$ pandoc --lua-filter gitlab-math.lua -s introductory_script.md -o introductory_script.docx
+>pandoc --lua-filter gitlab-math.lua -s introductory_script.md -o introductory_script.docx
 >```
 >Afterward, open "introductory_script.docx" with Microsoft Word.
 
@@ -68,7 +70,7 @@ On how to proceed from there is the instructor's discretion.
 
 Install Pandoc *and* [R](https://www.r-project.org "Click here for more information."); open a terminal; then, use R to render the file as a Microsoft Word document: (R utilizes Pandoc in the background)
 ```
-$ R
+R
 > install.packages("rmarkdown")
 > library(rmarkdown)
 > render("introductory_script.md") # example
