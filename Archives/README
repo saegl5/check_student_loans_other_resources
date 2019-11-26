@@ -13,11 +13,11 @@ Optional
 
 Prerequisites: gnupg (https://www.gnupg.org/)
 
-To verify the authenticity of the PDF files in a terminal:
+To verify the authenticity of the ZIP files in a terminal:
 gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
 gpg --verify SHA1SUMS.gpg SHA1SUMS   # example
 
-To verify the integrity of the PDF files in a terminal:
+To verify the integrity of the ZIP files in a terminal:
 Ubuntu: $ sha1sum -c SHA1SUMS   # example
 macOS: $ shasum -a 1 -c SHA1SUMS   # example
 Windows Subsystem for Linux: $ sha1sum -c SHA1SUMS   # example
