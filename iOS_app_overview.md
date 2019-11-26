@@ -26,10 +26,10 @@ Alternative: construct a table with captions.
 Problem is that tables need header rows, so use captions in the header.
 -->
 
-| Video Introduction | Main Screen | Main Screen\  (Editing Mode) | Mathematics Screen\  (Swipe Enabled) |
-|:-:|:-:|:-:|:-:|
-||||| <!-- empty line -->
-| ![](./Images/video_introduction.png) | ![](./Images/main_screen.png) | ![](./Images/editing_mode.png) | ![](./Images/math_screen.png) |
+| Video Introduction                   | Main Screen                   | Main Screen\  (Editing Mode)   | Mathematics Screen\  (Swipe Enabled) |
+|:------------------------------------:|:-----------------------------:|:------------------------------:|:------------------------------------:|
+|                                      |                               |                                |                                      |
+| ![](./Images/video_introduction.png) | ![](./Images/main_screen.png) | ![](./Images/editing_mode.png) | ![](./Images/math_screen.png)        |
 
 Figure: Screenshots
 
