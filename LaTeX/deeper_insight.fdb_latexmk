@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1574792598 "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1574792602
+["pdflatex"] 1575170174 "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1575170178
   "/etc/texmf/web2c/texmf.cnf" 1571772792 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ed/Ed/Development/other-resources/LaTeX/./images/main.png" 1570156073 165312 369e042cf19f43b9d2b0411a1419ea08 ""
-  "/home/ed/Ed/Development/other-resources/LaTeX/./images/math.png" 1570156073 400001 f0fae54765fab78f8ea329a812b3f641 ""
-  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux" 1574792601 491 2a97c89ab8072521ed04fafab6d6a34c ""
+  "/home/ed/Ed/Development/other-resources/LaTeX/./images/main.png" 1575170159 165776 c836d62eeca9b00636b2be243ecf6807 ""
+  "/home/ed/Ed/Development/other-resources/LaTeX/./images/math.png" 1575169719 388513 bfe1820bdc71bf253296493c61aca7cb ""
+  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux" 1575170177 491 2a97c89ab8072521ed04fafab6d6a34c ""
   "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" 1574481794 18024 1717a173ee6a88eaefa5218155d889d0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -111,9 +111,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1571776800 164837 f472f40ab643c6b1fa7fff8b04d446df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1571776862 812247 b2e7aea6429192b3d2518867bb4365ea ""
-  "images/main.png" 1570156073 165312 369e042cf19f43b9d2b0411a1419ea08 ""
-  "images/math.png" 1570156073 400001 f0fae54765fab78f8ea329a812b3f641 ""
+  "images/main.png" 1575170159 165776 c836d62eeca9b00636b2be243ecf6807 ""
+  "images/math.png" 1575169719 388513 bfe1820bdc71bf253296493c61aca7cb ""
   (generated)
-  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux"
   "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf"
   "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.log"
+  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux"
