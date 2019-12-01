@@ -15,8 +15,8 @@
    height="1334"
    viewBox="0 0 750 1334"
    sodipodi:docname="main.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/ed/images/main.png"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\Ed\Development\other-resources\LaTeX\images\main.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <metadata
@@ -46,12 +46,12 @@
      inkscape:window-height="837"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.1556829"
-     inkscape:cx="376.17076"
-     inkscape:cy="243.31402"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:zoom="0.61894918"
+     inkscape:cx="124.55044"
+     inkscape:cy="592.04219"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -239,16 +239,16 @@
        style="stroke-width:0.87982368;fill:#cccccc;">Savings</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.51209259px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81280243;stroke-opacity:1"
      x="354.60721"
-     y="860.71558"
+     y="854.54309"
      id="text1086-0-4"
      transform="scale(1.0287622,0.97204194)"><tspan
        sodipodi:role="line"
        id="tspan1084-6-4"
        x="354.60721"
-       y="860.71558"
-       style="stroke-width:0.81280243;-inkscape-font-specification:'Times New Roman, Italic';font-family:'Times New Roman';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;stroke:none;stroke-opacity:1;">a</tspan></text>
+       y="854.54309"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';stroke:none;stroke-width:0.81280243;stroke-opacity:1">a</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 197.15375,182.64904 v 61.44263"
@@ -383,12 +383,12 @@
   </g>
   <path
      style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 559.86733,830.08649 H 585.8694"
+     d="M 559.86733,824.08649 H 585.8694"
      id="path1217"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 572.7038,816.92088 v 26.33121"
+     d="m 572.7038,810.92088 v 26.33121"
      id="path1219"
      inkscape:connector-curvature="0" />
   <path
@@ -408,8 +408,8 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="csc" />
   <path
-     style="fill:#ffffff;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-     d="m 164.24092,830.08649 h 26.00207"
+     style="fill:#ffffff;fill-opacity:1;stroke:#c0c0c0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 164.24092,824.08649 h 26.00207"
      id="path1215"
      inkscape:connector-curvature="0" />
   <rect
@@ -428,5 +428,5 @@
        sodipodi:role="line"
        id="tspan82"
        x="676.70819"
-       y="1237.9919"></tspan></text>
+       y="1237.9919" /></text>
 </svg>
