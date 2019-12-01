@@ -1,3 +1,4 @@
+Nov 30, 2019 · Version 1.6.2: fixed latex images
 Sep 25, 2019: unified author name and email of all commits
 Sep 24-28, 2019 · Version 1.6.1: extracted some resources from the "course material" repository into a newly separate repository, added extension to rounding_notes, renamed rounding_notes, archived the resources
 Aug 27, 2019 · Version 1.6: updated interest rate and default numbers, aligned how savings and change in savings are calculated and displayed
