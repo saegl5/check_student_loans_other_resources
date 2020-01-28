@@ -1,4 +1,4 @@
-Special Case #1
+Special Case #1: Rounding #.##4999... to the Nearest Cent
     
 Theoretically, to round an amount to the nearest cent, use round(amount*100)/100.
 However, iOS rounds the remainder .##4999... down one cent (e.g., 2.454999... to 2.45, instead of 2.46).
@@ -24,9 +24,9 @@ However, iOS rounds the remainder .##4999... down one cent (e.g., 2.454999... to
     
 
 
-Special Case #2
+Special Case #2: Casting #.999... as an Integer
 
-If one casts a Double as an Integer, iOS will simply truncate the decimal part of a number.
+If one casts an amount as an Integer, iOS will simply truncate the decimal part of a number.
 For example, Int(38.999...) = 38, even though 38.999... = 39. 
 
     So, test the remainder:
