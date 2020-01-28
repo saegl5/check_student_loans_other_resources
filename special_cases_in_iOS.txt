@@ -26,7 +26,7 @@ However, iOS rounds the remainder .##4999... down one cent (e.g., 2.454999... to
 
 Special Case #2: Casting #.999... as an Integer
 
-If one casts an amount as an Integer, iOS will simply truncate the decimal part of a number.
+If one casts an amount as an integer, iOS will simply truncate the decimal part of a number.
 For example, Int(38.999...) = 38, even though 38.999... = 39. 
 
     So, test the remainder:
