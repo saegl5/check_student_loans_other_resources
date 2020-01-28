@@ -11,7 +11,7 @@ Alternative downloads:<br>
 [Version 1.x for Informal Pilot Test](./Archives/informal_pilot_test.zip "Click here to access the download link.")<br>
 [Version 1.x for Focus Groups](./Archives/focus_groups.zip "Click here to access the download link.")<br>
 [Version 1.x for Panel Discussion](./Archives/panel_discussion.zip "Click here to access the download link.")<br>
-[Version 1.6.2 - Summative Copy](./Archives/summative_copy.zip "Click here to access the download link.")<br>
+[Version 1.6.2 - Summative Copy](./Archives/summative.zip "Click here to access the download link.")<br>
 [Version 1.6.2 - Latest](./Archives/latest.zip "Click here to access the download link.") (Nov 30, 2019)<p>
 
 "Unzip" the bundle, then open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link.").
