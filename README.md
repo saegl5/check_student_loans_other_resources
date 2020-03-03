@@ -7,8 +7,8 @@ This project consists of other resources. These resources supplement the [course
 
 Alternative downloads:<br>
 [Version 1.x for Feasibility Test](./Archives/feasibility_test.zip "Click here to access the download link.")<br>
-[Version 1.x for Formal Pilot Test](./Archives/formal_pilot_test.zip "Click here to access the download link.")<br>
-[Version 1.x for Informal Pilot Test](./Archives/informal_pilot_test.zip "Click here to access the download link.")<br>
+[Version 1.x for Formal Field Test](./Archives/formal_field_test.zip "Click here to access the download link.")<br>
+[Version 1.x for Informal Field Test](./Archives/informal_field_test.zip "Click here to access the download link.")<br>
 [Version 1.x for Focus Groups](./Archives/focus_groups.zip "Click here to access the download link.")<br>
 [Version 1.x for Panel Discussion](./Archives/panel_discussion.zip "Click here to access the download link.")<br>
 [Version 1.6.2 - Summative Copy](./Archives/summative.zip "Click here to access the download link.")<br>
