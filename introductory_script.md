@@ -1,6 +1,6 @@
 ---
 # for rendering with R
-title: "*✓ Student Loans*"
+title: "*✓ Student Loans* App"
 output: 
   word_document:
     pandoc_args: ["--lua-filter=gitlab-math.lua"]
