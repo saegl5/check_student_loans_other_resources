@@ -1,0 +1,25 @@
+"Unzip" the bundle, then...
+
+Open the IPYNB file with JupyterLab.
+Open the XLSX file with Microsoft Excel.
+Open the DOCX file with Microsoft Word.
+Open each PDF file with Acrobat Reader DC (https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html).
+Open the TXT file with a text editor (e.g., Notepad, TextEdit or gedit).
+
+Instructional App = course material + Android/iOS app
+
+--------------------------------------------------------------------------------------------------
+Optional
+
+Prerequisites: gnupg (https://www.gnupg.org/)
+
+To verify the authenticity of the ZIP files in a terminal:
+gpg --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 0x4191f431
+gpg --verify SHA1SUMS.gpg SHA1SUMS   # example
+
+To verify the integrity of the ZIP files in a terminal:
+Ubuntu: $ sha1sum -c SHA1SUMS   # example
+macOS: $ shasum -a 1 -c SHA1SUMS   # example
+Windows Subsystem for Linux: $ sha1sum -c SHA1SUMS   # example
+
+--------------------------------------------------------------------------------------------------
