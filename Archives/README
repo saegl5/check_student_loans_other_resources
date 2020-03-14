@@ -3,6 +3,9 @@
 Open the IPYNB file with JupyterLab.
 Open the XLSX file with Microsoft Excel.
 Open the DOCX file with Microsoft Word.
+Open the URL file with Microsoft (Chromium) Edge in Windows. The extension may be hidden.
+Open the WEBLOC file with Safari in macOS.
+Open the DESKTOP file with Mozilla Firefox in Ubuntu.
 Open each PDF file with Acrobat Reader DC (https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html).
 Open the TXT file with a text editor (e.g., Notepad, TextEdit or gedit).
 
