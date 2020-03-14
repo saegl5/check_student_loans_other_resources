@@ -14,7 +14,13 @@ Alternative downloads:<br>
 [Version 1.6.2 - Summative Copy](./Archives/summative.zip "Click here to access the download link.")<br>
 [Version 1.6.2 - Latest](./Archives/latest.zip "Click here to access the download link.") (Nov 30, 2019)<p>
 
-"Unzip" the bundle, then open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link.").
+"Unzip" the bundle, then...
+
+Open the IPYNB file with JupyterLab.<br>
+Open the XLSX file with Microsoft Excel.<br>
+Open the DOCX file with Microsoft Word.<br>
+Open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link.").<br>
+Open the TXT file with a text editor (e.g., Notepad, TextEdit or gedit).
 
 ## Build from Source Code
 
