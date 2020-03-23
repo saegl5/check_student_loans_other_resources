@@ -1,48 +1,26 @@
-Install and set up Python 2 and pip
---------------------------------------
+Install SageMath
+------------------
 
 macOS:
-Python is preinstalled.
-$ sudo easy_install python-dateutil pip
+Download and install SageMath 8.x binary (e.g., SageMath 8.1) from https://www.sagemath.org/download.html
+Suggestion: pick binary with extension APP.DMG
 
 Ubuntu: 
-Python is preinstalled. 
-$ sudo apt install python-pip
+Suggestion: use built-in package manager
+$ sudo apt install sagemath
 
 Windows:
-Turn Windows features on or off > enable "Windows Subsystem for Linux" (WSL)
-Download and install "Ubuntu" from the Microsoft Store.
-Launch Ubuntu (i.e., launch Ubuntu on WSL), and follow the prompts.
-Python and pip will be preinstalled. 
+Download and install SageMath 8.x binary (e.g., SageMath 8.1) from https://www.sagemath.org/download.html
 
-Install and set up JupyterLab
--------------------------------
+Launch SageMath Notebook
+--------------------------------
 
-macOS:
-$ pip install --user jupyterlab
-$ export PATH=/Users/$USER/Library/Python/2.7/bin:$PATH
-$ sudo chown $USER /Users/$USER/.jupyter/
+macOS: Launch SageMath.
+Ubuntu: $ sage -n jupyter
+Windows: Launch SageMath Notebook.
 
-Ubuntu:
-$ pip install jupyterlab
-$ export PATH=/home/$USER/.local/bin:$PATH
+Open the IPYNB file, and run the cell
+----------------------------------------
 
-Ubuntu on WSL:
-$ pip install jupyterlab
-
-Launch JupyterLab
---------------------
-
-macOS/Ubuntu: $ jupyter lab
-Ubuntu on WSL: $ jupyter lab  # copy and paste URL into a browser
-
-Edit the IPYNB file, and run the cell
---------------------------------------
-
-Open and edit the IPYNB file.
+Open ``Ten-Year_Minimum_Errors.ipynb.''
 Click the play button.
-
-[Note]
-
-Python 2, instead of Python 3, is used because the IPYNB file was created using the SageMath 8.1 kernel.
-SageMath uses Python 2, and no packages unique to SageMath were utilized.
