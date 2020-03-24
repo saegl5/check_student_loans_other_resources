@@ -16,7 +16,7 @@ Alternative downloads:<br>
 
 "Unzip" the bundle, then...
 
-Open the IPYNB file with JupyterLab.<br>
+Open the IPYNB file with SageMath Notebook.<br>
 Open the XLSX file with Microsoft Excel.<br>
 Open the DOCX file with Microsoft Word.<br>
 Open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link.").<br>
