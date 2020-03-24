@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.22)  30 NOV 2019 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.22)  23 MAR 2020 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,9 +510,9 @@ Here is how much of TeX's memory you used:
  10619 multiletter control sequences out of 15000+600000
  77671 words of font info for 181 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,18n,43p,1726b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,43p,1712b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/ed/Ed/Development/other-resources/LaTeX/extra_insight.pdf (31 pages, 174886 bytes).
+Output written on /home/ed/Ed/Development/other-resources/LaTeX/extra_insight.pdf (31 pages, 174777 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
