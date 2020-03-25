@@ -30,3 +30,11 @@ $ Get-Content .\SHA1SUMS
 (check that hashes match)
 
 --------------------------------------------------------------------------------------------------
+
+[Notes]
+
+If one verifies authenticity using Windows Subsystem for Linux, the terminal may output ``BAD signature.'' 
+Convert file hash to Unix format, and retry:
+$ sudo apt install dos2unix
+$ dos2unix SHA1SUMS
+$ gpg --verify SHA1SUMS.gpg SHA1SUMS
