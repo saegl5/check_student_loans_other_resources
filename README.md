@@ -1,7 +1,9 @@
 <snippet>
 <content>
 
-# ![Alt](./app_icon_and_logo.png "Check Student Loans"): Other Resources
+![Alt](./app_icon_and_logo.png "Check Student Loans")
+
+## Other Resources
 
 This project consists of other resources. These resources supplement the [course material](https://gitlab.com/check-student-loans/course-material "Click here to access the course material repository."), [native app](https://gitlab.com/check-student-loans/ios "Click here to access the native app's repository.") or each other.<p>
 
