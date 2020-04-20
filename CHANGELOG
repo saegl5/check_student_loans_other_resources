@@ -4,7 +4,7 @@ Sep 25, 2019: unified author name and email of all commits
 Sep 24-28, 2019 · Version 1.6.1: extracted some resources from the "course material" repository into a newly separate repository, added extension to rounding_notes, renamed rounding_notes, archived the resources
 Aug 27, 2019 · Version 1.6: updated interest rate and default numbers, aligned how savings and change in savings are calculated and displayed
 Aug 20, 2019 · Version 1.5: reorganized resources again, corrected spreadsheet
-Aug 8, 2019 · Version 1.4: reorganized resources, provided raw files for images, added READMEs
+Aug 8, 2019 · Version 1.4: reorganized resources, provided raw files for images, added README files
 Jul 29-Aug 5, 2019 · Version 1.3: uploaded Ten-Year_Minimum_Errors.ipynb, updated other documents
 Jul 2-6, 2019 · Version 1.2.2: split deeper_insight.docx into two documents, typeset them in LaTeX, uploaded each pdf produced from each TeX source, revised checking_calculations.xlsx, updated overview 
 Jul 10-11, 2018 · Version 1.2.1: updated documents
