@@ -115,6 +115,8 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+Aug 2, 2020 &middot; Version 1.6.4: proofread deeper_insight.tex \
+Mar 24, 2020 &middot; Version 1.6.3: changed "Jupyter Notebook or Jupyter Lab" to "SageMath Notebook" \
 Nov 30, 2019 &middot; Version 1.6.2: fixed latex images \
 Sep 25, 2019: unified author name and email of all commits \
 Sep 24-28, 2019 &middot; Version 1.6.1: extracted some resources from the "course material" repository into a newly separate repository, added extension to rounding_notes, renamed rounding_notes, archived the resources \

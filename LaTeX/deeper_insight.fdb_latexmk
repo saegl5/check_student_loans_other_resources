@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1587499585 "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1587499588
+["pdflatex"] 1596381533 "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf" "deeper_insight" 1596381537
   "/etc/texmf/web2c/texmf.cnf" 1571772792 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ed/Ed/Development/other-resources/LaTeX/./images/main.png" 1575174002 165152 e8bd1b6e20f94ce2289f72c652e7d99d ""
   "/home/ed/Ed/Development/other-resources/LaTeX/./images/math.png" 1575174002 404804 7d8097cfd87809a11a442feab1cd4245 ""
-  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux" 1587499588 491 2a97c89ab8072521ed04fafab6d6a34c ""
-  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" 1587434760 18029 a74763f18d057c2d18f5b6dc27e5d1c5 ""
+  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux" 1596381537 491 2a97c89ab8072521ed04fafab6d6a34c ""
+  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.tex" 1596381531 18030 323acf850cb0a63ef76b72b47b50cae3 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -114,6 +114,6 @@
   "images/main.png" 1575174002 165152 e8bd1b6e20f94ce2289f72c652e7d99d ""
   "images/math.png" 1575174002 404804 7d8097cfd87809a11a442feab1cd4245 ""
   (generated)
-  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf"
   "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.log"
   "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.aux"
+  "/home/ed/Ed/Development/other-resources/LaTeX/deeper_insight.pdf"
