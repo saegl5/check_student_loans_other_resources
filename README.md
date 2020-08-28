@@ -5,7 +5,7 @@
 This project consists of other resources. These resources supplement the [course material](https://gitlab.com/check-student-loans/course-material "Click here to access the course material repository."), [native app](https://gitlab.com/check-student-loans/ios "Click here to access the native app's repository.") or each other.
 
 Alternative downloads: \
-[Version 1.x for Feasibility Test](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/feasibility_test.zip "Click here to access the download link.") \
+[Version 1.x for Feasibility Test](https://gitlab.com/check-student-loans/other-resources/-/blob/c8176d3fb07077e0b01de93a998967c0036d153e/Archives/feasibility_test.zip "Click here to access the download link.") \
 [Version 1.x for Formal Field Test](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/formal_field_test.zip "Click here to access the download link.") \
 [Version 1.x for Informal Field Test](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/informal_field_test.zip "Click here to access the download link.") \
 [Version 1.x for Focus Groups](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/focus_groups.zip "Click here to access the download link.") \
