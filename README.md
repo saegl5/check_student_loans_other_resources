@@ -15,7 +15,8 @@ Alternative downloads: \
 
 "Unzip" the bundle, then...
 
-Open the IPYNB file with SageMath Notebook. \
+~~Open the IPYNB file with SageMath Notebook.~~ \
+Run the PY file with Python 3. \
 Open the XLSX file with Microsoft Excel. \
 Open the DOCX file with Microsoft Word. \
 Open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link."). \
@@ -88,8 +89,9 @@ The benefit to rendering markdown with R is that one can embed executable R [cod
 special_cases_in_iOS.txt \
 (one for rounding to the nearest cent, and one for casting as an integer; supplements the native app)
 
-
-Jupyter > Ten-Year_Minimum_Errors.ipynb \
+~~Jupyter > Ten-Year_Minimum_Errors.ipynb~~ \
+Python >
+Ten-Year_Minimum_Errors.py \
 (for computing ten-year minimum monthly payment errors; supplements checking_calculations.xlsx *and* the native app)
 
 LaTeX > deeper_insight.pdf \
@@ -115,6 +117,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+Oct 20, 2020 &middot; Version 1.7: upgraded Jupyter Notebook file code to Python 3, see Ten-Year_Minimum_Errors.py; fixed issue in which progress would not always show periodically \
 Aug 2, 2020 &middot; Version 1.6.4: proofread deeper_insight.tex \
 Mar 24, 2020 &middot; Version 1.6.3: changed "Jupyter Notebook or Jupyter Lab" to "SageMath Notebook" \
 Nov 30, 2019 &middot; Version 1.6.2: fixed latex images \
