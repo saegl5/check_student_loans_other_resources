@@ -1,0 +1,27 @@
+Install Python 3
+----------------
+
+macOS:
+Download and install Python 3.8.6 from https://www.python.org/downloads/mac-osx/
+Launch "Update Shell Profile.command"
+
+Windows:
+Download and install Python 3.8.6 (executable installer) from https://www.python.org/downloads/windows/
+Select "Add Python 3.8 to PATH" during installation.
+
+Ubuntu:
+Download and install Python 3.8.6 (XZ compressed source tarball) from https://www.python.org/downloads/source/
+Extract the archive.
+Open a terminal:
+$ sudo apt install build-essential libffi-dev zlib1g-dev
+$ cd Python-3.8.6/
+$ ./configure
+$ make
+$ sudo make altinstall # run Python 3.8.6 side-by-side with preinstalled version
+
+Run the Script
+--------------
+
+macOS: $ python3 Ten-Year_Minimum_Errors.py 
+Windows: > python .\Ten-Year_Minimum_Errors.py
+Ubuntu: $ /usr/local/bin/python3.8 Ten-Year_Minimum_Errors.py

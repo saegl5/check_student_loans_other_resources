@@ -10,12 +10,13 @@ Alternative downloads: \
 [Version 1.x for Informal Field Test](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/informal_field_test.zip "Click here to access the download link.") \
 [Version 1.x for Focus Groups](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/focus_groups.zip "Click here to access the download link.") \
 [Version 1.x for Panel Discussion](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/panel_discussion.zip "Click here to access the download link.") \
-[Version 1.6.4 - Summative Copy](https://gitlab.com/check-student-loans/other-resources/-/blob/017832daf00664e02e112591884c016ac25c2379/Archives/summative.zip "Click here to access the download link.") \
-[Version 1.6.4 - Latest](https://gitlab.com/check-student-loans/other-resources/-/blob/017832daf00664e02e112591884c016ac25c2379/Archives/latest.zip "Click here to access the download link.") (Aug 2, 2020)
+[Version 1.7 - Summative Copy](https://gitlab.com/check-student-loans/other-resources/-/blob/aa27f4073f2cfa16028e170e8e3f25d51c955549/Archives/summative.zip "Click here to access the download link.") \
+[Version 1.7 - Latest](https://gitlab.com/check-student-loans/other-resources/-/blob/aa27f4073f2cfa16028e170e8e3f25d51c955549/Archives/latest.zip "Click here to access the download link.") (Oct 20, 2020)
 
 "Unzip" the bundle, then...
 
-Open the IPYNB file with SageMath Notebook. \
+~~Open the IPYNB file with SageMath Notebook.~~ \
+Run the PY file with Python 3. \
 Open the XLSX file with Microsoft Excel. \
 Open the DOCX file with Microsoft Word. \
 Open each PDF file with [Acrobat Reader DC](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html "Click here to access the download link."). \
@@ -88,8 +89,9 @@ The benefit to rendering markdown with R is that one can embed executable R [cod
 special_cases_in_iOS.txt \
 (one for rounding to the nearest cent, and one for casting as an integer; supplements the native app)
 
-
-Jupyter > Ten-Year_Minimum_Errors.ipynb \
+~~Jupyter > Ten-Year_Minimum_Errors.ipynb~~ \
+Python >
+Ten-Year_Minimum_Errors.py \
 (for computing ten-year minimum monthly payment errors; supplements checking_calculations.xlsx *and* the native app)
 
 LaTeX > deeper_insight.pdf \
@@ -115,6 +117,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+Oct 20, 2020 &middot; Version 1.7: upgraded Jupyter Notebook file code to Python 3, see Ten-Year_Minimum_Errors.py; fixed issue in which progress would not always show periodically \
 Aug 2, 2020 &middot; Version 1.6.4: proofread deeper_insight.tex \
 Mar 24, 2020 &middot; Version 1.6.3: changed "Jupyter Notebook or Jupyter Lab" to "SageMath Notebook" \
 Nov 30, 2019 &middot; Version 1.6.2: fixed latex images \
