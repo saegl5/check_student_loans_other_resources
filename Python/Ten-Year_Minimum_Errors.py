@@ -7,7 +7,6 @@
 #
 
 # for computing ten-year minimum payment errors
-# open in SageMath Notebook
 
 import multiprocessing as mp # for accelerating computations
 import math # for certain mathematic functions
