@@ -117,6 +117,7 @@ To report any issues, submit a new issue or discuss an existing one.
 
 ## History
 
+Nov 1, 2020 &middot; Version 1.7.1: removed mention of sagemath \
 Oct 20, 2020 &middot; Version 1.7: upgraded Jupyter Notebook file code to Python 3, see Ten-Year_Minimum_Errors.py; fixed issue in which progress would not always show periodically \
 Aug 2, 2020 &middot; Version 1.6.4: proofread deeper_insight.tex \
 Mar 24, 2020 &middot; Version 1.6.3: changed "Jupyter Notebook or Jupyter Lab" to "SageMath Notebook" \
