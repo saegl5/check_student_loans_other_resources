@@ -10,8 +10,8 @@ Alternative downloads: \
 [Version 1.x for Informal Field Test](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/informal_field_test.zip "Click here to access the download link.") \
 [Version 1.x for Focus Groups](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/focus_groups.zip "Click here to access the download link.") \
 [Version 1.x for Panel Discussion](https://gitlab.com/check-student-loans/other-resources/-/blob/66f4a864b77457d62247b1f405cdc07aaf4bd29a/Archives/panel_discussion.zip "Click here to access the download link.") \
-[Version 1.7 - Summative Copy](https://gitlab.com/check-student-loans/other-resources/-/blob/aa27f4073f2cfa16028e170e8e3f25d51c955549/Archives/summative.zip "Click here to access the download link.") \
-[Version 1.7 - Latest](https://gitlab.com/check-student-loans/other-resources/-/blob/aa27f4073f2cfa16028e170e8e3f25d51c955549/Archives/latest.zip "Click here to access the download link.") (Oct 20, 2020)
+[Version 1.7.1 - Summative Copy](https://gitlab.com/check-student-loans/other-resources/-/blob/172b9047c8047d290e8666a528ef3221b9faebae/Archives/summative.zip "Click here to access the download link.") \
+[Version 1.7.1 - Latest](https://gitlab.com/check-student-loans/other-resources/-/blob/172b9047c8047d290e8666a528ef3221b9faebae/Archives/latest.zip "Click here to access the download link.") (Oct 20, 2020)
 
 "Unzip" the bundle, then...
 
